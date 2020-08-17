@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "4776a433f1052f6d85b606e580afc862"
+build_time: [1597684434, 551666000]
+inputs:
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/ZIPFoundation/Sources/ZIPFoundation/Archive+MemoryFile.swift": [1597683055, 767333248]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/ZIPFoundation/Sources/ZIPFoundation/Archive+Reading.swift": [1597683055, 767591192]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/ZIPFoundation/Sources/ZIPFoundation/Archive+Writing.swift": [1597683055, 767766287]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/ZIPFoundation/Sources/ZIPFoundation/Archive.swift": [1597683055, 768009631]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/ZIPFoundation/Sources/ZIPFoundation/Data+Compression.swift": [1597683055, 768260371]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/ZIPFoundation/Sources/ZIPFoundation/Data+Serialization.swift": [1597683055, 768429437]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/ZIPFoundation/Sources/ZIPFoundation/Entry.swift": [1597683055, 768605772]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/ZIPFoundation/Sources/ZIPFoundation/FileManager+ZIP.swift": [1597683055, 768800830]

@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "1cf63a28846365dbe283ef83885c7abf"
+build_time: [1597684441, 205691000]
+inputs:
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/CoreXLSX/Sources/CoreXLSX/Worksheet/Cell.swift": [1597683055, 693919601]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/CoreXLSX/Sources/CoreXLSX/Worksheet/CellQueries.swift": [1597683055, 694100881]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/CoreXLSX/Sources/CoreXLSX/Worksheet/CellReference.swift": [1597683055, 694222222]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/CoreXLSX/Sources/CoreXLSX/Worksheet/ColumnReference.swift": [1597683055, 694353779]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/CoreXLSX/Sources/CoreXLSX/Comments.swift": [1597683055, 693027388]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/CoreXLSX/Sources/CoreXLSX/Path.swift": [1597683055, 693192325]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/CoreXLSX/Sources/CoreXLSX/Relationships.swift": [1597683055, 693338177]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/CoreXLSX/Sources/CoreXLSX/SharedStrings.swift": [1597683055, 693453898]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/CoreXLSX/Sources/CoreXLSX/Styles.swift": [1597683055, 693590877]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/CoreXLSX/Sources/CoreXLSX/Workbook.swift": [1597683055, 693710288]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/CoreXLSX/Sources/CoreXLSX/Worksheet/Worksheet.swift": [1597683055, 694505614]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/CoreXLSX/Sources/CoreXLSX/XLSXFile.swift": [1597683055, 694697783]

@@ -1,0 +1,973 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SheetData"
+- "SheetPr"
+- "SheetFormatPr"
+- "WorksheetDimension"
+- "Worksheet"
+- "PageSetUpPr"
+- "PageSetUpProperties"
+- "SheetViews"
+- "SheetView"
+- "Pane"
+- "Cols"
+- "Columns"
+- "Col"
+- "Column"
+- "Row"
+- "MergeCells"
+- "MergeCell"
+- "InlineString"
+provides-nominal:
+- "8CoreXLSX9WorksheetV"
+- "8CoreXLSX9WorksheetV10PropertiesV"
+- "8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV4DataV"
+- "8CoreXLSX9WorksheetV4DataV10CodingKeysO"
+- "8CoreXLSX9WorksheetV16FormatPropertiesV"
+- "8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV9DimensionV"
+- "8CoreXLSX9WorksheetV9DimensionV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10CodingKeysO"
+- "8CoreXLSX19PageSetUpPropertiesV"
+- "8CoreXLSX10SheetViewsV"
+- "8CoreXLSX10SheetViewsV10CodingKeysO"
+- "8CoreXLSX9SheetViewV"
+- "8CoreXLSX4PaneV"
+- "8CoreXLSX7ColumnsV"
+- "8CoreXLSX7ColumnsV10CodingKeysO"
+- "8CoreXLSX6ColumnV"
+- "8CoreXLSX3RowV"
+- "8CoreXLSX3RowV10CodingKeysO"
+- "8CoreXLSX10MergeCellsV"
+- "8CoreXLSX10MergeCellsV10CodingKeysO"
+- "8CoreXLSX9MergeCellV"
+- "8CoreXLSX9MergeCellV10CodingKeysO"
+- "8CoreXLSX12InlineStringV"
+- "8CoreXLSX12InlineStringV10CodingKeysO"
+provides-member:
+- ["8CoreXLSX9WorksheetV", ""]
+- ["8CoreXLSX9WorksheetV10PropertiesV", ""]
+- ["8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO", ""]
+- ["8CoreXLSX9WorksheetV4DataV", ""]
+- ["8CoreXLSX9WorksheetV4DataV10CodingKeysO", ""]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV", ""]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO", ""]
+- ["8CoreXLSX9WorksheetV9DimensionV", ""]
+- ["8CoreXLSX9WorksheetV9DimensionV10CodingKeysO", ""]
+- ["8CoreXLSX9WorksheetV10CodingKeysO", ""]
+- ["8CoreXLSX19PageSetUpPropertiesV", ""]
+- ["8CoreXLSX10SheetViewsV", ""]
+- ["8CoreXLSX10SheetViewsV10CodingKeysO", ""]
+- ["8CoreXLSX9SheetViewV", ""]
+- ["8CoreXLSX4PaneV", ""]
+- ["8CoreXLSX7ColumnsV", ""]
+- ["8CoreXLSX7ColumnsV10CodingKeysO", ""]
+- ["8CoreXLSX6ColumnV", ""]
+- ["8CoreXLSX3RowV", ""]
+- ["8CoreXLSX3RowV10CodingKeysO", ""]
+- ["8CoreXLSX10MergeCellsV", ""]
+- ["8CoreXLSX10MergeCellsV10CodingKeysO", ""]
+- ["8CoreXLSX9MergeCellV", ""]
+- ["8CoreXLSX9MergeCellV10CodingKeysO", ""]
+- ["8CoreXLSX12InlineStringV", ""]
+- ["8CoreXLSX12InlineStringV10CodingKeysO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Cell"
+- "Codable"
+- "CodingKey"
+- "Col"
+- "Cols"
+- "Column"
+- "Columns"
+- "Double"
+- "Equatable"
+- !private "FloatLiteralType"
+- "InlineString"
+- "Int"
+- !private "IntegerLiteralType"
+- "MergeCell"
+- "MergeCells"
+- "PageSetUpPr"
+- "PageSetUpProperties"
+- "Pane"
+- "Row"
+- "SheetData"
+- "SheetFormatPr"
+- "SheetPr"
+- "SheetView"
+- "SheetViews"
+- "String"
+- "StringLiteralType"
+- "UInt"
+- "UInt32"
+- "UnicodeScalarType"
+- "Worksheet"
+- "WorksheetDimension"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "description"]
+- !private ["SB", "description"]
+- !private ["s7CVarArgP", "description"]
+- ["8CoreXLSX4CellV", "deinit"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["8CoreXLSX10MergeCellsV10CodingKeysO", "=="]
+- ["8CoreXLSX10SheetViewsV10CodingKeysO", "=="]
+- ["8CoreXLSX12InlineStringV10CodingKeysO", "=="]
+- ["8CoreXLSX3RowV10CodingKeysO", "=="]
+- ["8CoreXLSX7ColumnsV10CodingKeysO", "=="]
+- ["8CoreXLSX9MergeCellV10CodingKeysO", "=="]
+- ["8CoreXLSX9WorksheetV10CodingKeysO", "=="]
+- ["8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO", "=="]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO", "=="]
+- ["8CoreXLSX9WorksheetV4DataV10CodingKeysO", "=="]
+- ["8CoreXLSX9WorksheetV9DimensionV10CodingKeysO", "=="]
+- ["8CoreXLSX10MergeCellsV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX10SheetViewsV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX12InlineStringV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX3RowV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX7ColumnsV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX9MergeCellV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX9WorksheetV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX9WorksheetV4DataV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX9WorksheetV9DimensionV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX10MergeCellsV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX10SheetViewsV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX12InlineStringV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX3RowV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX7ColumnsV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX9MergeCellV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX9WorksheetV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX9WorksheetV4DataV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX9WorksheetV9DimensionV10CodingKeysO", "_Default_RawValue"]
+- !private ["8CoreXLSX10MergeCellsV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX10SheetViewsV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX12InlineStringV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX3RowV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX7ColumnsV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX9MergeCellV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX9WorksheetV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX9WorksheetV4DataV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX9WorksheetV9DimensionV10CodingKeysO", "_findStringSwitchCase"]
+- ["8CoreXLSX10MergeCellsV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX10SheetViewsV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX12InlineStringV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX3RowV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX7ColumnsV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX9MergeCellV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX9WorksheetV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX9WorksheetV4DataV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX9WorksheetV9DimensionV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX3RowV10CodingKeysO", "cells"]
+- ["8CoreXLSX9WorksheetV10CodingKeysO", "columns"]
+- ["8CoreXLSX10MergeCellsV10CodingKeysO", "count"]
+- ["8CoreXLSX3RowV10CodingKeysO", "customHeight"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO", "customHeight"]
+- ["8CoreXLSX9WorksheetV10CodingKeysO", "data"]
+- ["8CoreXLSX10MergeCellsV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX10SheetViewsV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX12InlineStringV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX3RowV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX7ColumnsV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX9MergeCellV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX9WorksheetV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX9WorksheetV4DataV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX9WorksheetV9DimensionV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO", "defaultColumnWidth"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO", "defaultRowHeight"]
+- ["8CoreXLSX10MergeCellsV10CodingKeysO", "deinit"]
+- ["8CoreXLSX10SheetViewsV10CodingKeysO", "deinit"]
+- ["8CoreXLSX12InlineStringV10CodingKeysO", "deinit"]
+- ["8CoreXLSX3RowV10CodingKeysO", "deinit"]
+- ["8CoreXLSX7ColumnsV10CodingKeysO", "deinit"]
+- ["8CoreXLSX9MergeCellV10CodingKeysO", "deinit"]
+- ["8CoreXLSX9WorksheetV10CodingKeysO", "deinit"]
+- ["8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO", "deinit"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO", "deinit"]
+- ["8CoreXLSX9WorksheetV4DataV10CodingKeysO", "deinit"]
+- ["8CoreXLSX9WorksheetV9DimensionV10CodingKeysO", "deinit"]
+- ["8CoreXLSX10MergeCellsV10CodingKeysO", "description"]
+- ["8CoreXLSX10SheetViewsV10CodingKeysO", "description"]
+- ["8CoreXLSX12InlineStringV10CodingKeysO", "description"]
+- ["8CoreXLSX3RowV10CodingKeysO", "description"]
+- ["8CoreXLSX7ColumnsV10CodingKeysO", "description"]
+- ["8CoreXLSX9MergeCellV10CodingKeysO", "description"]
+- ["8CoreXLSX9WorksheetV10CodingKeysO", "description"]
+- ["8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO", "description"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO", "description"]
+- ["8CoreXLSX9WorksheetV4DataV10CodingKeysO", "description"]
+- ["8CoreXLSX9WorksheetV9DimensionV10CodingKeysO", "description"]
+- ["8CoreXLSX9WorksheetV10CodingKeysO", "dimension"]
+- ["8CoreXLSX9WorksheetV10CodingKeysO", "formatProperties"]
+- ["8CoreXLSX10MergeCellsV10CodingKeysO", "hash"]
+- ["8CoreXLSX10SheetViewsV10CodingKeysO", "hash"]
+- ["8CoreXLSX12InlineStringV10CodingKeysO", "hash"]
+- ["8CoreXLSX3RowV10CodingKeysO", "hash"]
+- ["8CoreXLSX7ColumnsV10CodingKeysO", "hash"]
+- ["8CoreXLSX9MergeCellV10CodingKeysO", "hash"]
+- ["8CoreXLSX9WorksheetV10CodingKeysO", "hash"]
+- ["8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO", "hash"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO", "hash"]
+- ["8CoreXLSX9WorksheetV4DataV10CodingKeysO", "hash"]
+- ["8CoreXLSX9WorksheetV9DimensionV10CodingKeysO", "hash"]
+- ["8CoreXLSX10MergeCellsV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX10SheetViewsV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX12InlineStringV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX3RowV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX7ColumnsV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX9MergeCellV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX9WorksheetV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX9WorksheetV4DataV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX9WorksheetV9DimensionV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX3RowV10CodingKeysO", "height"]
+- ["8CoreXLSX10MergeCellsV10CodingKeysO", "init"]
+- ["8CoreXLSX10SheetViewsV10CodingKeysO", "init"]
+- ["8CoreXLSX12InlineStringV10CodingKeysO", "init"]
+- ["8CoreXLSX3RowV10CodingKeysO", "init"]
+- ["8CoreXLSX7ColumnsV10CodingKeysO", "init"]
+- ["8CoreXLSX9MergeCellV10CodingKeysO", "init"]
+- ["8CoreXLSX9WorksheetV10CodingKeysO", "init"]
+- ["8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO", "init"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO", "init"]
+- ["8CoreXLSX9WorksheetV4DataV10CodingKeysO", "init"]
+- ["8CoreXLSX9WorksheetV9DimensionV10CodingKeysO", "init"]
+- ["8CoreXLSX10MergeCellsV10CodingKeysO", "intValue"]
+- ["8CoreXLSX10SheetViewsV10CodingKeysO", "intValue"]
+- ["8CoreXLSX12InlineStringV10CodingKeysO", "intValue"]
+- ["8CoreXLSX3RowV10CodingKeysO", "intValue"]
+- ["8CoreXLSX7ColumnsV10CodingKeysO", "intValue"]
+- ["8CoreXLSX9MergeCellV10CodingKeysO", "intValue"]
+- ["8CoreXLSX9WorksheetV10CodingKeysO", "intValue"]
+- ["8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO", "intValue"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO", "intValue"]
+- ["8CoreXLSX9WorksheetV4DataV10CodingKeysO", "intValue"]
+- ["8CoreXLSX9WorksheetV9DimensionV10CodingKeysO", "intValue"]
+- ["8CoreXLSX10MergeCellsV10CodingKeysO", "items"]
+- ["8CoreXLSX10SheetViewsV10CodingKeysO", "items"]
+- ["8CoreXLSX7ColumnsV10CodingKeysO", "items"]
+- ["8CoreXLSX9WorksheetV10CodingKeysO", "mergeCells"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO", "outlineLevelColumn"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO", "outlineLevelRow"]
+- ["8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO", "pageSetUpProperties"]
+- ["8CoreXLSX9WorksheetV10CodingKeysO", "properties"]
+- ["8CoreXLSX10MergeCellsV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX10SheetViewsV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX12InlineStringV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX3RowV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX7ColumnsV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX9MergeCellV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX9WorksheetV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX9WorksheetV4DataV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX9WorksheetV9DimensionV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX3RowV10CodingKeysO", "reference"]
+- ["8CoreXLSX9MergeCellV10CodingKeysO", "reference"]
+- ["8CoreXLSX9WorksheetV9DimensionV10CodingKeysO", "reference"]
+- ["8CoreXLSX9WorksheetV4DataV10CodingKeysO", "rows"]
+- ["8CoreXLSX9WorksheetV10CodingKeysO", "sheetViews"]
+- ["8CoreXLSX10MergeCellsV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX10SheetViewsV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX12InlineStringV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX3RowV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX7ColumnsV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX9MergeCellV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX9WorksheetV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX9WorksheetV4DataV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX9WorksheetV9DimensionV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX12InlineStringV10CodingKeysO", "text"]
+- ["8CoreXLSX6ColumnV", "=="]
+- ["8CoreXLSX6ColumnV", "Bool"]
+- ["8CoreXLSX6ColumnV", "Double"]
+- ["8CoreXLSX6ColumnV", "UInt32"]
+- ["8CoreXLSX6ColumnV", "__derived_struct_equals"]
+- ["8CoreXLSX6ColumnV", "customWidth"]
+- ["8CoreXLSX6ColumnV", "deinit"]
+- ["8CoreXLSX6ColumnV", "encode"]
+- ["8CoreXLSX6ColumnV", "init"]
+- ["8CoreXLSX6ColumnV", "max"]
+- ["8CoreXLSX6ColumnV", "min"]
+- ["8CoreXLSX6ColumnV", "style"]
+- ["8CoreXLSX6ColumnV", "width"]
+- ["8CoreXLSX7ColumnsV", "=="]
+- ["8CoreXLSX7ColumnsV", "CodingKey"]
+- ["8CoreXLSX7ColumnsV", "CodingKeys"]
+- ["8CoreXLSX7ColumnsV", "Column"]
+- ["8CoreXLSX7ColumnsV", "String"]
+- ["8CoreXLSX7ColumnsV", "__derived_struct_equals"]
+- !private ["8CoreXLSX7ColumnsV", "_findStringSwitchCase"]
+- ["8CoreXLSX7ColumnsV", "deinit"]
+- ["8CoreXLSX7ColumnsV", "encode"]
+- ["8CoreXLSX7ColumnsV", "init"]
+- ["8CoreXLSX7ColumnsV", "items"]
+- !private ["SL", "description"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s17CustomReflectableP", "description"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["8CoreXLSX9WorksheetV4DataV", "CodingKey"]
+- ["8CoreXLSX9WorksheetV4DataV", "CodingKeys"]
+- ["8CoreXLSX9WorksheetV4DataV", "Row"]
+- ["8CoreXLSX9WorksheetV4DataV", "String"]
+- !private ["8CoreXLSX9WorksheetV4DataV", "_findStringSwitchCase"]
+- ["8CoreXLSX9WorksheetV4DataV", "deinit"]
+- ["8CoreXLSX9WorksheetV4DataV", "encode"]
+- ["8CoreXLSX9WorksheetV4DataV", "init"]
+- ["8CoreXLSX9WorksheetV4DataV", "rows"]
+- ["Se", "=="]
+- ["Se", "Data"]
+- ["Se", "Dimension"]
+- ["Se", "FormatProperties"]
+- ["Se", "Properties"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "activePane"]
+- !private ["Se", "autoPageBreaks"]
+- !private ["Se", "cells"]
+- !private ["Se", "columns"]
+- !private ["Se", "count"]
+- !private ["Se", "customHeight"]
+- !private ["Se", "customWidth"]
+- !private ["Se", "data"]
+- !private ["Se", "defaultColumnWidth"]
+- !private ["Se", "defaultGridColor"]
+- !private ["Se", "defaultRowHeight"]
+- !private ["Se", "description"]
+- !private ["Se", "dimension"]
+- ["Se", "encode"]
+- !private ["Se", "fitToPage"]
+- !private ["Se", "formatProperties"]
+- !private ["Se", "height"]
+- ["Se", "init"]
+- !private ["Se", "items"]
+- !private ["Se", "max"]
+- !private ["Se", "mergeCells"]
+- !private ["Se", "min"]
+- !private ["Se", "outlineLevelColumn"]
+- !private ["Se", "outlineLevelRow"]
+- !private ["Se", "pageSetUpProperties"]
+- !private ["Se", "pane"]
+- !private ["Se", "properties"]
+- !private ["Se", "reference"]
+- !private ["Se", "rows"]
+- !private ["Se", "sheetViews"]
+- !private ["Se", "showGridLines"]
+- !private ["Se", "state"]
+- !private ["Se", "style"]
+- !private ["Se", "text"]
+- !private ["Se", "topLeftCell"]
+- !private ["Se", "width"]
+- !private ["Se", "workbookViewId"]
+- !private ["Se", "xSplit"]
+- !private ["Se", "ySplit"]
+- !private ["s7DecoderP", "container"]
+- ["8CoreXLSX9WorksheetV9DimensionV", "CodingKey"]
+- ["8CoreXLSX9WorksheetV9DimensionV", "CodingKeys"]
+- ["8CoreXLSX9WorksheetV9DimensionV", "String"]
+- !private ["8CoreXLSX9WorksheetV9DimensionV", "_findStringSwitchCase"]
+- ["8CoreXLSX9WorksheetV9DimensionV", "deinit"]
+- ["8CoreXLSX9WorksheetV9DimensionV", "encode"]
+- ["8CoreXLSX9WorksheetV9DimensionV", "init"]
+- ["8CoreXLSX9WorksheetV9DimensionV", "ref"]
+- ["8CoreXLSX9WorksheetV9DimensionV", "reference"]
+- !private ["Sd", "description"]
+- ["SE", "=="]
+- ["SE", "Data"]
+- ["SE", "Dimension"]
+- ["SE", "FormatProperties"]
+- ["SE", "Properties"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "activePane"]
+- !private ["SE", "autoPageBreaks"]
+- !private ["SE", "cells"]
+- !private ["SE", "columns"]
+- !private ["SE", "count"]
+- !private ["SE", "customHeight"]
+- !private ["SE", "customWidth"]
+- !private ["SE", "data"]
+- !private ["SE", "defaultColumnWidth"]
+- !private ["SE", "defaultGridColor"]
+- !private ["SE", "defaultRowHeight"]
+- !private ["SE", "description"]
+- !private ["SE", "dimension"]
+- ["SE", "encode"]
+- !private ["SE", "fitToPage"]
+- !private ["SE", "formatProperties"]
+- !private ["SE", "height"]
+- ["SE", "init"]
+- !private ["SE", "items"]
+- !private ["SE", "max"]
+- !private ["SE", "mergeCells"]
+- !private ["SE", "min"]
+- !private ["SE", "outlineLevelColumn"]
+- !private ["SE", "outlineLevelRow"]
+- !private ["SE", "pageSetUpProperties"]
+- !private ["SE", "pane"]
+- !private ["SE", "properties"]
+- !private ["SE", "reference"]
+- !private ["SE", "rows"]
+- !private ["SE", "sheetViews"]
+- !private ["SE", "showGridLines"]
+- !private ["SE", "state"]
+- !private ["SE", "style"]
+- !private ["SE", "text"]
+- !private ["SE", "topLeftCell"]
+- !private ["SE", "width"]
+- !private ["SE", "workbookViewId"]
+- !private ["SE", "xSplit"]
+- !private ["SE", "ySplit"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "autoPageBreaks"]
+- !private ["SQ", "customHeight"]
+- !private ["SQ", "customWidth"]
+- ["SQ", "debugDescription"]
+- !private ["SQ", "defaultColumnWidth"]
+- !private ["SQ", "defaultRowHeight"]
+- ["SQ", "description"]
+- ["SQ", "encode"]
+- !private ["SQ", "fitToPage"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "items"]
+- !private ["SQ", "max"]
+- !private ["SQ", "min"]
+- !private ["SQ", "outlineLevelColumn"]
+- !private ["SQ", "outlineLevelRow"]
+- !private ["SQ", "pageSetUpProperties"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "style"]
+- !private ["SQ", "text"]
+- !private ["SQ", "width"]
+- !private ["s25ExpressibleByFloatLiteralP", "description"]
+- !private ["s27ExpressibleByIntegerLiteralP", "description"]
+- !private ["SF", "description"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV", "=="]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV", "CodingKey"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV", "CodingKeys"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV", "String"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV", "__derived_struct_equals"]
+- !private ["8CoreXLSX9WorksheetV16FormatPropertiesV", "_findStringSwitchCase"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV", "customHeight"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV", "defaultColWidth"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV", "defaultColumnWidth"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV", "defaultRowHeight"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV", "deinit"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV", "encode"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV", "init"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV", "outlineLevelCol"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV", "outlineLevelColumn"]
+- ["8CoreXLSX9WorksheetV16FormatPropertiesV", "outlineLevelRow"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- ["8CoreXLSX12InlineStringV", "=="]
+- ["8CoreXLSX12InlineStringV", "CodingKey"]
+- ["8CoreXLSX12InlineStringV", "CodingKeys"]
+- ["8CoreXLSX12InlineStringV", "String"]
+- ["8CoreXLSX12InlineStringV", "__derived_struct_equals"]
+- !private ["8CoreXLSX12InlineStringV", "_findStringSwitchCase"]
+- ["8CoreXLSX12InlineStringV", "deinit"]
+- ["8CoreXLSX12InlineStringV", "encode"]
+- ["8CoreXLSX12InlineStringV", "init"]
+- ["8CoreXLSX12InlineStringV", "text"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- !private ["s25LosslessStringConvertibleP", "description"]
+- ["8CoreXLSX9MergeCellV", "CodingKey"]
+- ["8CoreXLSX9MergeCellV", "CodingKeys"]
+- ["8CoreXLSX9MergeCellV", "String"]
+- !private ["8CoreXLSX9MergeCellV", "_findStringSwitchCase"]
+- ["8CoreXLSX9MergeCellV", "deinit"]
+- ["8CoreXLSX9MergeCellV", "encode"]
+- ["8CoreXLSX9MergeCellV", "init"]
+- ["8CoreXLSX9MergeCellV", "ref"]
+- ["8CoreXLSX9MergeCellV", "reference"]
+- ["8CoreXLSX10MergeCellsV", "CodingKey"]
+- ["8CoreXLSX10MergeCellsV", "CodingKeys"]
+- ["8CoreXLSX10MergeCellsV", "Int"]
+- ["8CoreXLSX10MergeCellsV", "MergeCell"]
+- ["8CoreXLSX10MergeCellsV", "String"]
+- !private ["8CoreXLSX10MergeCellsV", "_findStringSwitchCase"]
+- ["8CoreXLSX10MergeCellsV", "count"]
+- ["8CoreXLSX10MergeCellsV", "deinit"]
+- ["8CoreXLSX10MergeCellsV", "encode"]
+- ["8CoreXLSX10MergeCellsV", "init"]
+- ["8CoreXLSX10MergeCellsV", "items"]
+- !private ["Sj", "description"]
+- ["8CoreXLSX19PageSetUpPropertiesV", "=="]
+- ["8CoreXLSX19PageSetUpPropertiesV", "Bool"]
+- ["8CoreXLSX19PageSetUpPropertiesV", "__derived_struct_equals"]
+- ["8CoreXLSX19PageSetUpPropertiesV", "autoPageBreaks"]
+- ["8CoreXLSX19PageSetUpPropertiesV", "deinit"]
+- ["8CoreXLSX19PageSetUpPropertiesV", "encode"]
+- ["8CoreXLSX19PageSetUpPropertiesV", "fitToPage"]
+- ["8CoreXLSX19PageSetUpPropertiesV", "init"]
+- ["8CoreXLSX4PaneV", "String"]
+- ["8CoreXLSX4PaneV", "activePane"]
+- ["8CoreXLSX4PaneV", "deinit"]
+- ["8CoreXLSX4PaneV", "encode"]
+- ["8CoreXLSX4PaneV", "init"]
+- ["8CoreXLSX4PaneV", "state"]
+- ["8CoreXLSX4PaneV", "topLeftCell"]
+- ["8CoreXLSX4PaneV", "xSplit"]
+- ["8CoreXLSX4PaneV", "ySplit"]
+- ["8CoreXLSX9WorksheetV10PropertiesV", "=="]
+- ["8CoreXLSX9WorksheetV10PropertiesV", "CodingKey"]
+- ["8CoreXLSX9WorksheetV10PropertiesV", "CodingKeys"]
+- ["8CoreXLSX9WorksheetV10PropertiesV", "PageSetUpProperties"]
+- ["8CoreXLSX9WorksheetV10PropertiesV", "String"]
+- ["8CoreXLSX9WorksheetV10PropertiesV", "__derived_struct_equals"]
+- !private ["8CoreXLSX9WorksheetV10PropertiesV", "_findStringSwitchCase"]
+- ["8CoreXLSX9WorksheetV10PropertiesV", "deinit"]
+- ["8CoreXLSX9WorksheetV10PropertiesV", "encode"]
+- ["8CoreXLSX9WorksheetV10PropertiesV", "init"]
+- ["8CoreXLSX9WorksheetV10PropertiesV", "pageSetUpProperties"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- ["8CoreXLSX3RowV", "Cell"]
+- ["8CoreXLSX3RowV", "CodingKey"]
+- ["8CoreXLSX3RowV", "CodingKeys"]
+- ["8CoreXLSX3RowV", "Double"]
+- ["8CoreXLSX3RowV", "String"]
+- ["8CoreXLSX3RowV", "UInt"]
+- !private ["8CoreXLSX3RowV", "_findStringSwitchCase"]
+- ["8CoreXLSX3RowV", "cells"]
+- ["8CoreXLSX3RowV", "customHeight"]
+- ["8CoreXLSX3RowV", "deinit"]
+- ["8CoreXLSX3RowV", "encode"]
+- ["8CoreXLSX3RowV", "height"]
+- ["8CoreXLSX3RowV", "ht"]
+- ["8CoreXLSX3RowV", "init"]
+- ["8CoreXLSX3RowV", "reference"]
+- !private ["s10SIMDScalarP", "description"]
+- ["8CoreXLSX9SheetViewV", "Bool"]
+- ["8CoreXLSX9SheetViewV", "Pane"]
+- ["8CoreXLSX9SheetViewV", "String"]
+- ["8CoreXLSX9SheetViewV", "defaultGridColor"]
+- ["8CoreXLSX9SheetViewV", "deinit"]
+- ["8CoreXLSX9SheetViewV", "encode"]
+- ["8CoreXLSX9SheetViewV", "init"]
+- ["8CoreXLSX9SheetViewV", "pane"]
+- ["8CoreXLSX9SheetViewV", "showGridLines"]
+- ["8CoreXLSX9SheetViewV", "workbookViewId"]
+- ["8CoreXLSX10SheetViewsV", "CodingKey"]
+- ["8CoreXLSX10SheetViewsV", "CodingKeys"]
+- ["8CoreXLSX10SheetViewsV", "SheetView"]
+- ["8CoreXLSX10SheetViewsV", "String"]
+- !private ["8CoreXLSX10SheetViewsV", "_findStringSwitchCase"]
+- ["8CoreXLSX10SheetViewsV", "deinit"]
+- ["8CoreXLSX10SheetViewsV", "encode"]
+- ["8CoreXLSX10SheetViewsV", "init"]
+- ["8CoreXLSX10SheetViewsV", "items"]
+- !private ["s13SignedNumericP", "description"]
+- !private ["Sx", "description"]
+- !private ["s20TextOutputStreamableP", "description"]
+- ["8CoreXLSX9WorksheetV", "Codable"]
+- ["8CoreXLSX9WorksheetV", "CodingKey"]
+- ["8CoreXLSX9WorksheetV", "CodingKeys"]
+- ["8CoreXLSX9WorksheetV", "Cols"]
+- ["8CoreXLSX9WorksheetV", "Columns"]
+- ["8CoreXLSX9WorksheetV", "Data"]
+- ["8CoreXLSX9WorksheetV", "Dimension"]
+- ["8CoreXLSX9WorksheetV", "Equatable"]
+- ["8CoreXLSX9WorksheetV", "FormatProperties"]
+- ["8CoreXLSX9WorksheetV", "MergeCells"]
+- ["8CoreXLSX9WorksheetV", "PageSetUpProperties"]
+- ["8CoreXLSX9WorksheetV", "Properties"]
+- ["8CoreXLSX9WorksheetV", "Row"]
+- ["8CoreXLSX9WorksheetV", "SheetData"]
+- ["8CoreXLSX9WorksheetV", "SheetFormatPr"]
+- ["8CoreXLSX9WorksheetV", "SheetPr"]
+- ["8CoreXLSX9WorksheetV", "SheetViews"]
+- ["8CoreXLSX9WorksheetV", "String"]
+- !private ["8CoreXLSX9WorksheetV", "_findStringSwitchCase"]
+- ["8CoreXLSX9WorksheetV", "cols"]
+- ["8CoreXLSX9WorksheetV", "columns"]
+- ["8CoreXLSX9WorksheetV", "data"]
+- ["8CoreXLSX9WorksheetV", "deinit"]
+- ["8CoreXLSX9WorksheetV", "dimension"]
+- ["8CoreXLSX9WorksheetV", "encode"]
+- ["8CoreXLSX9WorksheetV", "formatProperties"]
+- ["8CoreXLSX9WorksheetV", "init"]
+- ["8CoreXLSX9WorksheetV", "mergeCells"]
+- ["8CoreXLSX9WorksheetV", "properties"]
+- ["8CoreXLSX9WorksheetV", "sheetData"]
+- ["8CoreXLSX9WorksheetV", "sheetFormatPr"]
+- ["8CoreXLSX9WorksheetV", "sheetPr"]
+- ["8CoreXLSX9WorksheetV", "sheetViews"]
+- !private ["s15_CVarArgAlignedP", "description"]
+- !private ["s22_CVarArgPassedAsDoubleP", "description"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "description"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "description"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "description"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "SB"
+- !private "s7CVarArgP"
+- "8CoreXLSX4CellV"
+- "s9CodingKeyP"
+- "8CoreXLSX10MergeCellsV10CodingKeysO"
+- "8CoreXLSX10SheetViewsV10CodingKeysO"
+- "8CoreXLSX12InlineStringV10CodingKeysO"
+- "8CoreXLSX3RowV10CodingKeysO"
+- "8CoreXLSX7ColumnsV10CodingKeysO"
+- "8CoreXLSX9MergeCellV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV4DataV10CodingKeysO"
+- "8CoreXLSX9WorksheetV9DimensionV10CodingKeysO"
+- "8CoreXLSX10MergeCellsV10CodingKeysO"
+- "8CoreXLSX10SheetViewsV10CodingKeysO"
+- "8CoreXLSX12InlineStringV10CodingKeysO"
+- "8CoreXLSX3RowV10CodingKeysO"
+- "8CoreXLSX7ColumnsV10CodingKeysO"
+- "8CoreXLSX9MergeCellV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV4DataV10CodingKeysO"
+- "8CoreXLSX9WorksheetV9DimensionV10CodingKeysO"
+- "8CoreXLSX10MergeCellsV10CodingKeysO"
+- "8CoreXLSX10SheetViewsV10CodingKeysO"
+- "8CoreXLSX12InlineStringV10CodingKeysO"
+- "8CoreXLSX3RowV10CodingKeysO"
+- "8CoreXLSX7ColumnsV10CodingKeysO"
+- "8CoreXLSX9MergeCellV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV4DataV10CodingKeysO"
+- "8CoreXLSX9WorksheetV9DimensionV10CodingKeysO"
+- !private "8CoreXLSX10MergeCellsV10CodingKeysO"
+- !private "8CoreXLSX10SheetViewsV10CodingKeysO"
+- !private "8CoreXLSX12InlineStringV10CodingKeysO"
+- !private "8CoreXLSX3RowV10CodingKeysO"
+- !private "8CoreXLSX7ColumnsV10CodingKeysO"
+- !private "8CoreXLSX9MergeCellV10CodingKeysO"
+- !private "8CoreXLSX9WorksheetV10CodingKeysO"
+- !private "8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO"
+- !private "8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO"
+- !private "8CoreXLSX9WorksheetV4DataV10CodingKeysO"
+- !private "8CoreXLSX9WorksheetV9DimensionV10CodingKeysO"
+- "8CoreXLSX10MergeCellsV10CodingKeysO"
+- "8CoreXLSX10SheetViewsV10CodingKeysO"
+- "8CoreXLSX12InlineStringV10CodingKeysO"
+- "8CoreXLSX3RowV10CodingKeysO"
+- "8CoreXLSX7ColumnsV10CodingKeysO"
+- "8CoreXLSX9MergeCellV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV4DataV10CodingKeysO"
+- "8CoreXLSX9WorksheetV9DimensionV10CodingKeysO"
+- "8CoreXLSX3RowV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10CodingKeysO"
+- "8CoreXLSX10MergeCellsV10CodingKeysO"
+- "8CoreXLSX3RowV10CodingKeysO"
+- "8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10CodingKeysO"
+- "8CoreXLSX10MergeCellsV10CodingKeysO"
+- "8CoreXLSX10SheetViewsV10CodingKeysO"
+- "8CoreXLSX12InlineStringV10CodingKeysO"
+- "8CoreXLSX3RowV10CodingKeysO"
+- "8CoreXLSX7ColumnsV10CodingKeysO"
+- "8CoreXLSX9MergeCellV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV4DataV10CodingKeysO"
+- "8CoreXLSX9WorksheetV9DimensionV10CodingKeysO"
+- "8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO"
+- "8CoreXLSX10MergeCellsV10CodingKeysO"
+- "8CoreXLSX10SheetViewsV10CodingKeysO"
+- "8CoreXLSX12InlineStringV10CodingKeysO"
+- "8CoreXLSX3RowV10CodingKeysO"
+- "8CoreXLSX7ColumnsV10CodingKeysO"
+- "8CoreXLSX9MergeCellV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV4DataV10CodingKeysO"
+- "8CoreXLSX9WorksheetV9DimensionV10CodingKeysO"
+- "8CoreXLSX10MergeCellsV10CodingKeysO"
+- "8CoreXLSX10SheetViewsV10CodingKeysO"
+- "8CoreXLSX12InlineStringV10CodingKeysO"
+- "8CoreXLSX3RowV10CodingKeysO"
+- "8CoreXLSX7ColumnsV10CodingKeysO"
+- "8CoreXLSX9MergeCellV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV4DataV10CodingKeysO"
+- "8CoreXLSX9WorksheetV9DimensionV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10CodingKeysO"
+- "8CoreXLSX10MergeCellsV10CodingKeysO"
+- "8CoreXLSX10SheetViewsV10CodingKeysO"
+- "8CoreXLSX12InlineStringV10CodingKeysO"
+- "8CoreXLSX3RowV10CodingKeysO"
+- "8CoreXLSX7ColumnsV10CodingKeysO"
+- "8CoreXLSX9MergeCellV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV4DataV10CodingKeysO"
+- "8CoreXLSX9WorksheetV9DimensionV10CodingKeysO"
+- "8CoreXLSX10MergeCellsV10CodingKeysO"
+- "8CoreXLSX10SheetViewsV10CodingKeysO"
+- "8CoreXLSX12InlineStringV10CodingKeysO"
+- "8CoreXLSX3RowV10CodingKeysO"
+- "8CoreXLSX7ColumnsV10CodingKeysO"
+- "8CoreXLSX9MergeCellV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV4DataV10CodingKeysO"
+- "8CoreXLSX9WorksheetV9DimensionV10CodingKeysO"
+- "8CoreXLSX3RowV10CodingKeysO"
+- "8CoreXLSX10MergeCellsV10CodingKeysO"
+- "8CoreXLSX10SheetViewsV10CodingKeysO"
+- "8CoreXLSX12InlineStringV10CodingKeysO"
+- "8CoreXLSX3RowV10CodingKeysO"
+- "8CoreXLSX7ColumnsV10CodingKeysO"
+- "8CoreXLSX9MergeCellV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV4DataV10CodingKeysO"
+- "8CoreXLSX9WorksheetV9DimensionV10CodingKeysO"
+- "8CoreXLSX10MergeCellsV10CodingKeysO"
+- "8CoreXLSX10SheetViewsV10CodingKeysO"
+- "8CoreXLSX12InlineStringV10CodingKeysO"
+- "8CoreXLSX3RowV10CodingKeysO"
+- "8CoreXLSX7ColumnsV10CodingKeysO"
+- "8CoreXLSX9MergeCellV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV4DataV10CodingKeysO"
+- "8CoreXLSX9WorksheetV9DimensionV10CodingKeysO"
+- "8CoreXLSX10MergeCellsV10CodingKeysO"
+- "8CoreXLSX10SheetViewsV10CodingKeysO"
+- "8CoreXLSX7ColumnsV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10CodingKeysO"
+- "8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10CodingKeysO"
+- "8CoreXLSX10MergeCellsV10CodingKeysO"
+- "8CoreXLSX10SheetViewsV10CodingKeysO"
+- "8CoreXLSX12InlineStringV10CodingKeysO"
+- "8CoreXLSX3RowV10CodingKeysO"
+- "8CoreXLSX7ColumnsV10CodingKeysO"
+- "8CoreXLSX9MergeCellV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV4DataV10CodingKeysO"
+- "8CoreXLSX9WorksheetV9DimensionV10CodingKeysO"
+- "8CoreXLSX3RowV10CodingKeysO"
+- "8CoreXLSX9MergeCellV10CodingKeysO"
+- "8CoreXLSX9WorksheetV9DimensionV10CodingKeysO"
+- "8CoreXLSX9WorksheetV4DataV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10CodingKeysO"
+- "8CoreXLSX10MergeCellsV10CodingKeysO"
+- "8CoreXLSX10SheetViewsV10CodingKeysO"
+- "8CoreXLSX12InlineStringV10CodingKeysO"
+- "8CoreXLSX3RowV10CodingKeysO"
+- "8CoreXLSX7ColumnsV10CodingKeysO"
+- "8CoreXLSX9MergeCellV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10CodingKeysO"
+- "8CoreXLSX9WorksheetV10PropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV16FormatPropertiesV10CodingKeysO"
+- "8CoreXLSX9WorksheetV4DataV10CodingKeysO"
+- "8CoreXLSX9WorksheetV9DimensionV10CodingKeysO"
+- "8CoreXLSX12InlineStringV10CodingKeysO"
+- "8CoreXLSX6ColumnV"
+- "8CoreXLSX7ColumnsV"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "8CoreXLSX9WorksheetV4DataV"
+- "Se"
+- !private "s7DecoderP"
+- "8CoreXLSX9WorksheetV9DimensionV"
+- !private "Sd"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "SF"
+- "8CoreXLSX9WorksheetV16FormatPropertiesV"
+- "SH"
+- !private "s6HasherV"
+- "8CoreXLSX12InlineStringV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- "8CoreXLSX9MergeCellV"
+- "8CoreXLSX10MergeCellsV"
+- !private "Sj"
+- "8CoreXLSX19PageSetUpPropertiesV"
+- "8CoreXLSX4PaneV"
+- "8CoreXLSX9WorksheetV10PropertiesV"
+- "SY"
+- "8CoreXLSX3RowV"
+- !private "s10SIMDScalarP"
+- "8CoreXLSX9SheetViewV"
+- "8CoreXLSX10SheetViewsV"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- "8CoreXLSX9WorksheetV"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Compression.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphoneos/ZIPFoundation/ZIPFoundation.framework/Modules/ZIPFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphoneos/XMLCoder/XMLCoder.framework/Modules/XMLCoder.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/Target Support Files/CoreXLSX/CoreXLSX-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/Target Support Files/ZIPFoundation/ZIPFoundation-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/Target Support Files/XMLCoder/XMLCoder-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphoneos/ZIPFoundation/ZIPFoundation.framework/Headers/ZIPFoundation-Swift.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphoneos/XMLCoder/XMLCoder.framework/Headers/XMLCoder-Swift.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Pods.build/Debug-iphoneos/CoreXLSX.build/unextended-module.modulemap"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Pods.build/Debug-iphoneos/ZIPFoundation.build/module.modulemap"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Pods.build/Debug-iphoneos/XMLCoder.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a8112e16ad9b196b4ce63a5332646cde"

@@ -1,0 +1,634 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SharedStrings"
+- "RichText"
+provides-nominal:
+- "8CoreXLSX13SharedStringsV"
+- "8CoreXLSX13SharedStringsV4ItemV"
+- "8CoreXLSX13SharedStringsV4ItemV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV10CodingKeysO"
+- "8CoreXLSX8RichTextV"
+- "8CoreXLSX8RichTextV6FamilyV"
+- "8CoreXLSX8RichTextV6FamilyV10CodingKeysO"
+- "8CoreXLSX8RichTextV6SchemeV"
+- "8CoreXLSX8RichTextV6SchemeV10CodingKeysO"
+- "8CoreXLSX8RichTextV4SizeV"
+- "8CoreXLSX8RichTextV4SizeV10CodingKeysO"
+- "8CoreXLSX8RichTextV5ColorV"
+- "8CoreXLSX8RichTextV4FontV"
+- "8CoreXLSX8RichTextV4FontV10CodingKeysO"
+- "8CoreXLSX8RichTextV10PropertiesV"
+- "8CoreXLSX8RichTextV10PropertiesV10CodingKeysO"
+- "8CoreXLSX8RichTextV10CodingKeysO"
+provides-member:
+- ["8CoreXLSX13SharedStringsV", ""]
+- ["8CoreXLSX13SharedStringsV4ItemV", ""]
+- ["8CoreXLSX13SharedStringsV4ItemV10CodingKeysO", ""]
+- ["8CoreXLSX13SharedStringsV10CodingKeysO", ""]
+- ["8CoreXLSX8RichTextV", ""]
+- ["8CoreXLSX8RichTextV6FamilyV", ""]
+- ["8CoreXLSX8RichTextV6FamilyV10CodingKeysO", ""]
+- ["8CoreXLSX8RichTextV6SchemeV", ""]
+- ["8CoreXLSX8RichTextV6SchemeV10CodingKeysO", ""]
+- ["8CoreXLSX8RichTextV4SizeV", ""]
+- ["8CoreXLSX8RichTextV4SizeV10CodingKeysO", ""]
+- ["8CoreXLSX8RichTextV5ColorV", ""]
+- ["8CoreXLSX8RichTextV4FontV", ""]
+- ["8CoreXLSX8RichTextV4FontV10CodingKeysO", ""]
+- ["8CoreXLSX8RichTextV10PropertiesV", ""]
+- ["8CoreXLSX8RichTextV10PropertiesV10CodingKeysO", ""]
+- ["8CoreXLSX8RichTextV10CodingKeysO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "BooleanLiteralType"
+- "Codable"
+- "CodingKey"
+- "Equatable"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "RichText"
+- "SharedStrings"
+- "String"
+- "StringLiteralType"
+- "UInt"
+- "UnicodeScalarType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["8CoreXLSX13SharedStringsV10CodingKeysO", "=="]
+- ["8CoreXLSX13SharedStringsV4ItemV10CodingKeysO", "=="]
+- ["8CoreXLSX8RichTextV10CodingKeysO", "=="]
+- ["8CoreXLSX8RichTextV10PropertiesV10CodingKeysO", "=="]
+- ["8CoreXLSX8RichTextV4FontV10CodingKeysO", "=="]
+- ["8CoreXLSX8RichTextV4SizeV10CodingKeysO", "=="]
+- ["8CoreXLSX8RichTextV6FamilyV10CodingKeysO", "=="]
+- ["8CoreXLSX8RichTextV6SchemeV10CodingKeysO", "=="]
+- ["8CoreXLSX13SharedStringsV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX13SharedStringsV4ItemV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX8RichTextV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX8RichTextV10PropertiesV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX8RichTextV4FontV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX8RichTextV4SizeV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX8RichTextV6FamilyV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX8RichTextV6SchemeV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX13SharedStringsV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX13SharedStringsV4ItemV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX8RichTextV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX8RichTextV10PropertiesV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX8RichTextV4FontV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX8RichTextV4SizeV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX8RichTextV6FamilyV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX8RichTextV6SchemeV10CodingKeysO", "_Default_RawValue"]
+- !private ["8CoreXLSX13SharedStringsV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX13SharedStringsV4ItemV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX8RichTextV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX8RichTextV10PropertiesV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX8RichTextV4FontV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX8RichTextV4SizeV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX8RichTextV6FamilyV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX8RichTextV6SchemeV10CodingKeysO", "_findStringSwitchCase"]
+- ["8CoreXLSX13SharedStringsV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX13SharedStringsV4ItemV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX8RichTextV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX8RichTextV10PropertiesV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX8RichTextV4FontV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX8RichTextV4SizeV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX8RichTextV6FamilyV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX8RichTextV6SchemeV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX8RichTextV10PropertiesV10CodingKeysO", "color"]
+- ["8CoreXLSX13SharedStringsV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX13SharedStringsV4ItemV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX8RichTextV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX8RichTextV10PropertiesV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX8RichTextV4FontV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX8RichTextV4SizeV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX8RichTextV6FamilyV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX8RichTextV6SchemeV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX13SharedStringsV10CodingKeysO", "deinit"]
+- ["8CoreXLSX13SharedStringsV4ItemV10CodingKeysO", "deinit"]
+- ["8CoreXLSX8RichTextV10CodingKeysO", "deinit"]
+- ["8CoreXLSX8RichTextV10PropertiesV10CodingKeysO", "deinit"]
+- ["8CoreXLSX8RichTextV4FontV10CodingKeysO", "deinit"]
+- ["8CoreXLSX8RichTextV4SizeV10CodingKeysO", "deinit"]
+- ["8CoreXLSX8RichTextV6FamilyV10CodingKeysO", "deinit"]
+- ["8CoreXLSX8RichTextV6SchemeV10CodingKeysO", "deinit"]
+- ["8CoreXLSX13SharedStringsV10CodingKeysO", "description"]
+- ["8CoreXLSX13SharedStringsV4ItemV10CodingKeysO", "description"]
+- ["8CoreXLSX8RichTextV10CodingKeysO", "description"]
+- ["8CoreXLSX8RichTextV10PropertiesV10CodingKeysO", "description"]
+- ["8CoreXLSX8RichTextV4FontV10CodingKeysO", "description"]
+- ["8CoreXLSX8RichTextV4SizeV10CodingKeysO", "description"]
+- ["8CoreXLSX8RichTextV6FamilyV10CodingKeysO", "description"]
+- ["8CoreXLSX8RichTextV6SchemeV10CodingKeysO", "description"]
+- ["8CoreXLSX8RichTextV10PropertiesV10CodingKeysO", "family"]
+- ["8CoreXLSX8RichTextV10PropertiesV10CodingKeysO", "font"]
+- ["8CoreXLSX13SharedStringsV10CodingKeysO", "hash"]
+- ["8CoreXLSX13SharedStringsV4ItemV10CodingKeysO", "hash"]
+- ["8CoreXLSX8RichTextV10CodingKeysO", "hash"]
+- ["8CoreXLSX8RichTextV10PropertiesV10CodingKeysO", "hash"]
+- ["8CoreXLSX8RichTextV4FontV10CodingKeysO", "hash"]
+- ["8CoreXLSX8RichTextV4SizeV10CodingKeysO", "hash"]
+- ["8CoreXLSX8RichTextV6FamilyV10CodingKeysO", "hash"]
+- ["8CoreXLSX8RichTextV6SchemeV10CodingKeysO", "hash"]
+- ["8CoreXLSX13SharedStringsV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX13SharedStringsV4ItemV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX8RichTextV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX8RichTextV10PropertiesV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX8RichTextV4FontV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX8RichTextV4SizeV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX8RichTextV6FamilyV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX8RichTextV6SchemeV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX13SharedStringsV10CodingKeysO", "init"]
+- ["8CoreXLSX13SharedStringsV4ItemV10CodingKeysO", "init"]
+- ["8CoreXLSX8RichTextV10CodingKeysO", "init"]
+- ["8CoreXLSX8RichTextV10PropertiesV10CodingKeysO", "init"]
+- ["8CoreXLSX8RichTextV4FontV10CodingKeysO", "init"]
+- ["8CoreXLSX8RichTextV4SizeV10CodingKeysO", "init"]
+- ["8CoreXLSX8RichTextV6FamilyV10CodingKeysO", "init"]
+- ["8CoreXLSX8RichTextV6SchemeV10CodingKeysO", "init"]
+- ["8CoreXLSX13SharedStringsV10CodingKeysO", "intValue"]
+- ["8CoreXLSX13SharedStringsV4ItemV10CodingKeysO", "intValue"]
+- ["8CoreXLSX8RichTextV10CodingKeysO", "intValue"]
+- ["8CoreXLSX8RichTextV10PropertiesV10CodingKeysO", "intValue"]
+- ["8CoreXLSX8RichTextV4FontV10CodingKeysO", "intValue"]
+- ["8CoreXLSX8RichTextV4SizeV10CodingKeysO", "intValue"]
+- ["8CoreXLSX8RichTextV6FamilyV10CodingKeysO", "intValue"]
+- ["8CoreXLSX8RichTextV6SchemeV10CodingKeysO", "intValue"]
+- ["8CoreXLSX13SharedStringsV10CodingKeysO", "items"]
+- ["8CoreXLSX8RichTextV10CodingKeysO", "properties"]
+- ["8CoreXLSX13SharedStringsV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX13SharedStringsV4ItemV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX8RichTextV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX8RichTextV10PropertiesV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX8RichTextV4FontV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX8RichTextV4SizeV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX8RichTextV6FamilyV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX8RichTextV6SchemeV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX13SharedStringsV4ItemV10CodingKeysO", "richText"]
+- ["8CoreXLSX8RichTextV10PropertiesV10CodingKeysO", "scheme"]
+- ["8CoreXLSX8RichTextV10PropertiesV10CodingKeysO", "size"]
+- ["8CoreXLSX13SharedStringsV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX13SharedStringsV4ItemV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX8RichTextV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX8RichTextV10PropertiesV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX8RichTextV4FontV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX8RichTextV4SizeV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX8RichTextV6FamilyV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX8RichTextV6SchemeV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX13SharedStringsV4ItemV10CodingKeysO", "text"]
+- ["8CoreXLSX8RichTextV10CodingKeysO", "text"]
+- ["8CoreXLSX13SharedStringsV10CodingKeysO", "uniqueCount"]
+- ["8CoreXLSX8RichTextV4FontV10CodingKeysO", "value"]
+- ["8CoreXLSX8RichTextV4SizeV10CodingKeysO", "value"]
+- ["8CoreXLSX8RichTextV6FamilyV10CodingKeysO", "value"]
+- ["8CoreXLSX8RichTextV6SchemeV10CodingKeysO", "value"]
+- ["8CoreXLSX8RichTextV5ColorV", "=="]
+- ["8CoreXLSX8RichTextV5ColorV", "String"]
+- ["8CoreXLSX8RichTextV5ColorV", "__derived_struct_equals"]
+- ["8CoreXLSX8RichTextV5ColorV", "deinit"]
+- ["8CoreXLSX8RichTextV5ColorV", "encode"]
+- ["8CoreXLSX8RichTextV5ColorV", "init"]
+- ["8CoreXLSX8RichTextV5ColorV", "rgb"]
+- ["8CoreXLSX8RichTextV5ColorV", "theme"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", "=="]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "color"]
+- ["Se", "encode"]
+- !private ["Se", "family"]
+- !private ["Se", "font"]
+- ["Se", "init"]
+- !private ["Se", "items"]
+- !private ["Se", "properties"]
+- !private ["Se", "rgb"]
+- !private ["Se", "richText"]
+- !private ["Se", "scheme"]
+- !private ["Se", "size"]
+- !private ["Se", "text"]
+- !private ["Se", "theme"]
+- !private ["Se", "uniqueCount"]
+- !private ["Se", "value"]
+- !private ["s7DecoderP", "container"]
+- ["SE", "=="]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "color"]
+- ["SE", "encode"]
+- !private ["SE", "family"]
+- !private ["SE", "font"]
+- ["SE", "init"]
+- !private ["SE", "items"]
+- !private ["SE", "properties"]
+- !private ["SE", "rgb"]
+- !private ["SE", "richText"]
+- !private ["SE", "scheme"]
+- !private ["SE", "size"]
+- !private ["SE", "text"]
+- !private ["SE", "theme"]
+- !private ["SE", "uniqueCount"]
+- !private ["SE", "value"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "color"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "encode"]
+- !private ["SQ", "family"]
+- !private ["SQ", "font"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "items"]
+- !private ["SQ", "properties"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "rgb"]
+- !private ["SQ", "richText"]
+- !private ["SQ", "scheme"]
+- !private ["SQ", "size"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "text"]
+- !private ["SQ", "theme"]
+- !private ["SQ", "uniqueCount"]
+- !private ["SQ", "value"]
+- ["8CoreXLSX8RichTextV6FamilyV", "=="]
+- ["8CoreXLSX8RichTextV6FamilyV", "CodingKey"]
+- ["8CoreXLSX8RichTextV6FamilyV", "CodingKeys"]
+- ["8CoreXLSX8RichTextV6FamilyV", "String"]
+- ["8CoreXLSX8RichTextV6FamilyV", "__derived_struct_equals"]
+- !private ["8CoreXLSX8RichTextV6FamilyV", "_findStringSwitchCase"]
+- ["8CoreXLSX8RichTextV6FamilyV", "deinit"]
+- ["8CoreXLSX8RichTextV6FamilyV", "encode"]
+- ["8CoreXLSX8RichTextV6FamilyV", "init"]
+- ["8CoreXLSX8RichTextV6FamilyV", "value"]
+- ["8CoreXLSX8RichTextV4FontV", "=="]
+- ["8CoreXLSX8RichTextV4FontV", "CodingKey"]
+- ["8CoreXLSX8RichTextV4FontV", "CodingKeys"]
+- ["8CoreXLSX8RichTextV4FontV", "String"]
+- ["8CoreXLSX8RichTextV4FontV", "__derived_struct_equals"]
+- !private ["8CoreXLSX8RichTextV4FontV", "_findStringSwitchCase"]
+- ["8CoreXLSX8RichTextV4FontV", "deinit"]
+- ["8CoreXLSX8RichTextV4FontV", "encode"]
+- ["8CoreXLSX8RichTextV4FontV", "init"]
+- ["8CoreXLSX8RichTextV4FontV", "value"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- ["8CoreXLSX13SharedStringsV4ItemV", "=="]
+- ["8CoreXLSX13SharedStringsV4ItemV", "CodingKey"]
+- ["8CoreXLSX13SharedStringsV4ItemV", "CodingKeys"]
+- ["8CoreXLSX13SharedStringsV4ItemV", "RichText"]
+- ["8CoreXLSX13SharedStringsV4ItemV", "String"]
+- ["8CoreXLSX13SharedStringsV4ItemV", "__derived_struct_equals"]
+- !private ["8CoreXLSX13SharedStringsV4ItemV", "_findStringSwitchCase"]
+- ["8CoreXLSX13SharedStringsV4ItemV", "deinit"]
+- ["8CoreXLSX13SharedStringsV4ItemV", "encode"]
+- ["8CoreXLSX13SharedStringsV4ItemV", "init"]
+- ["8CoreXLSX13SharedStringsV4ItemV", "richText"]
+- ["8CoreXLSX13SharedStringsV4ItemV", "text"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- ["8CoreXLSX8RichTextV10PropertiesV", "=="]
+- ["8CoreXLSX8RichTextV10PropertiesV", "CodingKey"]
+- ["8CoreXLSX8RichTextV10PropertiesV", "CodingKeys"]
+- ["8CoreXLSX8RichTextV10PropertiesV", "Color"]
+- ["8CoreXLSX8RichTextV10PropertiesV", "Family"]
+- ["8CoreXLSX8RichTextV10PropertiesV", "Font"]
+- ["8CoreXLSX8RichTextV10PropertiesV", "Scheme"]
+- ["8CoreXLSX8RichTextV10PropertiesV", "Size"]
+- ["8CoreXLSX8RichTextV10PropertiesV", "String"]
+- ["8CoreXLSX8RichTextV10PropertiesV", "__derived_struct_equals"]
+- !private ["8CoreXLSX8RichTextV10PropertiesV", "_findStringSwitchCase"]
+- ["8CoreXLSX8RichTextV10PropertiesV", "color"]
+- ["8CoreXLSX8RichTextV10PropertiesV", "deinit"]
+- ["8CoreXLSX8RichTextV10PropertiesV", "encode"]
+- ["8CoreXLSX8RichTextV10PropertiesV", "family"]
+- ["8CoreXLSX8RichTextV10PropertiesV", "font"]
+- ["8CoreXLSX8RichTextV10PropertiesV", "init"]
+- ["8CoreXLSX8RichTextV10PropertiesV", "scheme"]
+- ["8CoreXLSX8RichTextV10PropertiesV", "size"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- ["8CoreXLSX8RichTextV", "=="]
+- ["8CoreXLSX8RichTextV", "Codable"]
+- ["8CoreXLSX8RichTextV", "CodingKey"]
+- ["8CoreXLSX8RichTextV", "CodingKeys"]
+- ["8CoreXLSX8RichTextV", "Color"]
+- ["8CoreXLSX8RichTextV", "Equatable"]
+- ["8CoreXLSX8RichTextV", "Family"]
+- ["8CoreXLSX8RichTextV", "Font"]
+- ["8CoreXLSX8RichTextV", "Properties"]
+- ["8CoreXLSX8RichTextV", "Scheme"]
+- ["8CoreXLSX8RichTextV", "Size"]
+- ["8CoreXLSX8RichTextV", "String"]
+- ["8CoreXLSX8RichTextV", "__derived_struct_equals"]
+- !private ["8CoreXLSX8RichTextV", "_findStringSwitchCase"]
+- ["8CoreXLSX8RichTextV", "deinit"]
+- ["8CoreXLSX8RichTextV", "encode"]
+- ["8CoreXLSX8RichTextV", "init"]
+- ["8CoreXLSX8RichTextV", "properties"]
+- ["8CoreXLSX8RichTextV", "text"]
+- ["8CoreXLSX8RichTextV6SchemeV", "=="]
+- ["8CoreXLSX8RichTextV6SchemeV", "CodingKey"]
+- ["8CoreXLSX8RichTextV6SchemeV", "CodingKeys"]
+- ["8CoreXLSX8RichTextV6SchemeV", "String"]
+- ["8CoreXLSX8RichTextV6SchemeV", "__derived_struct_equals"]
+- !private ["8CoreXLSX8RichTextV6SchemeV", "_findStringSwitchCase"]
+- ["8CoreXLSX8RichTextV6SchemeV", "deinit"]
+- ["8CoreXLSX8RichTextV6SchemeV", "encode"]
+- ["8CoreXLSX8RichTextV6SchemeV", "init"]
+- ["8CoreXLSX8RichTextV6SchemeV", "value"]
+- ["8CoreXLSX13SharedStringsV", "=="]
+- ["8CoreXLSX13SharedStringsV", "Codable"]
+- ["8CoreXLSX13SharedStringsV", "CodingKey"]
+- ["8CoreXLSX13SharedStringsV", "CodingKeys"]
+- ["8CoreXLSX13SharedStringsV", "Equatable"]
+- ["8CoreXLSX13SharedStringsV", "Item"]
+- ["8CoreXLSX13SharedStringsV", "RichText"]
+- ["8CoreXLSX13SharedStringsV", "String"]
+- ["8CoreXLSX13SharedStringsV", "UInt"]
+- ["8CoreXLSX13SharedStringsV", "__derived_struct_equals"]
+- !private ["8CoreXLSX13SharedStringsV", "_findStringSwitchCase"]
+- ["8CoreXLSX13SharedStringsV", "deinit"]
+- ["8CoreXLSX13SharedStringsV", "encode"]
+- ["8CoreXLSX13SharedStringsV", "init"]
+- ["8CoreXLSX13SharedStringsV", "items"]
+- ["8CoreXLSX13SharedStringsV", "uniqueCount"]
+- ["8CoreXLSX8RichTextV4SizeV", "=="]
+- ["8CoreXLSX8RichTextV4SizeV", "CodingKey"]
+- ["8CoreXLSX8RichTextV4SizeV", "CodingKeys"]
+- ["8CoreXLSX8RichTextV4SizeV", "String"]
+- ["8CoreXLSX8RichTextV4SizeV", "__derived_struct_equals"]
+- !private ["8CoreXLSX8RichTextV4SizeV", "_findStringSwitchCase"]
+- ["8CoreXLSX8RichTextV4SizeV", "deinit"]
+- ["8CoreXLSX8RichTextV4SizeV", "encode"]
+- ["8CoreXLSX8RichTextV4SizeV", "init"]
+- ["8CoreXLSX8RichTextV4SizeV", "value"]
+depends-nominal:
+- "s9CodingKeyP"
+- "8CoreXLSX13SharedStringsV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV4ItemV10CodingKeysO"
+- "8CoreXLSX8RichTextV10CodingKeysO"
+- "8CoreXLSX8RichTextV10PropertiesV10CodingKeysO"
+- "8CoreXLSX8RichTextV4FontV10CodingKeysO"
+- "8CoreXLSX8RichTextV4SizeV10CodingKeysO"
+- "8CoreXLSX8RichTextV6FamilyV10CodingKeysO"
+- "8CoreXLSX8RichTextV6SchemeV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV4ItemV10CodingKeysO"
+- "8CoreXLSX8RichTextV10CodingKeysO"
+- "8CoreXLSX8RichTextV10PropertiesV10CodingKeysO"
+- "8CoreXLSX8RichTextV4FontV10CodingKeysO"
+- "8CoreXLSX8RichTextV4SizeV10CodingKeysO"
+- "8CoreXLSX8RichTextV6FamilyV10CodingKeysO"
+- "8CoreXLSX8RichTextV6SchemeV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV4ItemV10CodingKeysO"
+- "8CoreXLSX8RichTextV10CodingKeysO"
+- "8CoreXLSX8RichTextV10PropertiesV10CodingKeysO"
+- "8CoreXLSX8RichTextV4FontV10CodingKeysO"
+- "8CoreXLSX8RichTextV4SizeV10CodingKeysO"
+- "8CoreXLSX8RichTextV6FamilyV10CodingKeysO"
+- "8CoreXLSX8RichTextV6SchemeV10CodingKeysO"
+- !private "8CoreXLSX13SharedStringsV10CodingKeysO"
+- !private "8CoreXLSX13SharedStringsV4ItemV10CodingKeysO"
+- !private "8CoreXLSX8RichTextV10CodingKeysO"
+- !private "8CoreXLSX8RichTextV10PropertiesV10CodingKeysO"
+- !private "8CoreXLSX8RichTextV4FontV10CodingKeysO"
+- !private "8CoreXLSX8RichTextV4SizeV10CodingKeysO"
+- !private "8CoreXLSX8RichTextV6FamilyV10CodingKeysO"
+- !private "8CoreXLSX8RichTextV6SchemeV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV4ItemV10CodingKeysO"
+- "8CoreXLSX8RichTextV10CodingKeysO"
+- "8CoreXLSX8RichTextV10PropertiesV10CodingKeysO"
+- "8CoreXLSX8RichTextV4FontV10CodingKeysO"
+- "8CoreXLSX8RichTextV4SizeV10CodingKeysO"
+- "8CoreXLSX8RichTextV6FamilyV10CodingKeysO"
+- "8CoreXLSX8RichTextV6SchemeV10CodingKeysO"
+- "8CoreXLSX8RichTextV10PropertiesV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV4ItemV10CodingKeysO"
+- "8CoreXLSX8RichTextV10CodingKeysO"
+- "8CoreXLSX8RichTextV10PropertiesV10CodingKeysO"
+- "8CoreXLSX8RichTextV4FontV10CodingKeysO"
+- "8CoreXLSX8RichTextV4SizeV10CodingKeysO"
+- "8CoreXLSX8RichTextV6FamilyV10CodingKeysO"
+- "8CoreXLSX8RichTextV6SchemeV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV4ItemV10CodingKeysO"
+- "8CoreXLSX8RichTextV10CodingKeysO"
+- "8CoreXLSX8RichTextV10PropertiesV10CodingKeysO"
+- "8CoreXLSX8RichTextV4FontV10CodingKeysO"
+- "8CoreXLSX8RichTextV4SizeV10CodingKeysO"
+- "8CoreXLSX8RichTextV6FamilyV10CodingKeysO"
+- "8CoreXLSX8RichTextV6SchemeV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV4ItemV10CodingKeysO"
+- "8CoreXLSX8RichTextV10CodingKeysO"
+- "8CoreXLSX8RichTextV10PropertiesV10CodingKeysO"
+- "8CoreXLSX8RichTextV4FontV10CodingKeysO"
+- "8CoreXLSX8RichTextV4SizeV10CodingKeysO"
+- "8CoreXLSX8RichTextV6FamilyV10CodingKeysO"
+- "8CoreXLSX8RichTextV6SchemeV10CodingKeysO"
+- "8CoreXLSX8RichTextV10PropertiesV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV4ItemV10CodingKeysO"
+- "8CoreXLSX8RichTextV10CodingKeysO"
+- "8CoreXLSX8RichTextV10PropertiesV10CodingKeysO"
+- "8CoreXLSX8RichTextV4FontV10CodingKeysO"
+- "8CoreXLSX8RichTextV4SizeV10CodingKeysO"
+- "8CoreXLSX8RichTextV6FamilyV10CodingKeysO"
+- "8CoreXLSX8RichTextV6SchemeV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV4ItemV10CodingKeysO"
+- "8CoreXLSX8RichTextV10CodingKeysO"
+- "8CoreXLSX8RichTextV10PropertiesV10CodingKeysO"
+- "8CoreXLSX8RichTextV4FontV10CodingKeysO"
+- "8CoreXLSX8RichTextV4SizeV10CodingKeysO"
+- "8CoreXLSX8RichTextV6FamilyV10CodingKeysO"
+- "8CoreXLSX8RichTextV6SchemeV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV4ItemV10CodingKeysO"
+- "8CoreXLSX8RichTextV10CodingKeysO"
+- "8CoreXLSX8RichTextV10PropertiesV10CodingKeysO"
+- "8CoreXLSX8RichTextV4FontV10CodingKeysO"
+- "8CoreXLSX8RichTextV4SizeV10CodingKeysO"
+- "8CoreXLSX8RichTextV6FamilyV10CodingKeysO"
+- "8CoreXLSX8RichTextV6SchemeV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV4ItemV10CodingKeysO"
+- "8CoreXLSX8RichTextV10CodingKeysO"
+- "8CoreXLSX8RichTextV10PropertiesV10CodingKeysO"
+- "8CoreXLSX8RichTextV4FontV10CodingKeysO"
+- "8CoreXLSX8RichTextV4SizeV10CodingKeysO"
+- "8CoreXLSX8RichTextV6FamilyV10CodingKeysO"
+- "8CoreXLSX8RichTextV6SchemeV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV10CodingKeysO"
+- "8CoreXLSX8RichTextV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV4ItemV10CodingKeysO"
+- "8CoreXLSX8RichTextV10CodingKeysO"
+- "8CoreXLSX8RichTextV10PropertiesV10CodingKeysO"
+- "8CoreXLSX8RichTextV4FontV10CodingKeysO"
+- "8CoreXLSX8RichTextV4SizeV10CodingKeysO"
+- "8CoreXLSX8RichTextV6FamilyV10CodingKeysO"
+- "8CoreXLSX8RichTextV6SchemeV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV4ItemV10CodingKeysO"
+- "8CoreXLSX8RichTextV10PropertiesV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV4ItemV10CodingKeysO"
+- "8CoreXLSX8RichTextV10CodingKeysO"
+- "8CoreXLSX8RichTextV10PropertiesV10CodingKeysO"
+- "8CoreXLSX8RichTextV4FontV10CodingKeysO"
+- "8CoreXLSX8RichTextV4SizeV10CodingKeysO"
+- "8CoreXLSX8RichTextV6FamilyV10CodingKeysO"
+- "8CoreXLSX8RichTextV6SchemeV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV4ItemV10CodingKeysO"
+- "8CoreXLSX8RichTextV10CodingKeysO"
+- "8CoreXLSX13SharedStringsV10CodingKeysO"
+- "8CoreXLSX8RichTextV4FontV10CodingKeysO"
+- "8CoreXLSX8RichTextV4SizeV10CodingKeysO"
+- "8CoreXLSX8RichTextV6FamilyV10CodingKeysO"
+- "8CoreXLSX8RichTextV6SchemeV10CodingKeysO"
+- "8CoreXLSX8RichTextV5ColorV"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- "8CoreXLSX8RichTextV6FamilyV"
+- "8CoreXLSX8RichTextV4FontV"
+- "SH"
+- !private "s6HasherV"
+- "8CoreXLSX13SharedStringsV4ItemV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "8CoreXLSX8RichTextV10PropertiesV"
+- "SY"
+- "8CoreXLSX8RichTextV"
+- "8CoreXLSX8RichTextV6SchemeV"
+- "8CoreXLSX13SharedStringsV"
+- "8CoreXLSX8RichTextV4SizeV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Compression.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/ZIPFoundation/ZIPFoundation.framework/Modules/ZIPFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/XMLCoder/XMLCoder.framework/Modules/XMLCoder.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/Target Support Files/CoreXLSX/CoreXLSX-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/Target Support Files/ZIPFoundation/ZIPFoundation-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/Target Support Files/XMLCoder/XMLCoder-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/ZIPFoundation/ZIPFoundation.framework/Headers/ZIPFoundation-Swift.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/XMLCoder/XMLCoder.framework/Headers/XMLCoder-Swift.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Pods.build/Debug-iphonesimulator/CoreXLSX.build/unextended-module.modulemap"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Pods.build/Debug-iphonesimulator/ZIPFoundation.build/module.modulemap"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Pods.build/Debug-iphonesimulator/XMLCoder.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "619f1880e3e8db93211fa5eaf30f96c4"

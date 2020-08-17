@@ -1,0 +1,970 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["13ZIPFoundation7ArchiveC", ""]
+- ["13ZIPFoundation7ArchiveC", "addEntry"]
+- ["13ZIPFoundation7ArchiveC", "addEntry"]
+- ["13ZIPFoundation7ArchiveC", "remove"]
+- ["13ZIPFoundation7ArchiveC", "uniqueTemporaryDirectoryURL"]
+- ["13ZIPFoundation7ArchiveC", "replaceCurrentArchiveWithArchive"]
+provides-dynamic-lookup:
+- "addEntry"
+- "remove"
+- "replaceCurrentArchiveWithArchive"
+- "rollback"
+- "uniqueTemporaryDirectoryURL"
+- "writeCentralDirectoryStructure"
+- "writeCompressed"
+- "writeEndOfCentralDirectory"
+- "writeEntry"
+- "writeLocalFileHeader"
+- "writeSymbolicLink"
+- "writeUncompressed"
+depends-top-level:
+- !private "!="
+- !private "*"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "<"
+- "=="
+- !private ">"
+- !private ">="
+- !private "??"
+- "Archive"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "CRC32"
+- !private "CocoaError"
+- "CompressionMethod"
+- !private "Consumer"
+- "Data"
+- "Date"
+- "Entry"
+- !private "FILE"
+- !private "FileManager"
+- "FloatLiteralType"
+- "Int"
+- !private "Int64"
+- "IntegerLiteralType"
+- !private "NSFilePathErrorKey"
+- !private "NSTemporaryDirectory"
+- !private "ProcessInfo"
+- "Progress"
+- "Provider"
+- !private "SEEK_SET"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- !private "UINT32_MAX"
+- "UInt16"
+- "UInt32"
+- "URL"
+- !private "UnicodeScalarType"
+- !private "UnsafeBufferPointer"
+- !private "UnsafeMutablePointer"
+- !private "defaultDirectoryPermissions"
+- !private "defaultDirectoryUnitCount"
+- !private "defaultFilePermissions"
+- !private "defaultReadChunkSize"
+- !private "defaultWriteChunkSize"
+- !private "fclose"
+- !private "fflush"
+- !private "fileno"
+- !private "fopen"
+- !private "fseek"
+- !private "ftell"
+- !private "ftruncate"
+- !private "off_t"
+- !private "strlen"
+- !private "||"
+- !private "~="
+depends-member:
+- !private ["13ZIPFoundation7ArchiveC10AccessModeO", "create"]
+- !private ["13ZIPFoundation7ArchiveC10AccessModeO", "deinit"]
+- !private ["13ZIPFoundation7ArchiveC10AccessModeO", "read"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["13ZIPFoundation7ArchiveC", "Archive"]
+- !private ["13ZIPFoundation7ArchiveC", "ArchiveError"]
+- ["13ZIPFoundation7ArchiveC", "CRC32"]
+- ["13ZIPFoundation7ArchiveC", "CentralDirectoryStructure"]
+- !private ["13ZIPFoundation7ArchiveC", "CocoaError"]
+- ["13ZIPFoundation7ArchiveC", "CompressionMethod"]
+- !private ["13ZIPFoundation7ArchiveC", "Consumer"]
+- ["13ZIPFoundation7ArchiveC", "Data"]
+- ["13ZIPFoundation7ArchiveC", "Date"]
+- ["13ZIPFoundation7ArchiveC", "EndOfCentralDirectoryRecord"]
+- ["13ZIPFoundation7ArchiveC", "Entry"]
+- !private ["13ZIPFoundation7ArchiveC", "FILE"]
+- !private ["13ZIPFoundation7ArchiveC", "FileManager"]
+- ["13ZIPFoundation7ArchiveC", "Int"]
+- !private ["13ZIPFoundation7ArchiveC", "Int64"]
+- ["13ZIPFoundation7ArchiveC", "LocalFileHeader"]
+- ["13ZIPFoundation7ArchiveC", "ModifyOperation"]
+- !private ["13ZIPFoundation7ArchiveC", "NSFilePathErrorKey"]
+- !private ["13ZIPFoundation7ArchiveC", "NSTemporaryDirectory"]
+- !private ["13ZIPFoundation7ArchiveC", "ProcessInfo"]
+- ["13ZIPFoundation7ArchiveC", "Progress"]
+- ["13ZIPFoundation7ArchiveC", "Provider"]
+- !private ["13ZIPFoundation7ArchiveC", "SEEK_SET"]
+- ["13ZIPFoundation7ArchiveC", "String"]
+- !private ["13ZIPFoundation7ArchiveC", "UINT32_MAX"]
+- ["13ZIPFoundation7ArchiveC", "UInt16"]
+- ["13ZIPFoundation7ArchiveC", "UInt32"]
+- ["13ZIPFoundation7ArchiveC", "URL"]
+- !private ["13ZIPFoundation7ArchiveC", "UnsafeBufferPointer"]
+- !private ["13ZIPFoundation7ArchiveC", "UnsafeMutablePointer"]
+- !private ["13ZIPFoundation7ArchiveC", "accessMode"]
+- ["13ZIPFoundation7ArchiveC", "addEntry"]
+- !private ["13ZIPFoundation7ArchiveC", "archiveFile"]
+- !private ["13ZIPFoundation7ArchiveC", "defaultDirectoryPermissions"]
+- !private ["13ZIPFoundation7ArchiveC", "defaultDirectoryUnitCount"]
+- !private ["13ZIPFoundation7ArchiveC", "defaultFilePermissions"]
+- !private ["13ZIPFoundation7ArchiveC", "defaultReadChunkSize"]
+- !private ["13ZIPFoundation7ArchiveC", "defaultWriteChunkSize"]
+- !private ["13ZIPFoundation7ArchiveC", "deinit"]
+- !private ["13ZIPFoundation7ArchiveC", "endOfCentralDirectoryRecord"]
+- !private ["13ZIPFoundation7ArchiveC", "fclose"]
+- !private ["13ZIPFoundation7ArchiveC", "fflush"]
+- !private ["13ZIPFoundation7ArchiveC", "fileno"]
+- !private ["13ZIPFoundation7ArchiveC", "fopen"]
+- !private ["13ZIPFoundation7ArchiveC", "fseek"]
+- !private ["13ZIPFoundation7ArchiveC", "ftell"]
+- !private ["13ZIPFoundation7ArchiveC", "ftruncate"]
+- !private ["13ZIPFoundation7ArchiveC", "init"]
+- !private ["13ZIPFoundation7ArchiveC", "off_t"]
+- ["13ZIPFoundation7ArchiveC", "remove"]
+- ["13ZIPFoundation7ArchiveC", "replaceCurrentArchiveWithArchive"]
+- !private ["13ZIPFoundation7ArchiveC", "rollback"]
+- !private ["13ZIPFoundation7ArchiveC", "strlen"]
+- !private ["13ZIPFoundation7ArchiveC", "totalUnitCountForRemoving"]
+- ["13ZIPFoundation7ArchiveC", "uniqueTemporaryDirectoryURL"]
+- !private ["13ZIPFoundation7ArchiveC", "url"]
+- !private ["13ZIPFoundation7ArchiveC", "writeCentralDirectoryStructure"]
+- !private ["13ZIPFoundation7ArchiveC", "writeCompressed"]
+- !private ["13ZIPFoundation7ArchiveC", "writeEndOfCentralDirectory"]
+- !private ["13ZIPFoundation7ArchiveC", "writeEntry"]
+- !private ["13ZIPFoundation7ArchiveC", "writeLocalFileHeader"]
+- !private ["13ZIPFoundation7ArchiveC", "writeSymbolicLink"]
+- !private ["13ZIPFoundation7ArchiveC", "writeUncompressed"]
+- ["13ZIPFoundation7ArchiveC0B5ErrorO", "cancelledOperation"]
+- !private ["13ZIPFoundation7ArchiveC0B5ErrorO", "deinit"]
+- !private ["13ZIPFoundation7ArchiveC0B5ErrorO", "invalidEntryPath"]
+- !private ["13ZIPFoundation7ArchiveC0B5ErrorO", "invalidStartOfCentralDirectoryOffset"]
+- !private ["13ZIPFoundation7ArchiveC0B5ErrorO", "unwritableArchive"]
+- !private ["SK", "append"]
+- !private ["SK", "compress"]
+- !private ["SK", "consumePart"]
+- !private ["SK", "count"]
+- !private ["SK", "crc32"]
+- !private ["SK", "data"]
+- !private ["SK", "hasSuffix"]
+- !private ["SK", "init"]
+- !private ["SK", "readChunk"]
+- !private ["SK", "write"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "completedUnitCount"]
+- !private ["s7CVarArgP", "createParentDirectoryStructure"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "destinationOfSymbolicLink"]
+- !private ["s7CVarArgP", "externalFileAttributesForEntry"]
+- !private ["s7CVarArgP", "fileModificationDateTimeForItem"]
+- !private ["s7CVarArgP", "fileSizeForItem"]
+- !private ["s7CVarArgP", "fileSystemRepresentation"]
+- !private ["s7CVarArgP", "globallyUniqueString"]
+- !private ["s7CVarArgP", "hasSuffix"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isCancelled"]
+- !private ["s7CVarArgP", "isReadableFile"]
+- !private ["s7CVarArgP", "itemExists"]
+- !private ["s7CVarArgP", "moveItem"]
+- !private ["s7CVarArgP", "permissionsForItem"]
+- !private ["s7CVarArgP", "processInfo"]
+- !private ["s7CVarArgP", "removeItem"]
+- !private ["s7CVarArgP", "replaceItemAt"]
+- !private ["s7CVarArgP", "totalUnitCount"]
+- !private ["s7CVarArgP", "typeForItem"]
+- !private ["s7CVarArgP", "url"]
+- !private ["13ZIPFoundation5EntryV25CentralDirectoryStructureV", "data"]
+- !private ["13ZIPFoundation5EntryV25CentralDirectoryStructureV", "deinit"]
+- !private ["13ZIPFoundation5EntryV25CentralDirectoryStructureV", "extraFieldLength"]
+- !private ["13ZIPFoundation5EntryV25CentralDirectoryStructureV", "fileCommentLength"]
+- !private ["13ZIPFoundation5EntryV25CentralDirectoryStructureV", "fileNameLength"]
+- !private ["13ZIPFoundation5EntryV25CentralDirectoryStructureV", "init"]
+- !private ["13ZIPFoundation5EntryV25CentralDirectoryStructureV", "relativeOffsetOfLocalHeader"]
+- !private ["13ZIPFoundation5EntryV25CentralDirectoryStructureV", "size"]
+- !private ["10Foundation10CocoaErrorV", "init"]
+- !private ["10Foundation10CocoaErrorV4CodeV", "fileNoSuchFile"]
+- !private ["10Foundation10CocoaErrorV4CodeV", "fileReadNoPermission"]
+- !private ["10Foundation10CocoaErrorV4CodeV", "fileReadNoSuchFile"]
+- !private ["Sl", "append"]
+- !private ["Sl", "compress"]
+- !private ["Sl", "consumePart"]
+- !private ["Sl", "count"]
+- !private ["Sl", "crc32"]
+- !private ["Sl", "data"]
+- !private ["Sl", "hasSuffix"]
+- !private ["Sl", "init"]
+- !private ["Sl", "readChunk"]
+- !private ["Sl", "write"]
+- !private ["SL", "data"]
+- !private ["SL", "fileModificationDateTime"]
+- !private ["SL", "hasSuffix"]
+- !private ["SL", "init"]
+- ["13ZIPFoundation17CompressionMethodO", "deflate"]
+- !private ["13ZIPFoundation17CompressionMethodO", "deinit"]
+- ["13ZIPFoundation17CompressionMethodO", "none"]
+- !private ["13ZIPFoundation17CompressionMethodO", "rawValue"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "compress"]
+- !private ["10Foundation15ContiguousBytesP", "consumePart"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "crc32"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "readChunk"]
+- !private ["10Foundation15ContiguousBytesP", "write"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "completedUnitCount"]
+- !private ["s28CustomDebugStringConvertibleP", "compress"]
+- !private ["s28CustomDebugStringConvertibleP", "consumePart"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "crc32"]
+- !private ["s28CustomDebugStringConvertibleP", "createParentDirectoryStructure"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "destinationOfSymbolicLink"]
+- !private ["s28CustomDebugStringConvertibleP", "externalFileAttributesForEntry"]
+- !private ["s28CustomDebugStringConvertibleP", "fileModificationDateTime"]
+- !private ["s28CustomDebugStringConvertibleP", "fileModificationDateTimeForItem"]
+- !private ["s28CustomDebugStringConvertibleP", "fileSizeForItem"]
+- !private ["s28CustomDebugStringConvertibleP", "fileSystemRepresentation"]
+- !private ["s28CustomDebugStringConvertibleP", "globallyUniqueString"]
+- !private ["s28CustomDebugStringConvertibleP", "hasSuffix"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isCancelled"]
+- !private ["s28CustomDebugStringConvertibleP", "isReadableFile"]
+- !private ["s28CustomDebugStringConvertibleP", "itemExists"]
+- !private ["s28CustomDebugStringConvertibleP", "moveItem"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "permissionsForItem"]
+- !private ["s28CustomDebugStringConvertibleP", "processInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "readChunk"]
+- !private ["s28CustomDebugStringConvertibleP", "removeItem"]
+- !private ["s28CustomDebugStringConvertibleP", "replaceItemAt"]
+- !private ["s28CustomDebugStringConvertibleP", "totalUnitCount"]
+- !private ["s28CustomDebugStringConvertibleP", "typeForItem"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s28CustomDebugStringConvertibleP", "write"]
+- !private ["10Foundation13CustomNSErrorP", "init"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "compress"]
+- !private ["s17CustomReflectableP", "consumePart"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "crc32"]
+- !private ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "fileModificationDateTime"]
+- !private ["s17CustomReflectableP", "hasSuffix"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "readChunk"]
+- !private ["s17CustomReflectableP", "write"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "completedUnitCount"]
+- !private ["s23CustomStringConvertibleP", "compress"]
+- !private ["s23CustomStringConvertibleP", "consumePart"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "crc32"]
+- !private ["s23CustomStringConvertibleP", "createParentDirectoryStructure"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "destinationOfSymbolicLink"]
+- !private ["s23CustomStringConvertibleP", "externalFileAttributesForEntry"]
+- !private ["s23CustomStringConvertibleP", "fileModificationDateTime"]
+- !private ["s23CustomStringConvertibleP", "fileModificationDateTimeForItem"]
+- !private ["s23CustomStringConvertibleP", "fileSizeForItem"]
+- !private ["s23CustomStringConvertibleP", "fileSystemRepresentation"]
+- !private ["s23CustomStringConvertibleP", "globallyUniqueString"]
+- !private ["s23CustomStringConvertibleP", "hasSuffix"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isCancelled"]
+- !private ["s23CustomStringConvertibleP", "isReadableFile"]
+- !private ["s23CustomStringConvertibleP", "itemExists"]
+- !private ["s23CustomStringConvertibleP", "moveItem"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "permissionsForItem"]
+- !private ["s23CustomStringConvertibleP", "processInfo"]
+- !private ["s23CustomStringConvertibleP", "readChunk"]
+- !private ["s23CustomStringConvertibleP", "removeItem"]
+- !private ["s23CustomStringConvertibleP", "replaceItemAt"]
+- !private ["s23CustomStringConvertibleP", "totalUnitCount"]
+- !private ["s23CustomStringConvertibleP", "typeForItem"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "write"]
+- !private ["10Foundation4DataV", "append"]
+- !private ["10Foundation4DataV", "compress"]
+- !private ["10Foundation4DataV", "consumePart"]
+- !private ["10Foundation4DataV", "count"]
+- !private ["10Foundation4DataV", "crc32"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation4DataV", "readChunk"]
+- !private ["10Foundation4DataV", "write"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "compress"]
+- !private ["10Foundation12DataProtocolP", "consumePart"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "crc32"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "readChunk"]
+- !private ["10Foundation12DataProtocolP", "write"]
+- !private ["13ZIPFoundation16DataSerializableP", "data"]
+- !private ["13ZIPFoundation16DataSerializableP", "extraFieldLength"]
+- !private ["13ZIPFoundation16DataSerializableP", "fileCommentLength"]
+- !private ["13ZIPFoundation16DataSerializableP", "fileNameLength"]
+- !private ["13ZIPFoundation16DataSerializableP", "init"]
+- !private ["13ZIPFoundation16DataSerializableP", "offsetToStartOfCentralDirectory"]
+- !private ["13ZIPFoundation16DataSerializableP", "relativeOffsetOfLocalHeader"]
+- !private ["13ZIPFoundation16DataSerializableP", "size"]
+- !private ["13ZIPFoundation16DataSerializableP", "sizeOfCentralDirectory"]
+- !private ["13ZIPFoundation16DataSerializableP", "totalNumberOfEntriesInCentralDirectory"]
+- !private ["13ZIPFoundation16DataSerializableP", "totalNumberOfEntriesOnDisk"]
+- !private ["13ZIPFoundation16DataSerializableP", "uncompressedSize"]
+- !private ["10Foundation4DateV", "fileModificationDateTime"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["Se", "append"]
+- !private ["Se", "appendingPathComponent"]
+- !private ["Se", "compress"]
+- !private ["Se", "consumePart"]
+- !private ["Se", "count"]
+- !private ["Se", "crc32"]
+- !private ["Se", "data"]
+- !private ["Se", "fileModificationDateTime"]
+- !private ["Se", "hasSuffix"]
+- !private ["Se", "init"]
+- !private ["Se", "path"]
+- !private ["Se", "readChunk"]
+- !private ["Se", "write"]
+- !private ["SE", "append"]
+- !private ["SE", "appendingPathComponent"]
+- !private ["SE", "compress"]
+- !private ["SE", "consumePart"]
+- !private ["SE", "count"]
+- !private ["SE", "crc32"]
+- !private ["SE", "data"]
+- !private ["SE", "fileModificationDateTime"]
+- !private ["SE", "hasSuffix"]
+- !private ["SE", "init"]
+- !private ["SE", "path"]
+- !private ["SE", "readChunk"]
+- !private ["SE", "write"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "data"]
+- !private ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "deinit"]
+- !private ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "init"]
+- !private ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "offsetToStartOfCentralDirectory"]
+- !private ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "sizeOfCentralDirectory"]
+- !private ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "totalNumberOfEntriesInCentralDirectory"]
+- !private ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "totalNumberOfEntriesOnDisk"]
+- ["13ZIPFoundation5EntryV", "EntryType"]
+- !private ["13ZIPFoundation5EntryV", "centralDirectoryStructure"]
+- !private ["13ZIPFoundation5EntryV", "deinit"]
+- !private ["13ZIPFoundation5EntryV", "localSize"]
+- !private ["13ZIPFoundation5EntryV0B4TypeO", "deinit"]
+- ["13ZIPFoundation5EntryV0B4TypeO", "directory"]
+- ["13ZIPFoundation5EntryV0B4TypeO", "file"]
+- ["13ZIPFoundation5EntryV0B4TypeO", "symlink"]
+- ["SQ", "=="]
+- ["SQ", "EntryType"]
+- ["SQ", "RawValue"]
+- !private ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "add"]
+- !private ["SQ", "append"]
+- !private ["SQ", "appendingPathComponent"]
+- ["SQ", "cancelledOperation"]
+- !private ["SQ", "centralDirectoryStructure"]
+- !private ["SQ", "completedUnitCount"]
+- !private ["SQ", "compress"]
+- !private ["SQ", "consumePart"]
+- !private ["SQ", "count"]
+- !private ["SQ", "crc32"]
+- !private ["SQ", "create"]
+- !private ["SQ", "createParentDirectoryStructure"]
+- !private ["SQ", "data"]
+- ["SQ", "deflate"]
+- !private ["SQ", "destinationOfSymbolicLink"]
+- ["SQ", "directory"]
+- !private ["SQ", "externalFileAttributesForEntry"]
+- ["SQ", "file"]
+- !private ["SQ", "fileModificationDateTime"]
+- !private ["SQ", "fileModificationDateTimeForItem"]
+- !private ["SQ", "fileNoSuchFile"]
+- !private ["SQ", "fileReadNoPermission"]
+- !private ["SQ", "fileReadNoSuchFile"]
+- !private ["SQ", "fileSizeForItem"]
+- !private ["SQ", "fileSystemRepresentation"]
+- !private ["SQ", "globallyUniqueString"]
+- !private ["SQ", "hasSuffix"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "invalidEntryPath"]
+- !private ["SQ", "invalidStartOfCentralDirectoryOffset"]
+- !private ["SQ", "isCancelled"]
+- !private ["SQ", "isReadableFile"]
+- !private ["SQ", "itemExists"]
+- !private ["SQ", "itemReplacementDirectory"]
+- !private ["SQ", "localSize"]
+- !private ["SQ", "moveItem"]
+- ["SQ", "none"]
+- !private ["SQ", "path"]
+- !private ["SQ", "permissionsForItem"]
+- !private ["SQ", "processInfo"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "read"]
+- !private ["SQ", "readChunk"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "removeItem"]
+- !private ["SQ", "replaceItemAt"]
+- ["SQ", "symlink"]
+- !private ["SQ", "totalUnitCount"]
+- !private ["SQ", "typeForItem"]
+- !private ["SQ", "unwritableArchive"]
+- !private ["SQ", "url"]
+- !private ["SQ", "userDomainMask"]
+- !private ["SQ", "utf8"]
+- !private ["SQ", "write"]
+- ["s5ErrorP", "cancelledOperation"]
+- !private ["s5ErrorP", "init"]
+- !private ["s5ErrorP", "invalidEntryPath"]
+- !private ["s5ErrorP", "invalidStartOfCentralDirectoryOffset"]
+- !private ["s5ErrorP", "unwritableArchive"]
+- !private ["s25ExpressibleByArrayLiteralP", "userDomainMask"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hasSuffix"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "data"]
+- !private ["s32ExpressibleByStringInterpolationP", "hasSuffix"]
+- !private ["s26ExpressibleByStringLiteralP", "data"]
+- !private ["s26ExpressibleByStringLiteralP", "hasSuffix"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "hasSuffix"]
+- !private ["So13NSFileManagerC", "createParentDirectoryStructure"]
+- !private ["So13NSFileManagerC", "destinationOfSymbolicLink"]
+- !private ["So13NSFileManagerC", "externalFileAttributesForEntry"]
+- !private ["So13NSFileManagerC", "fileModificationDateTimeForItem"]
+- !private ["So13NSFileManagerC", "fileSizeForItem"]
+- !private ["So13NSFileManagerC", "fileSystemRepresentation"]
+- !private ["So13NSFileManagerC", "init"]
+- !private ["So13NSFileManagerC", "isReadableFile"]
+- !private ["So13NSFileManagerC", "itemExists"]
+- !private ["So13NSFileManagerC", "moveItem"]
+- !private ["So13NSFileManagerC", "permissionsForItem"]
+- !private ["So13NSFileManagerC", "removeItem"]
+- !private ["So13NSFileManagerC", "replaceItemAt"]
+- !private ["So13NSFileManagerC", "typeForItem"]
+- !private ["So13NSFileManagerC", "url"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- !private ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "add"]
+- !private ["SH", "append"]
+- !private ["SH", "appendingPathComponent"]
+- ["SH", "cancelledOperation"]
+- !private ["SH", "completedUnitCount"]
+- !private ["SH", "compress"]
+- !private ["SH", "consumePart"]
+- !private ["SH", "count"]
+- !private ["SH", "crc32"]
+- !private ["SH", "create"]
+- !private ["SH", "createParentDirectoryStructure"]
+- !private ["SH", "data"]
+- ["SH", "deflate"]
+- !private ["SH", "destinationOfSymbolicLink"]
+- ["SH", "directory"]
+- !private ["SH", "externalFileAttributesForEntry"]
+- ["SH", "file"]
+- !private ["SH", "fileModificationDateTime"]
+- !private ["SH", "fileModificationDateTimeForItem"]
+- !private ["SH", "fileNoSuchFile"]
+- !private ["SH", "fileReadNoPermission"]
+- !private ["SH", "fileReadNoSuchFile"]
+- !private ["SH", "fileSizeForItem"]
+- !private ["SH", "fileSystemRepresentation"]
+- !private ["SH", "globallyUniqueString"]
+- !private ["SH", "hasSuffix"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "invalidEntryPath"]
+- !private ["SH", "invalidStartOfCentralDirectoryOffset"]
+- !private ["SH", "isCancelled"]
+- !private ["SH", "isReadableFile"]
+- !private ["SH", "itemExists"]
+- !private ["SH", "itemReplacementDirectory"]
+- !private ["SH", "moveItem"]
+- ["SH", "none"]
+- !private ["SH", "path"]
+- !private ["SH", "permissionsForItem"]
+- !private ["SH", "processInfo"]
+- ["SH", "rawValue"]
+- !private ["SH", "read"]
+- !private ["SH", "readChunk"]
+- !private ["SH", "remove"]
+- !private ["SH", "removeItem"]
+- !private ["SH", "replaceItemAt"]
+- ["SH", "symlink"]
+- !private ["SH", "totalUnitCount"]
+- !private ["SH", "typeForItem"]
+- !private ["SH", "unwritableArchive"]
+- !private ["SH", "url"]
+- !private ["SH", "utf8"]
+- !private ["SH", "write"]
+- !private ["Si", "init"]
+- !private ["s5Int64V", "init"]
+- !private ["13ZIPFoundation5EntryV15LocalFileHeaderV", "data"]
+- !private ["13ZIPFoundation5EntryV15LocalFileHeaderV", "deinit"]
+- !private ["13ZIPFoundation5EntryV15LocalFileHeaderV", "init"]
+- !private ["13ZIPFoundation5EntryV15LocalFileHeaderV", "uncompressedSize"]
+- !private ["s25LosslessStringConvertibleP", "data"]
+- !private ["s25LosslessStringConvertibleP", "hasSuffix"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "data"]
+- !private ["s10MirrorPathP", "hasSuffix"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "compress"]
+- !private ["SM", "consumePart"]
+- !private ["SM", "count"]
+- !private ["SM", "crc32"]
+- !private ["SM", "init"]
+- !private ["SM", "readChunk"]
+- !private ["SM", "write"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "compress"]
+- !private ["10Foundation19MutableDataProtocolP", "consumePart"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "crc32"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "readChunk"]
+- !private ["10Foundation19MutableDataProtocolP", "write"]
+- !private ["So8NSCodingP", "data"]
+- !private ["So8NSCodingP", "hasSuffix"]
+- !private ["So9NSCopyingP", "data"]
+- !private ["So9NSCopyingP", "hasSuffix"]
+- !private ["So21NSItemProviderReadingP", "data"]
+- !private ["So21NSItemProviderReadingP", "hasSuffix"]
+- !private ["So21NSItemProviderWritingP", "data"]
+- !private ["So21NSItemProviderWritingP", "hasSuffix"]
+- !private ["So16NSMutableCopyingP", "data"]
+- !private ["So16NSMutableCopyingP", "hasSuffix"]
+- !private ["So8NSObjectC", "completedUnitCount"]
+- !private ["So8NSObjectC", "createParentDirectoryStructure"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "destinationOfSymbolicLink"]
+- !private ["So8NSObjectC", "externalFileAttributesForEntry"]
+- !private ["So8NSObjectC", "fileModificationDateTimeForItem"]
+- !private ["So8NSObjectC", "fileSizeForItem"]
+- !private ["So8NSObjectC", "fileSystemRepresentation"]
+- !private ["So8NSObjectC", "globallyUniqueString"]
+- !private ["So8NSObjectC", "hasSuffix"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isCancelled"]
+- !private ["So8NSObjectC", "isReadableFile"]
+- !private ["So8NSObjectC", "itemExists"]
+- !private ["So8NSObjectC", "moveItem"]
+- !private ["So8NSObjectC", "permissionsForItem"]
+- !private ["So8NSObjectC", "processInfo"]
+- !private ["So8NSObjectC", "removeItem"]
+- !private ["So8NSObjectC", "replaceItemAt"]
+- !private ["So8NSObjectC", "totalUnitCount"]
+- !private ["So8NSObjectC", "typeForItem"]
+- !private ["So8NSObjectC", "url"]
+- !private ["So8NSObjectP", "completedUnitCount"]
+- !private ["So8NSObjectP", "createParentDirectoryStructure"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "destinationOfSymbolicLink"]
+- !private ["So8NSObjectP", "externalFileAttributesForEntry"]
+- !private ["So8NSObjectP", "fileModificationDateTimeForItem"]
+- !private ["So8NSObjectP", "fileSizeForItem"]
+- !private ["So8NSObjectP", "fileSystemRepresentation"]
+- !private ["So8NSObjectP", "globallyUniqueString"]
+- !private ["So8NSObjectP", "hasSuffix"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isCancelled"]
+- !private ["So8NSObjectP", "isReadableFile"]
+- !private ["So8NSObjectP", "itemExists"]
+- !private ["So8NSObjectP", "moveItem"]
+- !private ["So8NSObjectP", "permissionsForItem"]
+- !private ["So8NSObjectP", "processInfo"]
+- !private ["So8NSObjectP", "removeItem"]
+- !private ["So8NSObjectP", "replaceItemAt"]
+- !private ["So8NSObjectP", "totalUnitCount"]
+- !private ["So8NSObjectP", "typeForItem"]
+- !private ["So8NSObjectP", "url"]
+- !private ["So14NSSecureCodingP", "data"]
+- !private ["So14NSSecureCodingP", "hasSuffix"]
+- !private ["So8NSStringC", "data"]
+- !private ["So8NSStringC", "hasSuffix"]
+- !private ["Sj", "init"]
+- !private ["s9OptionSetP", "userDomainMask"]
+- !private ["So13NSProcessInfoC", "globallyUniqueString"]
+- !private ["So13NSProcessInfoC", "processInfo"]
+- !private ["So10NSProgressC", "completedUnitCount"]
+- !private ["So10NSProgressC", "isCancelled"]
+- !private ["So10NSProgressC", "totalUnitCount"]
+- !private ["Sk", "append"]
+- !private ["Sk", "compress"]
+- !private ["Sk", "consumePart"]
+- !private ["Sk", "count"]
+- !private ["Sk", "crc32"]
+- !private ["Sk", "init"]
+- !private ["Sk", "readChunk"]
+- !private ["Sk", "write"]
+- !private ["Sm", "append"]
+- !private ["Sm", "compress"]
+- !private ["Sm", "consumePart"]
+- !private ["Sm", "count"]
+- !private ["Sm", "crc32"]
+- !private ["Sm", "data"]
+- !private ["Sm", "hasSuffix"]
+- !private ["Sm", "init"]
+- !private ["Sm", "readChunk"]
+- !private ["Sm", "write"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- !private ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "add"]
+- !private ["SY", "create"]
+- ["SY", "deflate"]
+- ["SY", "directory"]
+- ["SY", "file"]
+- !private ["SY", "fileNoSuchFile"]
+- !private ["SY", "fileReadNoPermission"]
+- !private ["SY", "fileReadNoSuchFile"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "itemReplacementDirectory"]
+- ["SY", "none"]
+- ["SY", "rawValue"]
+- !private ["SY", "read"]
+- !private ["SY", "remove"]
+- ["SY", "symlink"]
+- !private ["SY", "userDomainMask"]
+- !private ["SY", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "append"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "compress"]
+- !private ["10Foundation20ReferenceConvertibleP", "consumePart"]
+- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- !private ["10Foundation20ReferenceConvertibleP", "crc32"]
+- !private ["10Foundation20ReferenceConvertibleP", "fileModificationDateTime"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- !private ["10Foundation20ReferenceConvertibleP", "readChunk"]
+- !private ["10Foundation20ReferenceConvertibleP", "write"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["So21NSSearchPathDirectoryV", "itemReplacementDirectory"]
+- !private ["So22NSSearchPathDomainMaskV", "userDomainMask"]
+- !private ["ST", "Archive"]
+- !private ["ST", "ArchiveError"]
+- !private ["ST", "CRC32"]
+- !private ["ST", "CentralDirectoryStructure"]
+- !private ["ST", "CocoaError"]
+- !private ["ST", "Data"]
+- !private ["ST", "Date"]
+- !private ["ST", "EndOfCentralDirectoryRecord"]
+- !private ["ST", "FileManager"]
+- !private ["ST", "Int"]
+- !private ["ST", "Int64"]
+- !private ["ST", "LocalFileHeader"]
+- !private ["ST", "NSFilePathErrorKey"]
+- !private ["ST", "NSTemporaryDirectory"]
+- !private ["ST", "ProcessInfo"]
+- !private ["ST", "SEEK_SET"]
+- !private ["ST", "UINT32_MAX"]
+- !private ["ST", "UInt16"]
+- !private ["ST", "UInt32"]
+- !private ["ST", "URL"]
+- !private ["ST", "UnsafeBufferPointer"]
+- !private ["ST", "accessMode"]
+- !private ["ST", "addEntry"]
+- !private ["ST", "append"]
+- !private ["ST", "archiveFile"]
+- !private ["ST", "compress"]
+- !private ["ST", "consumePart"]
+- !private ["ST", "count"]
+- !private ["ST", "crc32"]
+- !private ["ST", "data"]
+- !private ["ST", "defaultDirectoryPermissions"]
+- !private ["ST", "defaultDirectoryUnitCount"]
+- !private ["ST", "defaultFilePermissions"]
+- !private ["ST", "defaultReadChunkSize"]
+- !private ["ST", "defaultWriteChunkSize"]
+- !private ["ST", "endOfCentralDirectoryRecord"]
+- !private ["ST", "fclose"]
+- !private ["ST", "fflush"]
+- !private ["ST", "fileno"]
+- !private ["ST", "fopen"]
+- !private ["ST", "fseek"]
+- !private ["ST", "ftell"]
+- !private ["ST", "ftruncate"]
+- !private ["ST", "hasSuffix"]
+- !private ["ST", "init"]
+- !private ["ST", "off_t"]
+- !private ["ST", "readChunk"]
+- !private ["ST", "replaceCurrentArchiveWithArchive"]
+- !private ["ST", "rollback"]
+- !private ["ST", "strlen"]
+- !private ["ST", "totalUnitCountForRemoving"]
+- !private ["ST", "uniqueTemporaryDirectoryURL"]
+- !private ["ST", "url"]
+- !private ["ST", "write"]
+- !private ["ST", "writeCentralDirectoryStructure"]
+- !private ["ST", "writeCompressed"]
+- !private ["ST", "writeEndOfCentralDirectory"]
+- !private ["ST", "writeEntry"]
+- !private ["ST", "writeLocalFileHeader"]
+- !private ["ST", "writeSymbolicLink"]
+- !private ["ST", "writeUncompressed"]
+- !private ["s10SetAlgebraP", "userDomainMask"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "data"]
+- !private ["SS", "hasSuffix"]
+- !private ["Sy", "data"]
+- !private ["Sy", "hasSuffix"]
+- !private ["s16TextOutputStreamP", "data"]
+- !private ["s16TextOutputStreamP", "hasSuffix"]
+- !private ["s20TextOutputStreamableP", "data"]
+- !private ["s20TextOutputStreamableP", "hasSuffix"]
+- !private ["s6UInt16V", "init"]
+- !private ["s6UInt32V", "init"]
+- !private ["10Foundation3URLV", "appendingPathComponent"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["SR", "init"]
+- !private ["SU", "init"]
+- !private ["10Foundation21_BridgedStoredNSErrorP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "data"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "fileModificationDateTime"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "hasSuffix"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "path"]
+- !private ["10Foundation18_ErrorCodeProtocolP", "fileNoSuchFile"]
+- !private ["10Foundation18_ErrorCodeProtocolP", "fileReadNoPermission"]
+- !private ["10Foundation18_ErrorCodeProtocolP", "fileReadNoSuchFile"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hasSuffix"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "data"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "hasSuffix"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "data"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hasSuffix"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- !private ["s19_HasContiguousBytesP", "data"]
+- !private ["s19_HasContiguousBytesP", "hasSuffix"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "data"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "hasSuffix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "completedUnitCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createParentDirectoryStructure"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "destinationOfSymbolicLink"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "externalFileAttributesForEntry"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileModificationDateTimeForItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileSizeForItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileSystemRepresentation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "globallyUniqueString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasSuffix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isCancelled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isReadableFile"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "itemExists"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "moveItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "permissionsForItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "processInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "replaceItemAt"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "totalUnitCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "typeForItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "completedUnitCount"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "createParentDirectoryStructure"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "destinationOfSymbolicLink"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "externalFileAttributesForEntry"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fileModificationDateTimeForItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fileSizeForItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fileSystemRepresentation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "globallyUniqueString"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hasSuffix"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isCancelled"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isReadableFile"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "itemExists"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "moveItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "permissionsForItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "processInfo"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "replaceItemAt"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "totalUnitCount"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "typeForItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "url"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "compress"]
+- !private ["s21_ObjectiveCBridgeableP", "consumePart"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "crc32"]
+- !private ["s21_ObjectiveCBridgeableP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "fileModificationDateTime"]
+- !private ["s21_ObjectiveCBridgeableP", "hasSuffix"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+- !private ["s21_ObjectiveCBridgeableP", "readChunk"]
+- !private ["s21_ObjectiveCBridgeableP", "write"]
+- !private ["10Foundation26_ObjectiveCBridgeableErrorP", "init"]
+- !private ["s14_StringElementP", "init"]
+depends-nominal:
+- !private "13ZIPFoundation7ArchiveC10AccessModeO"
+- !private "s18AdditiveArithmeticP"
+- "13ZIPFoundation7ArchiveC"
+- "13ZIPFoundation7ArchiveC0B5ErrorO"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "13ZIPFoundation5EntryV25CentralDirectoryStructureV"
+- !private "10Foundation10CocoaErrorV"
+- !private "10Foundation10CocoaErrorV4CodeV"
+- !private "Sl"
+- !private "SL"
+- "13ZIPFoundation17CompressionMethodO"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "10Foundation13CustomNSErrorP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "13ZIPFoundation16DataSerializableP"
+- !private "10Foundation4DateV"
+- !private "Se"
+- !private "SE"
+- !private "SS10FoundationE8EncodingV"
+- !private "13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV"
+- "13ZIPFoundation5EntryV"
+- "13ZIPFoundation5EntryV0B4TypeO"
+- "SQ"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So13NSFileManagerC"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "Si"
+- !private "s5Int64V"
+- !private "13ZIPFoundation5EntryV15LocalFileHeaderV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "s9OptionSetP"
+- !private "So13NSProcessInfoC"
+- !private "So10NSProgressC"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "So21NSSearchPathDirectoryV"
+- !private "So22NSSearchPathDomainMaskV"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s6UInt16V"
+- !private "s6UInt32V"
+- !private "10Foundation3URLV"
+- !private "SR"
+- !private "SU"
+- !private "10Foundation21_BridgedStoredNSErrorP"
+- !private "s15_CVarArgAlignedP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "10Foundation18_ErrorCodeProtocolP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "10Foundation26_ObjectiveCBridgeableErrorP"
+- !private "s14_StringElementP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Compression.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/Target Support Files/ZIPFoundation/ZIPFoundation-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Pods.build/Debug-iphoneos/ZIPFoundation.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "48a555293003395ff12be4f43fad7dd0"

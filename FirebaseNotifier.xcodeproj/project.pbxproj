@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		9C0A425524E41BC000F66D10 /* ScheduleItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0A425324E41BC000F66D10 /* ScheduleItemTableViewCell.swift */; };
 		9C0A425624E41BC000F66D10 /* ScheduleItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C0A425424E41BC000F66D10 /* ScheduleItemTableViewCell.xib */; };
-		9C0A425924E41C5300F66D10 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0A425824E41C5300F66D10 /* UIView+Extension.swift */; };
 		9C0A425B24E42D9000F66D10 /* LocalNotificationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0A425A24E42D9000F66D10 /* LocalNotificationsManager.swift */; };
 		9C0A425D24E4337B00F66D10 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0A425C24E4337B00F66D10 /* String+Extension.swift */; };
+		9C13030C24EAF1F200324208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C13030B24EAF1F200324208 /* Assets.xcassets */; };
+		9C13030D24EAF25000324208 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCB37B524E2ABD300BD5073 /* HomeViewController.swift */; };
+		9C13030E24EAF2A200324208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CCB37BC24E2ABD600BD5073 /* LaunchScreen.storyboard */; };
+		9C13031024EAF2DF00324208 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CCB37B724E2ABD300BD5073 /* Main.storyboard */; };
+		9C13031124EAF30F00324208 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0A425824E41C5300F66D10 /* UIView+Extension.swift */; };
 		9C75E21324E412130091BD8B /* ScheduleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C75E21224E412130091BD8B /* ScheduleItem.swift */; };
 		9CCB37B224E2ABD300BD5073 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCB37B124E2ABD300BD5073 /* AppDelegate.swift */; };
 		9CCB37B424E2ABD300BD5073 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCB37B324E2ABD300BD5073 /* SceneDelegate.swift */; };
-		9CCB37B624E2ABD300BD5073 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCB37B524E2ABD300BD5073 /* HomeViewController.swift */; };
-		9CCB37B924E2ABD300BD5073 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CCB37B724E2ABD300BD5073 /* Main.storyboard */; };
-		9CCB37BB24E2ABD600BD5073 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CCB37BA24E2ABD600BD5073 /* Assets.xcassets */; };
-		9CCB37BE24E2ABD600BD5073 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CCB37BC24E2ABD600BD5073 /* LaunchScreen.storyboard */; };
 		9CCB37C624E2AC6100BD5073 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9CCB37C524E2AC6000BD5073 /* GoogleService-Info.plist */; };
 		9CCB37C824E2B85600BD5073 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCB37C724E2B85600BD5073 /* NetworkError.swift */; };
 		9CCB37CA24E2CA6E00BD5073 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCB37C924E2CA6E00BD5073 /* NetworkManager.swift */; };
@@ -31,26 +31,26 @@
 /* Begin PBXFileReference section */
 		90575F932119C8764C2CAAD4 /* Pods-FirebaseNotifier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseNotifier.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseNotifier/Pods-FirebaseNotifier.debug.xcconfig"; sourceTree = "<group>"; };
 		95D87D1D9DEB2C223D637844 /* Pods_FirebaseNotifier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseNotifier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C0A425324E41BC000F66D10 /* ScheduleItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScheduleItemTableViewCell.swift; path = ../ScheduleItemTableViewCell.swift; sourceTree = "<group>"; };
-		9C0A425424E41BC000F66D10 /* ScheduleItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleItemTableViewCell.xib; sourceTree = "<group>"; };
-		9C0A425824E41C5300F66D10 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		9C0A425A24E42D9000F66D10 /* LocalNotificationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationsManager.swift; sourceTree = "<group>"; };
-		9C0A425C24E4337B00F66D10 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
-		9C75E21224E412130091BD8B /* ScheduleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleItem.swift; sourceTree = "<group>"; };
+		9C0A425324E41BC000F66D10 /* ScheduleItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleItemTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		9C0A425424E41BC000F66D10 /* ScheduleItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ScheduleItemTableViewCell.xib; path = Views/ScheduleItemTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		9C0A425824E41C5300F66D10 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "Extensions/UIView+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		9C0A425A24E42D9000F66D10 /* LocalNotificationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocalNotificationsManager.swift; path = Services/LocalNotificationsManager.swift; sourceTree = SOURCE_ROOT; };
+		9C0A425C24E4337B00F66D10 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "Extensions/String+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		9C13030B24EAF1F200324208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SupportingFIles/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		9C75E21224E412130091BD8B /* ScheduleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScheduleItem.swift; path = Model/ScheduleItem.swift; sourceTree = SOURCE_ROOT; };
 		9CCB37AE24E2ABD300BD5073 /* FirebaseNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CCB37B124E2ABD300BD5073 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9CCB37B324E2ABD300BD5073 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9CCB37B524E2ABD300BD5073 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9CCB37B124E2ABD300BD5073 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SupportingFIles/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		9CCB37B324E2ABD300BD5073 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = SupportingFIles/SceneDelegate.swift; sourceTree = SOURCE_ROOT; };
+		9CCB37B524E2ABD300BD5073 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Controllers/HomeViewController.swift; sourceTree = SOURCE_ROOT; };
 		9CCB37B824E2ABD300BD5073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9CCB37BA24E2ABD600BD5073 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CCB37BD24E2ABD600BD5073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CCB37BF24E2ABD600BD5073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9CCB37C524E2AC6000BD5073 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		9CCB37C724E2B85600BD5073 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkError.swift; path = ../NetworkError.swift; sourceTree = "<group>"; };
-		9CCB37C924E2CA6E00BD5073 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		9CDA232324E3C56F00F63C28 /* XLSXReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLSXReader.swift; sourceTree = "<group>"; };
-		9CEB512724E46D220056B910 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
-		9CEB512A24E478BC0056B910 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		9CCB37C524E2AC6000BD5073 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "SupportingFIles/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9CCB37C724E2B85600BD5073 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = SOURCE_ROOT; };
+		9CCB37C924E2CA6E00BD5073 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = "Network services/NetworkManager.swift"; sourceTree = SOURCE_ROOT; };
+		9CDA232324E3C56F00F63C28 /* XLSXReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XLSXReader.swift; path = Services/XLSXReader.swift; sourceTree = SOURCE_ROOT; };
+		9CEB512724E46D220056B910 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extension.swift"; path = "Extensions/UIViewController+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		9CEB512A24E478BC0056B910 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewModel.swift; path = ViewModels/HomeViewModel.swift; sourceTree = SOURCE_ROOT; };
 		C44B62B61B463D5E6393C945 /* Pods-FirebaseNotifier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseNotifier.release.xcconfig"; path = "Target Support Files/Pods-FirebaseNotifier/Pods-FirebaseNotifier.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,12 +119,12 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		9CAE9C9424E5A7D6000EE3E8 /* Models */ = {
+		9CAE9C9424E5A7D6000EE3E8 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 				9CEB512A24E478BC0056B910 /* HomeViewModel.swift */,
 			);
-			path = Models;
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		9CCB37A524E2ABD300BD5073 = {
@@ -148,7 +148,7 @@
 		9CCB37B024E2ABD300BD5073 /* FirebaseNotifier */ = {
 			isa = PBXGroup;
 			children = (
-				9CAE9C9424E5A7D6000EE3E8 /* Models */,
+				9CAE9C9424E5A7D6000EE3E8 /* ViewModels */,
 				9C0A424E24E41B1600F66D10 /* Controllers */,
 				9C0A425724E41BC400F66D10 /* Views */,
 				9C0A424C24E41AFD00F66D10 /* Model */,
@@ -176,7 +176,7 @@
 				9CCB37C524E2AC6000BD5073 /* GoogleService-Info.plist */,
 				9CCB37B124E2ABD300BD5073 /* AppDelegate.swift */,
 				9CCB37B324E2ABD300BD5073 /* SceneDelegate.swift */,
-				9CCB37BA24E2ABD600BD5073 /* Assets.xcassets */,
+				9C13030B24EAF1F200324208 /* Assets.xcassets */,
 				9CCB37BF24E2ABD600BD5073 /* Info.plist */,
 			);
 			path = SupportingFIles;
@@ -259,11 +259,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C13030E24EAF2A200324208 /* LaunchScreen.storyboard in Resources */,
+				9C13031024EAF2DF00324208 /* Main.storyboard in Resources */,
 				9C0A425624E41BC000F66D10 /* ScheduleItemTableViewCell.xib in Resources */,
-				9CCB37BE24E2ABD600BD5073 /* LaunchScreen.storyboard in Resources */,
 				9CCB37C624E2AC6100BD5073 /* GoogleService-Info.plist in Resources */,
-				9CCB37BB24E2ABD600BD5073 /* Assets.xcassets in Resources */,
-				9CCB37B924E2ABD300BD5073 /* Main.storyboard in Resources */,
+				9C13030C24EAF1F200324208 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,9 +317,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CEB512824E46D220056B910 /* UIViewController+Extension.swift in Sources */,
-				9C0A425924E41C5300F66D10 /* UIView+Extension.swift in Sources */,
+				9C13031124EAF30F00324208 /* UIView+Extension.swift in Sources */,
 				9C0A425D24E4337B00F66D10 /* String+Extension.swift in Sources */,
-				9CCB37B624E2ABD300BD5073 /* HomeViewController.swift in Sources */,
 				9C0A425524E41BC000F66D10 /* ScheduleItemTableViewCell.swift in Sources */,
 				9CCB37C824E2B85600BD5073 /* NetworkError.swift in Sources */,
 				9CCB37CA24E2CA6E00BD5073 /* NetworkManager.swift in Sources */,
@@ -328,6 +327,7 @@
 				9C0A425B24E42D9000F66D10 /* LocalNotificationsManager.swift in Sources */,
 				9CCB37B224E2ABD300BD5073 /* AppDelegate.swift in Sources */,
 				9CCB37B424E2ABD300BD5073 /* SceneDelegate.swift in Sources */,
+				9C13030D24EAF25000324208 /* HomeViewController.swift in Sources */,
 				9CDA232424E3C56F00F63C28 /* XLSXReader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,7 +341,8 @@
 				9CCB37B824E2ABD300BD5073 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
+			path = Views/Storyboards;
+			sourceTree = SOURCE_ROOT;
 		};
 		9CCB37BC24E2ABD600BD5073 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -349,7 +350,8 @@
 				9CCB37BD24E2ABD600BD5073 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
+			path = Views/Storyboards;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 
@@ -475,7 +477,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6U6U45B2D;
-				INFOPLIST_FILE = FirebaseNotifier/SupportingFIles/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SupportingFIles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -495,7 +497,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6U6U45B2D;
-				INFOPLIST_FILE = FirebaseNotifier/SupportingFIles/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SupportingFIles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

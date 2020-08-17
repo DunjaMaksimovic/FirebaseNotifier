@@ -1,0 +1,326 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "XLSXReader"
+provides-nominal:
+- "16FirebaseNotifier10XLSXReaderC"
+provides-member:
+- ["16FirebaseNotifier10XLSXReaderC", ""]
+provides-dynamic-lookup:
+- "parseScheduleFile"
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "=="
+- !private ">"
+- "Data"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "ScheduleItem"
+- !private "XLSXFile"
+- "XLSXReader"
+depends-member:
+- !private ["8XMLCoder11AnySequenceP", "append"]
+- !private ["8XMLCoder11AnySequenceP", "contains"]
+- !private ["8XMLCoder11AnySequenceP", "enumerated"]
+- !private ["8XMLCoder11AnySequenceP", "first"]
+- !private ["8XMLCoder11AnySequenceP", "init"]
+- !private ["8XMLCoder11AnySequenceP", "subscript"]
+- !private ["Sa", "append"]
+- !private ["Sa", "contains"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "first"]
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "stringValue"]
+- !private ["SK", "append"]
+- !private ["SK", "contains"]
+- !private ["SK", "enumerated"]
+- !private ["SK", "first"]
+- !private ["SK", "init"]
+- !private ["SK", "stringValue"]
+- !private ["SK", "subscript"]
+- !private ["8XMLCoder3BoxP", "append"]
+- !private ["8XMLCoder3BoxP", "contains"]
+- !private ["8XMLCoder3BoxP", "enumerated"]
+- !private ["8XMLCoder3BoxP", "first"]
+- !private ["8XMLCoder3BoxP", "init"]
+- !private ["8XMLCoder3BoxP", "subscript"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["8CoreXLSX4CellV", "stringValue"]
+- !private ["Sl", "append"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "enumerated"]
+- !private ["Sl", "first"]
+- !private ["Sl", "init"]
+- !private ["Sl", "stringValue"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["10Foundation15ContiguousBytesP", "enumerated"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "stringValue"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "stringValue"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["8CoreXLSX9WorksheetV4DataV", "rows"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["10Foundation12DataProtocolP", "enumerated"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "stringValue"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "append"]
+- !private ["Se", "cells"]
+- !private ["Se", "contains"]
+- !private ["Se", "data"]
+- !private ["Se", "enumerated"]
+- !private ["Se", "first"]
+- !private ["Se", "init"]
+- !private ["Se", "rows"]
+- !private ["Se", "stringValue"]
+- !private ["Se", "subscript"]
+- !private ["8XMLCoder19DynamicNodeEncodingP", "append"]
+- !private ["8XMLCoder19DynamicNodeEncodingP", "contains"]
+- !private ["8XMLCoder19DynamicNodeEncodingP", "enumerated"]
+- !private ["8XMLCoder19DynamicNodeEncodingP", "first"]
+- !private ["8XMLCoder19DynamicNodeEncodingP", "init"]
+- !private ["8XMLCoder19DynamicNodeEncodingP", "subscript"]
+- !private ["SE", "append"]
+- !private ["SE", "cells"]
+- !private ["SE", "contains"]
+- !private ["SE", "data"]
+- !private ["SE", "enumerated"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SE", "rows"]
+- !private ["SE", "stringValue"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "append"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "enumerated"]
+- !private ["SQ", "first"]
+- !private ["SQ", "init"]
+- !private ["SQ", "stringValue"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "stringValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["SH", "append"]
+- !private ["SH", "contains"]
+- !private ["SH", "enumerated"]
+- !private ["SH", "first"]
+- !private ["SH", "init"]
+- !private ["SH", "stringValue"]
+- !private ["SH", "subscript"]
+- !private ["SM", "append"]
+- !private ["SM", "contains"]
+- !private ["SM", "enumerated"]
+- !private ["SM", "first"]
+- !private ["SM", "init"]
+- !private ["SM", "stringValue"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "enumerated"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["Sk", "append"]
+- !private ["Sk", "contains"]
+- !private ["Sk", "enumerated"]
+- !private ["Sk", "first"]
+- !private ["Sk", "init"]
+- !private ["Sk", "stringValue"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "enumerated"]
+- !private ["Sm", "first"]
+- !private ["Sm", "init"]
+- !private ["Sm", "stringValue"]
+- !private ["Sm", "subscript"]
+- !private ["8CoreXLSX3RowV", "cells"]
+- !private ["16FirebaseNotifier12ScheduleItemV", "dateString"]
+- !private ["16FirebaseNotifier12ScheduleItemV", "init"]
+- !private ["16FirebaseNotifier12ScheduleItemV", "timeString"]
+- !private ["ST", "append"]
+- !private ["ST", "contains"]
+- !private ["ST", "enumerated"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["ST", "stringValue"]
+- !private ["ST", "subscript"]
+- !private ["8CoreXLSX9WorksheetV", "data"]
+- !private ["8CoreXLSX8XLSXFileC", "init"]
+- !private ["8CoreXLSX8XLSXFileC", "parseSharedStrings"]
+- !private ["8CoreXLSX8XLSXFileC", "parseWorkbooks"]
+- !private ["8CoreXLSX8XLSXFileC", "parseWorksheet"]
+- !private ["8CoreXLSX8XLSXFileC", "parseWorksheetPathsAndNames"]
+- ["16FirebaseNotifier10XLSXReaderC", "Data"]
+- ["16FirebaseNotifier10XLSXReaderC", "ScheduleItem"]
+- !private ["16FirebaseNotifier10XLSXReaderC", "XLSXFile"]
+- ["16FirebaseNotifier10XLSXReaderC", "deinit"]
+- ["16FirebaseNotifier10XLSXReaderC", "init"]
+- ["16FirebaseNotifier10XLSXReaderC", "parseScheduleFile"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "stringValue"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "stringValue"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "enumerated"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "enumerated"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "8XMLCoder11AnySequenceP"
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "SK"
+- !private "8XMLCoder3BoxP"
+- !private "s7CVarArgP"
+- !private "8CoreXLSX4CellV"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "8CoreXLSX9WorksheetV4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "8XMLCoder19DynamicNodeEncodingP"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sk"
+- !private "Sm"
+- !private "8CoreXLSX3RowV"
+- !private "16FirebaseNotifier12ScheduleItemV"
+- !private "ST"
+- !private "8CoreXLSX9WorksheetV"
+- !private "8CoreXLSX8XLSXFileC"
+- "16FirebaseNotifier10XLSXReaderC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Compression.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/CoreXLSX/CoreXLSX.framework/Modules/CoreXLSX.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/ZIPFoundation/ZIPFoundation.framework/Modules/ZIPFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/XMLCoder/XMLCoder.framework/Modules/XMLCoder.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/CoreXLSX/CoreXLSX.framework/Headers/CoreXLSX-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/ZIPFoundation/ZIPFoundation.framework/Headers/ZIPFoundation-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/XMLCoder/XMLCoder.framework/Headers/XMLCoder-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/CoreXLSX/CoreXLSX.framework/Headers/CoreXLSX-Swift.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/ZIPFoundation/ZIPFoundation.framework/Headers/ZIPFoundation-Swift.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/XMLCoder/XMLCoder.framework/Headers/XMLCoder-Swift.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageListResult.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/CoreXLSX/CoreXLSX.framework/Modules/module.modulemap"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/ZIPFoundation/ZIPFoundation.framework/Modules/module.modulemap"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/XMLCoder/XMLCoder.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d2bad7841078d06b9a7e7dd00b39a66e"

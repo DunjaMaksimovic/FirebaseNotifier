@@ -1,0 +1,818 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "defaultReadChunkSize"
+- "defaultWriteChunkSize"
+- "defaultFilePermissions"
+- "defaultDirectoryPermissions"
+- "defaultPOSIXBufferSize"
+- "defaultDirectoryUnitCount"
+- "minDirectoryEndOffset"
+- "maxDirectoryEndOffset"
+- "endOfCentralDirectoryStructSignature"
+- "localFileHeaderStructSignature"
+- "dataDescriptorStructSignature"
+- "centralDirectoryStructSignature"
+- "CompressionMethod"
+- "Archive"
+provides-nominal:
+- "13ZIPFoundation17CompressionMethodO"
+- "13ZIPFoundation7ArchiveC"
+- "13ZIPFoundation7ArchiveC0B5ErrorO"
+- "13ZIPFoundation7ArchiveC10AccessModeO"
+- "13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV"
+provides-member:
+- ["13ZIPFoundation17CompressionMethodO", ""]
+- ["13ZIPFoundation7ArchiveC", ""]
+- ["13ZIPFoundation7ArchiveC0B5ErrorO", ""]
+- ["13ZIPFoundation7ArchiveC10AccessModeO", ""]
+- ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", ""]
+- ["13ZIPFoundation7ArchiveC", "totalUnitCountForRemoving"]
+- ["13ZIPFoundation7ArchiveC", "makeProgressForRemoving"]
+- ["13ZIPFoundation7ArchiveC", "totalUnitCountForReading"]
+- ["13ZIPFoundation7ArchiveC", "makeProgressForReading"]
+- ["13ZIPFoundation7ArchiveC", "totalUnitCountForAddingItem"]
+- ["13ZIPFoundation7ArchiveC", "makeProgressForAddingItem"]
+- ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "data"]
+- ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "init"]
+- ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "init"]
+provides-dynamic-lookup:
+- "accessMode"
+- "archiveFile"
+- "configureFileBacking"
+- "endOfCentralDirectoryRecord"
+- "makeIterator"
+- "makeProgressForAddingItem"
+- "makeProgressForReading"
+- "makeProgressForRemoving"
+- "memoryFile"
+- "preferredEncoding"
+- "scanForEndOfCentralDirectoryRecord"
+- "subscript"
+- "totalUnitCountForAddingItem"
+- "totalUnitCountForReading"
+- "totalUnitCountForRemoving"
+- "url"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- "*"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "<"
+- !private "<="
+- "=="
+- "AnyIterator"
+- "Archive"
+- "AssignmentPrecedence"
+- "CompressionMethod"
+- "Data"
+- "DataSerializable"
+- "Entry"
+- "Error"
+- "FILE"
+- !private "FileManager"
+- "FloatLiteralType"
+- "Int"
+- "Int64"
+- "IntegerLiteralType"
+- "MemoryFile"
+- !private "MemoryLayout"
+- "Progress"
+- !private "SEEK_END"
+- !private "SEEK_SET"
+- "Sequence"
+- "String"
+- !private "StringLiteralType"
+- !private "TernaryPrecedence"
+- "UInt"
+- "UInt16"
+- "UInt32"
+- "URL"
+- !private "UnsafeBufferPointer"
+- "UnsafeMutablePointer"
+- !private "_IOFBF"
+- "centralDirectoryStructSignature"
+- "dataDescriptorStructSignature"
+- "defaultDirectoryPermissions"
+- "defaultDirectoryUnitCount"
+- "defaultFilePermissions"
+- "defaultPOSIXBufferSize"
+- "defaultReadChunkSize"
+- "defaultWriteChunkSize"
+- "endOfCentralDirectoryStructSignature"
+- !private "fclose"
+- !private "fopen"
+- !private "fread"
+- !private "fseek"
+- !private "ftell"
+- "localFileHeaderStructSignature"
+- "maxDirectoryEndOffset"
+- "minDirectoryEndOffset"
+- !private "setvbuf"
+- !private "withUnsafePointer"
+- !private "~="
+depends-member:
+- ["13ZIPFoundation7ArchiveC10AccessModeO", "=="]
+- ["13ZIPFoundation7ArchiveC10AccessModeO", "RawValue"]
+- ["13ZIPFoundation7ArchiveC10AccessModeO", "_Default_RawValue"]
+- ["13ZIPFoundation7ArchiveC10AccessModeO", "_rawHashValue"]
+- ["13ZIPFoundation7ArchiveC10AccessModeO", "create"]
+- ["13ZIPFoundation7ArchiveC10AccessModeO", "deinit"]
+- ["13ZIPFoundation7ArchiveC10AccessModeO", "hash"]
+- ["13ZIPFoundation7ArchiveC10AccessModeO", "hashValue"]
+- ["13ZIPFoundation7ArchiveC10AccessModeO", "init"]
+- ["13ZIPFoundation7ArchiveC10AccessModeO", "rawValue"]
+- ["13ZIPFoundation7ArchiveC10AccessModeO", "read"]
+- ["13ZIPFoundation7ArchiveC10AccessModeO", "update"]
+- ["s18AdditiveArithmeticP", "init"]
+- !private ["s11AnyIteratorV", "init"]
+- ["13ZIPFoundation7ArchiveC", "AccessMode"]
+- ["13ZIPFoundation7ArchiveC", "AnyIterator"]
+- !private ["13ZIPFoundation7ArchiveC", "Archive"]
+- ["13ZIPFoundation7ArchiveC", "ArchiveError"]
+- ["13ZIPFoundation7ArchiveC", "CentralDirectoryStructure"]
+- !private ["13ZIPFoundation7ArchiveC", "CompressionMethod"]
+- ["13ZIPFoundation7ArchiveC", "Data"]
+- ["13ZIPFoundation7ArchiveC", "DataDescriptor"]
+- ["13ZIPFoundation7ArchiveC", "DataSerializable"]
+- ["13ZIPFoundation7ArchiveC", "Element"]
+- ["13ZIPFoundation7ArchiveC", "EndOfCentralDirectoryRecord"]
+- ["13ZIPFoundation7ArchiveC", "Entry"]
+- ["13ZIPFoundation7ArchiveC", "Error"]
+- ["13ZIPFoundation7ArchiveC", "FILE"]
+- !private ["13ZIPFoundation7ArchiveC", "FileManager"]
+- !private ["13ZIPFoundation7ArchiveC", "Int"]
+- ["13ZIPFoundation7ArchiveC", "Int64"]
+- ["13ZIPFoundation7ArchiveC", "Iterator"]
+- ["13ZIPFoundation7ArchiveC", "LocalFileHeader"]
+- ["13ZIPFoundation7ArchiveC", "MemoryFile"]
+- !private ["13ZIPFoundation7ArchiveC", "MemoryLayout"]
+- ["13ZIPFoundation7ArchiveC", "Progress"]
+- !private ["13ZIPFoundation7ArchiveC", "SEEK_END"]
+- !private ["13ZIPFoundation7ArchiveC", "SEEK_SET"]
+- ["13ZIPFoundation7ArchiveC", "String"]
+- ["13ZIPFoundation7ArchiveC", "UInt"]
+- ["13ZIPFoundation7ArchiveC", "UInt16"]
+- ["13ZIPFoundation7ArchiveC", "UInt32"]
+- ["13ZIPFoundation7ArchiveC", "URL"]
+- ["13ZIPFoundation7ArchiveC", "UnsafeMutablePointer"]
+- ["13ZIPFoundation7ArchiveC", "_Default_Element"]
+- ["13ZIPFoundation7ArchiveC", "_Default_Iterator"]
+- !private ["13ZIPFoundation7ArchiveC", "_IOFBF"]
+- ["13ZIPFoundation7ArchiveC", "_copyContents"]
+- ["13ZIPFoundation7ArchiveC", "_copyToContiguousArray"]
+- ["13ZIPFoundation7ArchiveC", "_customContainsEquatableElement"]
+- ["13ZIPFoundation7ArchiveC", "accessMode"]
+- ["13ZIPFoundation7ArchiveC", "archiveFile"]
+- !private ["13ZIPFoundation7ArchiveC", "configureFileBacking"]
+- !private ["13ZIPFoundation7ArchiveC", "configureMemoryBacking"]
+- !private ["13ZIPFoundation7ArchiveC", "defaultDirectoryUnitCount"]
+- !private ["13ZIPFoundation7ArchiveC", "defaultPOSIXBufferSize"]
+- ["13ZIPFoundation7ArchiveC", "deinit"]
+- ["13ZIPFoundation7ArchiveC", "endOfCentralDirectoryRecord"]
+- ["13ZIPFoundation7ArchiveC", "endOfCentralDirectoryStructSignature"]
+- !private ["13ZIPFoundation7ArchiveC", "fclose"]
+- !private ["13ZIPFoundation7ArchiveC", "filter"]
+- !private ["13ZIPFoundation7ArchiveC", "fopen"]
+- !private ["13ZIPFoundation7ArchiveC", "fread"]
+- !private ["13ZIPFoundation7ArchiveC", "fseek"]
+- !private ["13ZIPFoundation7ArchiveC", "ftell"]
+- ["13ZIPFoundation7ArchiveC", "init"]
+- ["13ZIPFoundation7ArchiveC", "makeIterator"]
+- ["13ZIPFoundation7ArchiveC", "makeProgressForAddingItem"]
+- ["13ZIPFoundation7ArchiveC", "makeProgressForReading"]
+- ["13ZIPFoundation7ArchiveC", "makeProgressForRemoving"]
+- !private ["13ZIPFoundation7ArchiveC", "maxDirectoryEndOffset"]
+- ["13ZIPFoundation7ArchiveC", "memoryFile"]
+- !private ["13ZIPFoundation7ArchiveC", "minDirectoryEndOffset"]
+- !private ["13ZIPFoundation7ArchiveC", "preferredEncoding"]
+- !private ["13ZIPFoundation7ArchiveC", "scanForEndOfCentralDirectoryRecord"]
+- !private ["13ZIPFoundation7ArchiveC", "setvbuf"]
+- ["13ZIPFoundation7ArchiveC", "subscript"]
+- ["13ZIPFoundation7ArchiveC", "totalUnitCountForAddingItem"]
+- ["13ZIPFoundation7ArchiveC", "totalUnitCountForReading"]
+- ["13ZIPFoundation7ArchiveC", "totalUnitCountForRemoving"]
+- ["13ZIPFoundation7ArchiveC", "underestimatedCount"]
+- ["13ZIPFoundation7ArchiveC", "url"]
+- ["13ZIPFoundation7ArchiveC", "withContiguousStorageIfAvailable"]
+- ["13ZIPFoundation7ArchiveC0B5ErrorO", "=="]
+- ["13ZIPFoundation7ArchiveC0B5ErrorO", "__derived_enum_equals"]
+- ["13ZIPFoundation7ArchiveC0B5ErrorO", "_code"]
+- ["13ZIPFoundation7ArchiveC0B5ErrorO", "_domain"]
+- ["13ZIPFoundation7ArchiveC0B5ErrorO", "_getEmbeddedNSError"]
+- ["13ZIPFoundation7ArchiveC0B5ErrorO", "_rawHashValue"]
+- ["13ZIPFoundation7ArchiveC0B5ErrorO", "_userInfo"]
+- ["13ZIPFoundation7ArchiveC0B5ErrorO", "cancelledOperation"]
+- ["13ZIPFoundation7ArchiveC0B5ErrorO", "deinit"]
+- ["13ZIPFoundation7ArchiveC0B5ErrorO", "hash"]
+- ["13ZIPFoundation7ArchiveC0B5ErrorO", "hashValue"]
+- ["13ZIPFoundation7ArchiveC0B5ErrorO", "invalidCompressionMethod"]
+- ["13ZIPFoundation7ArchiveC0B5ErrorO", "invalidEntryPath"]
+- ["13ZIPFoundation7ArchiveC0B5ErrorO", "invalidStartOfCentralDirectoryOffset"]
+- ["13ZIPFoundation7ArchiveC0B5ErrorO", "missingEndOfCentralDirectoryRecord"]
+- ["13ZIPFoundation7ArchiveC0B5ErrorO", "unreadableArchive"]
+- ["13ZIPFoundation7ArchiveC0B5ErrorO", "unwritableArchive"]
+- !private ["Sa", "first"]
+- ["SK", "Encoding"]
+- !private ["SK", "append"]
+- !private ["SK", "callAsFunction"]
+- !private ["SK", "count"]
+- !private ["SK", "first"]
+- !private ["SK", "init"]
+- !private ["SK", "readStruct"]
+- !private ["SK", "scanValue"]
+- !private ["SK", "write"]
+- ["Sz", "init"]
+- ["s7CVarArgP", "Encoding"]
+- !private ["s7CVarArgP", "callAsFunction"]
+- !private ["s7CVarArgP", "fileSizeForItem"]
+- !private ["s7CVarArgP", "fileSystemRepresentation"]
+- !private ["s7CVarArgP", "first"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "typeForItem"]
+- !private ["13ZIPFoundation5EntryV25CentralDirectoryStructureV", "compressedSize"]
+- !private ["13ZIPFoundation5EntryV25CentralDirectoryStructureV", "compressionMethod"]
+- !private ["13ZIPFoundation5EntryV25CentralDirectoryStructureV", "deinit"]
+- !private ["13ZIPFoundation5EntryV25CentralDirectoryStructureV", "extraFieldLength"]
+- !private ["13ZIPFoundation5EntryV25CentralDirectoryStructureV", "fileCommentLength"]
+- !private ["13ZIPFoundation5EntryV25CentralDirectoryStructureV", "fileNameLength"]
+- !private ["13ZIPFoundation5EntryV25CentralDirectoryStructureV", "relativeOffsetOfLocalHeader"]
+- !private ["13ZIPFoundation5EntryV25CentralDirectoryStructureV", "size"]
+- !private ["13ZIPFoundation5EntryV25CentralDirectoryStructureV", "uncompressedSize"]
+- !private ["13ZIPFoundation5EntryV25CentralDirectoryStructureV", "usesDataDescriptor"]
+- ["Sl", "Encoding"]
+- !private ["Sl", "append"]
+- !private ["Sl", "callAsFunction"]
+- !private ["Sl", "count"]
+- !private ["Sl", "first"]
+- !private ["Sl", "init"]
+- !private ["Sl", "readStruct"]
+- !private ["Sl", "scanValue"]
+- !private ["Sl", "write"]
+- ["SL", "Encoding"]
+- !private ["SL", "callAsFunction"]
+- ["SL", "init"]
+- ["13ZIPFoundation17CompressionMethodO", "=="]
+- ["13ZIPFoundation17CompressionMethodO", "RawValue"]
+- ["13ZIPFoundation17CompressionMethodO", "_Default_RawValue"]
+- ["13ZIPFoundation17CompressionMethodO", "_rawHashValue"]
+- ["13ZIPFoundation17CompressionMethodO", "deflate"]
+- ["13ZIPFoundation17CompressionMethodO", "deinit"]
+- ["13ZIPFoundation17CompressionMethodO", "hash"]
+- ["13ZIPFoundation17CompressionMethodO", "hashValue"]
+- ["13ZIPFoundation17CompressionMethodO", "init"]
+- ["13ZIPFoundation17CompressionMethodO", "none"]
+- ["13ZIPFoundation17CompressionMethodO", "rawValue"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "readStruct"]
+- !private ["10Foundation15ContiguousBytesP", "scanValue"]
+- !private ["10Foundation15ContiguousBytesP", "write"]
+- ["s28CustomDebugStringConvertibleP", "Encoding"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "fileSizeForItem"]
+- !private ["s28CustomDebugStringConvertibleP", "fileSystemRepresentation"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "readStruct"]
+- !private ["s28CustomDebugStringConvertibleP", "scanValue"]
+- !private ["s28CustomDebugStringConvertibleP", "typeForItem"]
+- !private ["s28CustomDebugStringConvertibleP", "write"]
+- ["s17CustomReflectableP", "Encoding"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "first"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "readStruct"]
+- !private ["s17CustomReflectableP", "scanValue"]
+- !private ["s17CustomReflectableP", "write"]
+- ["s23CustomStringConvertibleP", "Encoding"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "callAsFunction"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "fileSizeForItem"]
+- !private ["s23CustomStringConvertibleP", "fileSystemRepresentation"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "readStruct"]
+- !private ["s23CustomStringConvertibleP", "scanValue"]
+- !private ["s23CustomStringConvertibleP", "typeForItem"]
+- !private ["s23CustomStringConvertibleP", "write"]
+- !private ["10Foundation4DataV", "append"]
+- !private ["10Foundation4DataV", "count"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation4DataV", "readStruct"]
+- !private ["10Foundation4DataV", "scanValue"]
+- !private ["10Foundation4DataV", "write"]
+- !private ["13ZIPFoundation5EntryV14DataDescriptorV", "deinit"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "readStruct"]
+- !private ["10Foundation12DataProtocolP", "scanValue"]
+- !private ["10Foundation12DataProtocolP", "write"]
+- !private ["13ZIPFoundation16DataSerializableP", "Archive"]
+- !private ["13ZIPFoundation16DataSerializableP", "Data"]
+- !private ["13ZIPFoundation16DataSerializableP", "Int"]
+- ["13ZIPFoundation16DataSerializableP", "UInt32"]
+- !private ["13ZIPFoundation16DataSerializableP", "UnsafeBufferPointer"]
+- ["13ZIPFoundation16DataSerializableP", ""]
+- !private ["13ZIPFoundation16DataSerializableP", "compressedSize"]
+- !private ["13ZIPFoundation16DataSerializableP", "compressionMethod"]
+- ["13ZIPFoundation16DataSerializableP", "data"]
+- !private ["13ZIPFoundation16DataSerializableP", "endOfCentralDirectorySignature"]
+- ["13ZIPFoundation16DataSerializableP", "endOfCentralDirectoryStructSignature"]
+- !private ["13ZIPFoundation16DataSerializableP", "extraFieldLength"]
+- !private ["13ZIPFoundation16DataSerializableP", "fileCommentLength"]
+- !private ["13ZIPFoundation16DataSerializableP", "fileNameLength"]
+- ["13ZIPFoundation16DataSerializableP", "init"]
+- !private ["13ZIPFoundation16DataSerializableP", "numberOfDisk"]
+- !private ["13ZIPFoundation16DataSerializableP", "numberOfDiskStart"]
+- !private ["13ZIPFoundation16DataSerializableP", "offsetToStartOfCentralDirectory"]
+- !private ["13ZIPFoundation16DataSerializableP", "relativeOffsetOfLocalHeader"]
+- ["13ZIPFoundation16DataSerializableP", "size"]
+- !private ["13ZIPFoundation16DataSerializableP", "sizeOfCentralDirectory"]
+- !private ["13ZIPFoundation16DataSerializableP", "totalNumberOfEntriesInCentralDirectory"]
+- !private ["13ZIPFoundation16DataSerializableP", "totalNumberOfEntriesOnDisk"]
+- !private ["13ZIPFoundation16DataSerializableP", "uncompressedSize"]
+- !private ["13ZIPFoundation16DataSerializableP", "usesDataDescriptor"]
+- !private ["13ZIPFoundation16DataSerializableP", "withUnsafePointer"]
+- !private ["13ZIPFoundation16DataSerializableP", "zipFileCommentData"]
+- !private ["13ZIPFoundation16DataSerializableP", "zipFileCommentLength"]
+- ["Se", "Encoding"]
+- !private ["Se", "append"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "count"]
+- !private ["Se", "first"]
+- ["Se", "init"]
+- !private ["Se", "path"]
+- !private ["Se", "readStruct"]
+- !private ["Se", "scanValue"]
+- !private ["Se", "write"]
+- ["SE", "Encoding"]
+- !private ["SE", "append"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "count"]
+- !private ["SE", "first"]
+- ["SE", "init"]
+- !private ["SE", "path"]
+- !private ["SE", "readStruct"]
+- !private ["SE", "scanValue"]
+- !private ["SE", "write"]
+- ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "Archive"]
+- ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "Data"]
+- ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "Int"]
+- ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "UInt16"]
+- ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "UInt32"]
+- !private ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "UnsafeBufferPointer"]
+- ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "data"]
+- ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "deinit"]
+- ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "endOfCentralDirectorySignature"]
+- ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "endOfCentralDirectoryStructSignature"]
+- ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "init"]
+- ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "numberOfDisk"]
+- ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "numberOfDiskStart"]
+- ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "offsetToStartOfCentralDirectory"]
+- ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "size"]
+- ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "sizeOfCentralDirectory"]
+- ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "totalNumberOfEntriesInCentralDirectory"]
+- ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "totalNumberOfEntriesOnDisk"]
+- !private ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "withUnsafePointer"]
+- ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "zipFileCommentData"]
+- ["13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV", "zipFileCommentLength"]
+- ["13ZIPFoundation5EntryV", "CentralDirectoryStructure"]
+- ["13ZIPFoundation5EntryV", "DataDescriptor"]
+- ["13ZIPFoundation5EntryV", "LocalFileHeader"]
+- !private ["13ZIPFoundation5EntryV", "init"]
+- !private ["13ZIPFoundation5EntryV", "localSize"]
+- !private ["13ZIPFoundation5EntryV", "path"]
+- !private ["13ZIPFoundation5EntryV", "type"]
+- !private ["13ZIPFoundation5EntryV", "uncompressedSize"]
+- ["13ZIPFoundation5EntryV0B4TypeO", "directory"]
+- ["13ZIPFoundation5EntryV0B4TypeO", "file"]
+- ["13ZIPFoundation5EntryV0B4TypeO", "symlink"]
+- ["SQ", "=="]
+- ["SQ", "CentralDirectoryStructure"]
+- ["SQ", "DataDescriptor"]
+- ["SQ", "Encoding"]
+- ["SQ", "LocalFileHeader"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "_userInfo"]
+- !private ["SQ", "append"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "count"]
+- ["SQ", "create"]
+- ["SQ", "directory"]
+- ["SQ", "file"]
+- !private ["SQ", "fileSizeForItem"]
+- !private ["SQ", "fileSystemRepresentation"]
+- !private ["SQ", "first"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "localSize"]
+- !private ["SQ", "none"]
+- !private ["SQ", "path"]
+- ["SQ", "rawValue"]
+- ["SQ", "read"]
+- !private ["SQ", "readStruct"]
+- !private ["SQ", "scanValue"]
+- ["SQ", "symlink"]
+- !private ["SQ", "type"]
+- !private ["SQ", "typeForItem"]
+- !private ["SQ", "uncompressedSize"]
+- ["SQ", "update"]
+- !private ["SQ", "withoutOverwriting"]
+- !private ["SQ", "write"]
+- ["s5ErrorP", "=="]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_rawHashValue"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "withoutOverwriting"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "callAsFunction"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s32ExpressibleByStringInterpolationP", "Encoding"]
+- !private ["s32ExpressibleByStringInterpolationP", "callAsFunction"]
+- ["s26ExpressibleByStringLiteralP", "Encoding"]
+- !private ["s26ExpressibleByStringLiteralP", "callAsFunction"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Encoding"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "callAsFunction"]
+- !private ["So13NSFileManagerC", "fileSizeForItem"]
+- !private ["So13NSFileManagerC", "fileSystemRepresentation"]
+- !private ["So13NSFileManagerC", "init"]
+- !private ["So13NSFileManagerC", "typeForItem"]
+- ["s17FixedWidthIntegerP", "init"]
+- ["SH", "=="]
+- ["SH", "Encoding"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_rawHashValue"]
+- ["SH", "_userInfo"]
+- !private ["SH", "append"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "count"]
+- ["SH", "create"]
+- ["SH", "directory"]
+- ["SH", "file"]
+- !private ["SH", "fileSizeForItem"]
+- !private ["SH", "fileSystemRepresentation"]
+- !private ["SH", "first"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "none"]
+- !private ["SH", "path"]
+- ["SH", "rawValue"]
+- ["SH", "read"]
+- !private ["SH", "readStruct"]
+- !private ["SH", "scanValue"]
+- ["SH", "symlink"]
+- !private ["SH", "typeForItem"]
+- ["SH", "update"]
+- !private ["SH", "write"]
+- !private ["s6HasherV", "combine"]
+- !private ["Si", "init"]
+- !private ["s5Int64V", "init"]
+- !private ["St", "init"]
+- !private ["13ZIPFoundation5EntryV15LocalFileHeaderV", "deinit"]
+- !private ["13ZIPFoundation5EntryV15LocalFileHeaderV", "extraFieldLength"]
+- !private ["13ZIPFoundation5EntryV15LocalFileHeaderV", "fileNameLength"]
+- !private ["13ZIPFoundation5EntryV15LocalFileHeaderV", "size"]
+- ["s25LosslessStringConvertibleP", "Encoding"]
+- !private ["s25LosslessStringConvertibleP", "callAsFunction"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s12MemoryLayoutO", "size"]
+- ["s10MirrorPathP", "Encoding"]
+- !private ["s10MirrorPathP", "callAsFunction"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "first"]
+- !private ["SM", "init"]
+- !private ["SM", "readStruct"]
+- !private ["SM", "scanValue"]
+- !private ["SM", "write"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "readStruct"]
+- !private ["10Foundation19MutableDataProtocolP", "scanValue"]
+- !private ["10Foundation19MutableDataProtocolP", "write"]
+- !private ["So8NSObjectC", "fileSizeForItem"]
+- !private ["So8NSObjectC", "fileSystemRepresentation"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "typeForItem"]
+- !private ["So8NSObjectP", "fileSizeForItem"]
+- !private ["So8NSObjectP", "fileSystemRepresentation"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "typeForItem"]
+- ["Sj", "init"]
+- !private ["s9OptionSetP", "withoutOverwriting"]
+- !private ["So10NSProgressC", "init"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "first"]
+- !private ["Sk", "init"]
+- !private ["Sk", "readStruct"]
+- !private ["Sk", "scanValue"]
+- !private ["Sk", "write"]
+- ["Sm", "Encoding"]
+- !private ["Sm", "append"]
+- !private ["Sm", "callAsFunction"]
+- !private ["Sm", "count"]
+- !private ["Sm", "first"]
+- !private ["Sm", "init"]
+- !private ["Sm", "readStruct"]
+- !private ["Sm", "scanValue"]
+- !private ["Sm", "write"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_rawHashValue"]
+- ["SY", "create"]
+- ["SY", "directory"]
+- ["SY", "file"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "none"]
+- ["SY", "rawValue"]
+- ["SY", "read"]
+- ["SY", "symlink"]
+- ["SY", "update"]
+- !private ["SY", "withoutOverwriting"]
+- !private ["10Foundation20ReferenceConvertibleP", "append"]
+- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- !private ["10Foundation20ReferenceConvertibleP", "readStruct"]
+- !private ["10Foundation20ReferenceConvertibleP", "scanValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "write"]
+- ["s10SIMDScalarP", "init"]
+- !private ["ST", "AnyIterator"]
+- !private ["ST", "Archive"]
+- !private ["ST", "CentralDirectoryStructure"]
+- !private ["ST", "CompressionMethod"]
+- !private ["ST", "Data"]
+- ["ST", "DataSerializable"]
+- ["ST", "Element"]
+- ["ST", "Encoding"]
+- ["ST", "EndOfCentralDirectoryRecord"]
+- !private ["ST", "Entry"]
+- !private ["ST", "FileManager"]
+- !private ["ST", "Int"]
+- !private ["ST", "Int64"]
+- ["ST", "Iterator"]
+- !private ["ST", "LocalFileHeader"]
+- !private ["ST", "MemoryLayout"]
+- !private ["ST", "Progress"]
+- !private ["ST", "SEEK_END"]
+- !private ["ST", "SEEK_SET"]
+- ["ST", "UInt32"]
+- !private ["ST", "URL"]
+- ["ST", ""]
+- ["ST", "_Default_Element"]
+- ["ST", "_Default_Iterator"]
+- !private ["ST", "_IOFBF"]
+- ["ST", "_copyContents"]
+- ["ST", "_copyToContiguousArray"]
+- ["ST", "_customContainsEquatableElement"]
+- !private ["ST", "accessMode"]
+- !private ["ST", "append"]
+- !private ["ST", "archiveFile"]
+- !private ["ST", "callAsFunction"]
+- !private ["ST", "configureFileBacking"]
+- !private ["ST", "configureMemoryBacking"]
+- !private ["ST", "count"]
+- !private ["ST", "defaultDirectoryUnitCount"]
+- !private ["ST", "defaultPOSIXBufferSize"]
+- !private ["ST", "endOfCentralDirectoryRecord"]
+- ["ST", "endOfCentralDirectoryStructSignature"]
+- !private ["ST", "fclose"]
+- !private ["ST", "filter"]
+- !private ["ST", "first"]
+- !private ["ST", "fopen"]
+- !private ["ST", "fread"]
+- !private ["ST", "fseek"]
+- !private ["ST", "ftell"]
+- !private ["ST", "init"]
+- ["ST", "makeIterator"]
+- !private ["ST", "maxDirectoryEndOffset"]
+- !private ["ST", "memoryFile"]
+- !private ["ST", "minDirectoryEndOffset"]
+- !private ["ST", "preferredEncoding"]
+- !private ["ST", "readStruct"]
+- !private ["ST", "scanForEndOfCentralDirectoryRecord"]
+- !private ["ST", "scanValue"]
+- !private ["ST", "setvbuf"]
+- !private ["ST", "totalUnitCountForAddingItem"]
+- !private ["ST", "totalUnitCountForReading"]
+- !private ["ST", "totalUnitCountForRemoving"]
+- ["ST", "underestimatedCount"]
+- !private ["ST", "url"]
+- ["ST", "withContiguousStorageIfAvailable"]
+- !private ["ST", "write"]
+- !private ["s10SetAlgebraP", "withoutOverwriting"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- ["Sx", "init"]
+- ["SS", "Encoding"]
+- !private ["SS", "callAsFunction"]
+- ["Sy", "Encoding"]
+- !private ["Sy", "callAsFunction"]
+- ["s16TextOutputStreamP", "Encoding"]
+- !private ["s16TextOutputStreamP", "callAsFunction"]
+- ["s20TextOutputStreamableP", "Encoding"]
+- !private ["s20TextOutputStreamableP", "callAsFunction"]
+- ["s6UInt32V", "init"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["SR", "init"]
+- ["SU", "init"]
+- !private ["So20NSDataWritingOptionsV", "withoutOverwriting"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- ["s30_CustomPlaygroundQuickLookableP", "Encoding"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "callAsFunction"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "path"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "callAsFunction"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "Encoding"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "callAsFunction"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Encoding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "callAsFunction"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- ["s19_HasContiguousBytesP", "Encoding"]
+- !private ["s19_HasContiguousBytesP", "callAsFunction"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileSizeForItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileSystemRepresentation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "typeForItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fileSizeForItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fileSystemRepresentation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "typeForItem"]
+- ["s21_ObjectiveCBridgeableP", "Encoding"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+- !private ["s21_ObjectiveCBridgeableP", "readStruct"]
+- !private ["s21_ObjectiveCBridgeableP", "scanValue"]
+- !private ["s21_ObjectiveCBridgeableP", "write"]
+depends-nominal:
+- "13ZIPFoundation7ArchiveC10AccessModeO"
+- "s18AdditiveArithmeticP"
+- !private "s11AnyIteratorV"
+- "13ZIPFoundation7ArchiveC"
+- "13ZIPFoundation7ArchiveC0B5ErrorO"
+- !private "Sa"
+- "SK"
+- "Sz"
+- "s7CVarArgP"
+- !private "13ZIPFoundation5EntryV25CentralDirectoryStructureV"
+- "Sl"
+- "SL"
+- "13ZIPFoundation17CompressionMethodO"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "13ZIPFoundation5EntryV14DataDescriptorV"
+- !private "10Foundation12DataProtocolP"
+- "13ZIPFoundation16DataSerializableP"
+- "Se"
+- "SE"
+- "13ZIPFoundation7ArchiveC27EndOfCentralDirectoryRecordV"
+- "13ZIPFoundation5EntryV"
+- "13ZIPFoundation5EntryV0B4TypeO"
+- "SQ"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So13NSFileManagerC"
+- "s17FixedWidthIntegerP"
+- "SH"
+- !private "s6HasherV"
+- !private "Si"
+- !private "s5Int64V"
+- !private "St"
+- !private "13ZIPFoundation5EntryV15LocalFileHeaderV"
+- "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- "Sj"
+- !private "s9OptionSetP"
+- !private "So10NSProgressC"
+- !private "Sk"
+- "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s10SIMDScalarP"
+- "ST"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s6UInt32V"
+- !private "10Foundation3URLV"
+- !private "SR"
+- "SU"
+- !private "So20NSDataWritingOptionsV"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Compression.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/Target Support Files/ZIPFoundation/ZIPFoundation-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Pods.build/Debug-iphonesimulator/ZIPFoundation.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e1cd2c7227b14c9aa3fc211cbc52fdf9"

@@ -1,0 +1,1768 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Styles"
+- "Color"
+- "NumberFormats"
+- "NumberFormat"
+- "Fonts"
+- "Font"
+- "Fills"
+- "Fill"
+- "PatternFill"
+- "Borders"
+- "Border"
+- "CellStyleFormats"
+- "CellFormats"
+- "Format"
+- "CellStyles"
+- "CellStyle"
+- "DifferentialFormat"
+- "DifferentialFormats"
+- "TableStyles"
+- "TableStyle"
+- "Colors"
+provides-nominal:
+- "8CoreXLSX6StylesV"
+- "8CoreXLSX6StylesV10CodingKeysO"
+- "8CoreXLSX5ColorV"
+- "8CoreXLSX13NumberFormatsV"
+- "8CoreXLSX13NumberFormatsV10CodingKeysO"
+- "8CoreXLSX12NumberFormatV"
+- "8CoreXLSX12NumberFormatV10CodingKeysO"
+- "8CoreXLSX5FontsV"
+- "8CoreXLSX5FontsV10CodingKeysO"
+- "8CoreXLSX4FontV"
+- "8CoreXLSX4FontV4SizeV"
+- "8CoreXLSX4FontV4SizeV10CodingKeysO"
+- "8CoreXLSX4FontV4NameV"
+- "8CoreXLSX4FontV4NameV10CodingKeysO"
+- "8CoreXLSX4FontV4BoldV"
+- "8CoreXLSX4FontV4BoldV10CodingKeysO"
+- "8CoreXLSX4FontV6ItalicV"
+- "8CoreXLSX4FontV6ItalicV10CodingKeysO"
+- "8CoreXLSX4FontV6StrikeV"
+- "8CoreXLSX4FontV6StrikeV10CodingKeysO"
+- "8CoreXLSX4FontV10CodingKeysO"
+- "8CoreXLSX5FillsV"
+- "8CoreXLSX5FillsV10CodingKeysO"
+- "8CoreXLSX4FillV"
+- "8CoreXLSX11PatternFillV"
+- "8CoreXLSX11PatternFillV10CodingKeysO"
+- "8CoreXLSX7BordersV"
+- "8CoreXLSX7BordersV10CodingKeysO"
+- "8CoreXLSX6BorderV"
+- "8CoreXLSX6BorderV5ValueV"
+- "8CoreXLSX16CellStyleFormatsV"
+- "8CoreXLSX16CellStyleFormatsV10CodingKeysO"
+- "8CoreXLSX11CellFormatsV"
+- "8CoreXLSX11CellFormatsV10CodingKeysO"
+- "8CoreXLSX6FormatV"
+- "8CoreXLSX6FormatV9AlignmentV"
+- "8CoreXLSX6FormatV10CodingKeysO"
+- "8CoreXLSX10CellStylesV"
+- "8CoreXLSX10CellStylesV10CodingKeysO"
+- "8CoreXLSX9CellStyleV"
+- "8CoreXLSX9CellStyleV10CodingKeysO"
+- "8CoreXLSX18DifferentialFormatV"
+- "8CoreXLSX19DifferentialFormatsV"
+- "8CoreXLSX19DifferentialFormatsV10CodingKeysO"
+- "8CoreXLSX11TableStylesV"
+- "8CoreXLSX11TableStylesV10CodingKeysO"
+- "8CoreXLSX10TableStyleV"
+- "8CoreXLSX10TableStyleV7ElementV"
+- "8CoreXLSX10TableStyleV10CodingKeysO"
+- "8CoreXLSX6ColorsV"
+- "8CoreXLSX6ColorsV7IndexedV"
+- "8CoreXLSX6ColorsV7IndexedV10CodingKeysO"
+- "8CoreXLSX6ColorsV10CodingKeysO"
+provides-member:
+- ["8CoreXLSX6StylesV", ""]
+- ["8CoreXLSX6StylesV10CodingKeysO", ""]
+- ["8CoreXLSX5ColorV", ""]
+- ["8CoreXLSX13NumberFormatsV", ""]
+- ["8CoreXLSX13NumberFormatsV10CodingKeysO", ""]
+- ["8CoreXLSX12NumberFormatV", ""]
+- ["8CoreXLSX12NumberFormatV10CodingKeysO", ""]
+- ["8CoreXLSX5FontsV", ""]
+- ["8CoreXLSX5FontsV10CodingKeysO", ""]
+- ["8CoreXLSX4FontV", ""]
+- ["8CoreXLSX4FontV4SizeV", ""]
+- ["8CoreXLSX4FontV4SizeV10CodingKeysO", ""]
+- ["8CoreXLSX4FontV4NameV", ""]
+- ["8CoreXLSX4FontV4NameV10CodingKeysO", ""]
+- ["8CoreXLSX4FontV4BoldV", ""]
+- ["8CoreXLSX4FontV4BoldV10CodingKeysO", ""]
+- ["8CoreXLSX4FontV6ItalicV", ""]
+- ["8CoreXLSX4FontV6ItalicV10CodingKeysO", ""]
+- ["8CoreXLSX4FontV6StrikeV", ""]
+- ["8CoreXLSX4FontV6StrikeV10CodingKeysO", ""]
+- ["8CoreXLSX4FontV10CodingKeysO", ""]
+- ["8CoreXLSX5FillsV", ""]
+- ["8CoreXLSX5FillsV10CodingKeysO", ""]
+- ["8CoreXLSX4FillV", ""]
+- ["8CoreXLSX11PatternFillV", ""]
+- ["8CoreXLSX11PatternFillV10CodingKeysO", ""]
+- ["8CoreXLSX7BordersV", ""]
+- ["8CoreXLSX7BordersV10CodingKeysO", ""]
+- ["8CoreXLSX6BorderV", ""]
+- ["8CoreXLSX6BorderV5ValueV", ""]
+- ["8CoreXLSX16CellStyleFormatsV", ""]
+- ["8CoreXLSX16CellStyleFormatsV10CodingKeysO", ""]
+- ["8CoreXLSX11CellFormatsV", ""]
+- ["8CoreXLSX11CellFormatsV10CodingKeysO", ""]
+- ["8CoreXLSX6FormatV", ""]
+- ["8CoreXLSX6FormatV9AlignmentV", ""]
+- ["8CoreXLSX6FormatV10CodingKeysO", ""]
+- ["8CoreXLSX10CellStylesV", ""]
+- ["8CoreXLSX10CellStylesV10CodingKeysO", ""]
+- ["8CoreXLSX9CellStyleV", ""]
+- ["8CoreXLSX9CellStyleV10CodingKeysO", ""]
+- ["8CoreXLSX18DifferentialFormatV", ""]
+- ["8CoreXLSX19DifferentialFormatsV", ""]
+- ["8CoreXLSX19DifferentialFormatsV10CodingKeysO", ""]
+- ["8CoreXLSX11TableStylesV", ""]
+- ["8CoreXLSX11TableStylesV10CodingKeysO", ""]
+- ["8CoreXLSX10TableStyleV", ""]
+- ["8CoreXLSX10TableStyleV7ElementV", ""]
+- ["8CoreXLSX10TableStyleV10CodingKeysO", ""]
+- ["8CoreXLSX6ColorsV", ""]
+- ["8CoreXLSX6ColorsV7IndexedV", ""]
+- ["8CoreXLSX6ColorsV7IndexedV10CodingKeysO", ""]
+- ["8CoreXLSX6ColorsV10CodingKeysO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Border"
+- "Borders"
+- "CellFormats"
+- "CellStyle"
+- "CellStyleFormats"
+- "CellStyles"
+- "Codable"
+- "CodingKey"
+- "Color"
+- "Colors"
+- "Decoder"
+- "DifferentialFormat"
+- "DifferentialFormats"
+- "Double"
+- "Equatable"
+- "Fill"
+- "Fills"
+- !private "FloatLiteralType"
+- "Font"
+- "Fonts"
+- "Format"
+- "Int"
+- !private "IntegerLiteralType"
+- "NumberFormat"
+- "NumberFormats"
+- "PatternFill"
+- "String"
+- "StringLiteralType"
+- "Styles"
+- "TableStyle"
+- "TableStyles"
+- "UnicodeScalarType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["8CoreXLSX6FormatV9AlignmentV", "=="]
+- ["8CoreXLSX6FormatV9AlignmentV", "Bool"]
+- ["8CoreXLSX6FormatV9AlignmentV", "String"]
+- ["8CoreXLSX6FormatV9AlignmentV", "__derived_struct_equals"]
+- ["8CoreXLSX6FormatV9AlignmentV", "deinit"]
+- ["8CoreXLSX6FormatV9AlignmentV", "encode"]
+- ["8CoreXLSX6FormatV9AlignmentV", "horizontal"]
+- ["8CoreXLSX6FormatV9AlignmentV", "init"]
+- ["8CoreXLSX6FormatV9AlignmentV", "vertical"]
+- ["8CoreXLSX6FormatV9AlignmentV", "wrapText"]
+- !private ["8XMLCoder11AnySequenceP", "map"]
+- !private ["Sa", "map"]
+- !private ["SK", "map"]
+- ["8CoreXLSX4FontV4BoldV", "=="]
+- ["8CoreXLSX4FontV4BoldV", "Bool"]
+- ["8CoreXLSX4FontV4BoldV", "CodingKey"]
+- ["8CoreXLSX4FontV4BoldV", "CodingKeys"]
+- ["8CoreXLSX4FontV4BoldV", "String"]
+- ["8CoreXLSX4FontV4BoldV", "__derived_struct_equals"]
+- !private ["8CoreXLSX4FontV4BoldV", "_findStringSwitchCase"]
+- ["8CoreXLSX4FontV4BoldV", "deinit"]
+- ["8CoreXLSX4FontV4BoldV", "encode"]
+- ["8CoreXLSX4FontV4BoldV", "init"]
+- ["8CoreXLSX4FontV4BoldV", "value"]
+- ["8CoreXLSX6BorderV", "=="]
+- ["8CoreXLSX6BorderV", "Codable"]
+- ["8CoreXLSX6BorderV", "Color"]
+- ["8CoreXLSX6BorderV", "Equatable"]
+- ["8CoreXLSX6BorderV", "String"]
+- ["8CoreXLSX6BorderV", "Value"]
+- ["8CoreXLSX6BorderV", "__derived_struct_equals"]
+- ["8CoreXLSX6BorderV", "bottom"]
+- ["8CoreXLSX6BorderV", "deinit"]
+- ["8CoreXLSX6BorderV", "diagonal"]
+- ["8CoreXLSX6BorderV", "encode"]
+- ["8CoreXLSX6BorderV", "horizontal"]
+- ["8CoreXLSX6BorderV", "init"]
+- ["8CoreXLSX6BorderV", "left"]
+- ["8CoreXLSX6BorderV", "right"]
+- ["8CoreXLSX6BorderV", "top"]
+- ["8CoreXLSX6BorderV", "vertical"]
+- ["8CoreXLSX7BordersV", "=="]
+- ["8CoreXLSX7BordersV", "Border"]
+- ["8CoreXLSX7BordersV", "CodingKey"]
+- ["8CoreXLSX7BordersV", "CodingKeys"]
+- ["8CoreXLSX7BordersV", "Decoder"]
+- ["8CoreXLSX7BordersV", "Int"]
+- ["8CoreXLSX7BordersV", "String"]
+- ["8CoreXLSX7BordersV", "__derived_struct_equals"]
+- !private ["8CoreXLSX7BordersV", "_findStringSwitchCase"]
+- ["8CoreXLSX7BordersV", "count"]
+- ["8CoreXLSX7BordersV", "deinit"]
+- ["8CoreXLSX7BordersV", "encode"]
+- ["8CoreXLSX7BordersV", "init"]
+- ["8CoreXLSX7BordersV", "items"]
+- !private ["8XMLCoder3BoxP", "map"]
+- !private ["s7CVarArgP", "map"]
+- ["8CoreXLSX11CellFormatsV", "=="]
+- ["8CoreXLSX11CellFormatsV", "CodingKey"]
+- ["8CoreXLSX11CellFormatsV", "CodingKeys"]
+- ["8CoreXLSX11CellFormatsV", "Format"]
+- ["8CoreXLSX11CellFormatsV", "Int"]
+- ["8CoreXLSX11CellFormatsV", "String"]
+- ["8CoreXLSX11CellFormatsV", "__derived_struct_equals"]
+- !private ["8CoreXLSX11CellFormatsV", "_findStringSwitchCase"]
+- ["8CoreXLSX11CellFormatsV", "count"]
+- ["8CoreXLSX11CellFormatsV", "deinit"]
+- ["8CoreXLSX11CellFormatsV", "encode"]
+- ["8CoreXLSX11CellFormatsV", "init"]
+- ["8CoreXLSX11CellFormatsV", "items"]
+- ["8CoreXLSX9CellStyleV", "=="]
+- ["8CoreXLSX9CellStyleV", "CodingKey"]
+- ["8CoreXLSX9CellStyleV", "CodingKeys"]
+- ["8CoreXLSX9CellStyleV", "Int"]
+- ["8CoreXLSX9CellStyleV", "String"]
+- ["8CoreXLSX9CellStyleV", "__derived_struct_equals"]
+- !private ["8CoreXLSX9CellStyleV", "_findStringSwitchCase"]
+- ["8CoreXLSX9CellStyleV", "builtinId"]
+- ["8CoreXLSX9CellStyleV", "deinit"]
+- ["8CoreXLSX9CellStyleV", "encode"]
+- ["8CoreXLSX9CellStyleV", "formatId"]
+- ["8CoreXLSX9CellStyleV", "init"]
+- ["8CoreXLSX9CellStyleV", "name"]
+- ["8CoreXLSX16CellStyleFormatsV", "=="]
+- ["8CoreXLSX16CellStyleFormatsV", "CodingKey"]
+- ["8CoreXLSX16CellStyleFormatsV", "CodingKeys"]
+- ["8CoreXLSX16CellStyleFormatsV", "Format"]
+- ["8CoreXLSX16CellStyleFormatsV", "Int"]
+- ["8CoreXLSX16CellStyleFormatsV", "String"]
+- ["8CoreXLSX16CellStyleFormatsV", "__derived_struct_equals"]
+- !private ["8CoreXLSX16CellStyleFormatsV", "_findStringSwitchCase"]
+- ["8CoreXLSX16CellStyleFormatsV", "count"]
+- ["8CoreXLSX16CellStyleFormatsV", "deinit"]
+- ["8CoreXLSX16CellStyleFormatsV", "encode"]
+- ["8CoreXLSX16CellStyleFormatsV", "init"]
+- ["8CoreXLSX16CellStyleFormatsV", "items"]
+- ["8CoreXLSX10CellStylesV", "=="]
+- ["8CoreXLSX10CellStylesV", "CellStyle"]
+- ["8CoreXLSX10CellStylesV", "CodingKey"]
+- ["8CoreXLSX10CellStylesV", "CodingKeys"]
+- ["8CoreXLSX10CellStylesV", "Int"]
+- ["8CoreXLSX10CellStylesV", "String"]
+- ["8CoreXLSX10CellStylesV", "__derived_struct_equals"]
+- !private ["8CoreXLSX10CellStylesV", "_findStringSwitchCase"]
+- ["8CoreXLSX10CellStylesV", "count"]
+- ["8CoreXLSX10CellStylesV", "deinit"]
+- ["8CoreXLSX10CellStylesV", "encode"]
+- ["8CoreXLSX10CellStylesV", "init"]
+- ["8CoreXLSX10CellStylesV", "items"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- !private ["s9CodingKeyP", "count"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "items"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["8CoreXLSX10CellStylesV10CodingKeysO", "=="]
+- ["8CoreXLSX10TableStyleV10CodingKeysO", "=="]
+- ["8CoreXLSX11CellFormatsV10CodingKeysO", "=="]
+- ["8CoreXLSX11PatternFillV10CodingKeysO", "=="]
+- ["8CoreXLSX11TableStylesV10CodingKeysO", "=="]
+- ["8CoreXLSX12NumberFormatV10CodingKeysO", "=="]
+- ["8CoreXLSX13NumberFormatsV10CodingKeysO", "=="]
+- ["8CoreXLSX16CellStyleFormatsV10CodingKeysO", "=="]
+- ["8CoreXLSX19DifferentialFormatsV10CodingKeysO", "=="]
+- ["8CoreXLSX4FontV10CodingKeysO", "=="]
+- ["8CoreXLSX4FontV4BoldV10CodingKeysO", "=="]
+- ["8CoreXLSX4FontV4NameV10CodingKeysO", "=="]
+- ["8CoreXLSX4FontV4SizeV10CodingKeysO", "=="]
+- ["8CoreXLSX4FontV6ItalicV10CodingKeysO", "=="]
+- ["8CoreXLSX4FontV6StrikeV10CodingKeysO", "=="]
+- ["8CoreXLSX5FillsV10CodingKeysO", "=="]
+- ["8CoreXLSX5FontsV10CodingKeysO", "=="]
+- ["8CoreXLSX6ColorsV10CodingKeysO", "=="]
+- ["8CoreXLSX6ColorsV7IndexedV10CodingKeysO", "=="]
+- ["8CoreXLSX6FormatV10CodingKeysO", "=="]
+- ["8CoreXLSX6StylesV10CodingKeysO", "=="]
+- ["8CoreXLSX7BordersV10CodingKeysO", "=="]
+- ["8CoreXLSX9CellStyleV10CodingKeysO", "=="]
+- ["8CoreXLSX10CellStylesV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX10TableStyleV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX11CellFormatsV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX11PatternFillV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX11TableStylesV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX12NumberFormatV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX13NumberFormatsV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX16CellStyleFormatsV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX19DifferentialFormatsV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX4FontV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX4FontV4BoldV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX4FontV4NameV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX4FontV4SizeV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX4FontV6ItalicV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX4FontV6StrikeV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX5FillsV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX5FontsV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX6ColorsV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX6ColorsV7IndexedV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX6FormatV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX6StylesV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX7BordersV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX9CellStyleV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX10CellStylesV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX10TableStyleV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX11CellFormatsV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX11PatternFillV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX11TableStylesV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX12NumberFormatV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX13NumberFormatsV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX16CellStyleFormatsV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX19DifferentialFormatsV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX4FontV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX4FontV4BoldV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX4FontV4NameV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX4FontV4SizeV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX4FontV6ItalicV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX4FontV6StrikeV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX5FillsV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX5FontsV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX6ColorsV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX6ColorsV7IndexedV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX6FormatV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX6StylesV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX7BordersV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX9CellStyleV10CodingKeysO", "_Default_RawValue"]
+- !private ["8CoreXLSX10CellStylesV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX10TableStyleV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX11CellFormatsV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX11PatternFillV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX11TableStylesV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX12NumberFormatV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX13NumberFormatsV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX16CellStyleFormatsV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX19DifferentialFormatsV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX4FontV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX4FontV4BoldV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX4FontV4NameV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX4FontV4SizeV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX4FontV6ItalicV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX4FontV6StrikeV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX5FillsV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX5FontsV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX6ColorsV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX6ColorsV7IndexedV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX6FormatV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX6StylesV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX7BordersV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX9CellStyleV10CodingKeysO", "_findStringSwitchCase"]
+- ["8CoreXLSX10CellStylesV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX10TableStyleV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX11CellFormatsV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX11PatternFillV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX11TableStylesV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX12NumberFormatV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX13NumberFormatsV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX16CellStyleFormatsV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX19DifferentialFormatsV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX4FontV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX4FontV4BoldV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX4FontV4NameV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX4FontV4SizeV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX4FontV6ItalicV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX4FontV6StrikeV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX5FillsV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX5FontsV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX6ColorsV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX6ColorsV7IndexedV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX6FormatV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX6StylesV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX7BordersV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX9CellStyleV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX6FormatV10CodingKeysO", "alignment"]
+- ["8CoreXLSX6FormatV10CodingKeysO", "applyAlignment"]
+- ["8CoreXLSX6FormatV10CodingKeysO", "applyBorder"]
+- ["8CoreXLSX6FormatV10CodingKeysO", "applyFill"]
+- ["8CoreXLSX6FormatV10CodingKeysO", "applyFont"]
+- ["8CoreXLSX6FormatV10CodingKeysO", "applyNumberFormat"]
+- ["8CoreXLSX6FormatV10CodingKeysO", "applyProtection"]
+- ["8CoreXLSX11PatternFillV10CodingKeysO", "backgroundColor"]
+- ["8CoreXLSX4FontV10CodingKeysO", "bold"]
+- ["8CoreXLSX6FormatV10CodingKeysO", "borderId"]
+- ["8CoreXLSX6StylesV10CodingKeysO", "borders"]
+- ["8CoreXLSX9CellStyleV10CodingKeysO", "builtinId"]
+- ["8CoreXLSX6StylesV10CodingKeysO", "cellFormats"]
+- ["8CoreXLSX6StylesV10CodingKeysO", "cellStyleFormats"]
+- ["8CoreXLSX6StylesV10CodingKeysO", "cellStyles"]
+- ["8CoreXLSX4FontV10CodingKeysO", "color"]
+- ["8CoreXLSX6StylesV10CodingKeysO", "colors"]
+- ["8CoreXLSX10CellStylesV10CodingKeysO", "count"]
+- ["8CoreXLSX10TableStyleV10CodingKeysO", "count"]
+- ["8CoreXLSX11CellFormatsV10CodingKeysO", "count"]
+- ["8CoreXLSX11TableStylesV10CodingKeysO", "count"]
+- ["8CoreXLSX13NumberFormatsV10CodingKeysO", "count"]
+- ["8CoreXLSX16CellStyleFormatsV10CodingKeysO", "count"]
+- ["8CoreXLSX19DifferentialFormatsV10CodingKeysO", "count"]
+- ["8CoreXLSX5FillsV10CodingKeysO", "count"]
+- ["8CoreXLSX5FontsV10CodingKeysO", "count"]
+- ["8CoreXLSX7BordersV10CodingKeysO", "count"]
+- ["8CoreXLSX10CellStylesV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX10TableStyleV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX11CellFormatsV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX11PatternFillV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX11TableStylesV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX12NumberFormatV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX13NumberFormatsV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX16CellStyleFormatsV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX19DifferentialFormatsV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX4FontV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX4FontV4BoldV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX4FontV4NameV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX4FontV4SizeV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX4FontV6ItalicV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX4FontV6StrikeV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX5FillsV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX5FontsV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX6ColorsV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX6ColorsV7IndexedV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX6FormatV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX6StylesV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX7BordersV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX9CellStyleV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX10CellStylesV10CodingKeysO", "deinit"]
+- ["8CoreXLSX10TableStyleV10CodingKeysO", "deinit"]
+- ["8CoreXLSX11CellFormatsV10CodingKeysO", "deinit"]
+- ["8CoreXLSX11PatternFillV10CodingKeysO", "deinit"]
+- ["8CoreXLSX11TableStylesV10CodingKeysO", "deinit"]
+- ["8CoreXLSX12NumberFormatV10CodingKeysO", "deinit"]
+- ["8CoreXLSX13NumberFormatsV10CodingKeysO", "deinit"]
+- ["8CoreXLSX16CellStyleFormatsV10CodingKeysO", "deinit"]
+- ["8CoreXLSX19DifferentialFormatsV10CodingKeysO", "deinit"]
+- ["8CoreXLSX4FontV10CodingKeysO", "deinit"]
+- ["8CoreXLSX4FontV4BoldV10CodingKeysO", "deinit"]
+- ["8CoreXLSX4FontV4NameV10CodingKeysO", "deinit"]
+- ["8CoreXLSX4FontV4SizeV10CodingKeysO", "deinit"]
+- ["8CoreXLSX4FontV6ItalicV10CodingKeysO", "deinit"]
+- ["8CoreXLSX4FontV6StrikeV10CodingKeysO", "deinit"]
+- ["8CoreXLSX5FillsV10CodingKeysO", "deinit"]
+- ["8CoreXLSX5FontsV10CodingKeysO", "deinit"]
+- ["8CoreXLSX6ColorsV10CodingKeysO", "deinit"]
+- ["8CoreXLSX6ColorsV7IndexedV10CodingKeysO", "deinit"]
+- ["8CoreXLSX6FormatV10CodingKeysO", "deinit"]
+- ["8CoreXLSX6StylesV10CodingKeysO", "deinit"]
+- ["8CoreXLSX7BordersV10CodingKeysO", "deinit"]
+- ["8CoreXLSX9CellStyleV10CodingKeysO", "deinit"]
+- ["8CoreXLSX10CellStylesV10CodingKeysO", "description"]
+- ["8CoreXLSX10TableStyleV10CodingKeysO", "description"]
+- ["8CoreXLSX11CellFormatsV10CodingKeysO", "description"]
+- ["8CoreXLSX11PatternFillV10CodingKeysO", "description"]
+- ["8CoreXLSX11TableStylesV10CodingKeysO", "description"]
+- ["8CoreXLSX12NumberFormatV10CodingKeysO", "description"]
+- ["8CoreXLSX13NumberFormatsV10CodingKeysO", "description"]
+- ["8CoreXLSX16CellStyleFormatsV10CodingKeysO", "description"]
+- ["8CoreXLSX19DifferentialFormatsV10CodingKeysO", "description"]
+- ["8CoreXLSX4FontV10CodingKeysO", "description"]
+- ["8CoreXLSX4FontV4BoldV10CodingKeysO", "description"]
+- ["8CoreXLSX4FontV4NameV10CodingKeysO", "description"]
+- ["8CoreXLSX4FontV4SizeV10CodingKeysO", "description"]
+- ["8CoreXLSX4FontV6ItalicV10CodingKeysO", "description"]
+- ["8CoreXLSX4FontV6StrikeV10CodingKeysO", "description"]
+- ["8CoreXLSX5FillsV10CodingKeysO", "description"]
+- ["8CoreXLSX5FontsV10CodingKeysO", "description"]
+- ["8CoreXLSX6ColorsV10CodingKeysO", "description"]
+- ["8CoreXLSX6ColorsV7IndexedV10CodingKeysO", "description"]
+- ["8CoreXLSX6FormatV10CodingKeysO", "description"]
+- ["8CoreXLSX6StylesV10CodingKeysO", "description"]
+- ["8CoreXLSX7BordersV10CodingKeysO", "description"]
+- ["8CoreXLSX9CellStyleV10CodingKeysO", "description"]
+- ["8CoreXLSX6StylesV10CodingKeysO", "differentialFormats"]
+- ["8CoreXLSX10TableStyleV10CodingKeysO", "elements"]
+- ["8CoreXLSX6FormatV10CodingKeysO", "fillId"]
+- ["8CoreXLSX6StylesV10CodingKeysO", "fills"]
+- ["8CoreXLSX6FormatV10CodingKeysO", "fontId"]
+- ["8CoreXLSX6StylesV10CodingKeysO", "fonts"]
+- ["8CoreXLSX11PatternFillV10CodingKeysO", "foregroundColor"]
+- ["8CoreXLSX12NumberFormatV10CodingKeysO", "formatCode"]
+- ["8CoreXLSX9CellStyleV10CodingKeysO", "formatId"]
+- ["8CoreXLSX10CellStylesV10CodingKeysO", "hash"]
+- ["8CoreXLSX10TableStyleV10CodingKeysO", "hash"]
+- ["8CoreXLSX11CellFormatsV10CodingKeysO", "hash"]
+- ["8CoreXLSX11PatternFillV10CodingKeysO", "hash"]
+- ["8CoreXLSX11TableStylesV10CodingKeysO", "hash"]
+- ["8CoreXLSX12NumberFormatV10CodingKeysO", "hash"]
+- ["8CoreXLSX13NumberFormatsV10CodingKeysO", "hash"]
+- ["8CoreXLSX16CellStyleFormatsV10CodingKeysO", "hash"]
+- ["8CoreXLSX19DifferentialFormatsV10CodingKeysO", "hash"]
+- ["8CoreXLSX4FontV10CodingKeysO", "hash"]
+- ["8CoreXLSX4FontV4BoldV10CodingKeysO", "hash"]
+- ["8CoreXLSX4FontV4NameV10CodingKeysO", "hash"]
+- ["8CoreXLSX4FontV4SizeV10CodingKeysO", "hash"]
+- ["8CoreXLSX4FontV6ItalicV10CodingKeysO", "hash"]
+- ["8CoreXLSX4FontV6StrikeV10CodingKeysO", "hash"]
+- ["8CoreXLSX5FillsV10CodingKeysO", "hash"]
+- ["8CoreXLSX5FontsV10CodingKeysO", "hash"]
+- ["8CoreXLSX6ColorsV10CodingKeysO", "hash"]
+- ["8CoreXLSX6ColorsV7IndexedV10CodingKeysO", "hash"]
+- ["8CoreXLSX6FormatV10CodingKeysO", "hash"]
+- ["8CoreXLSX6StylesV10CodingKeysO", "hash"]
+- ["8CoreXLSX7BordersV10CodingKeysO", "hash"]
+- ["8CoreXLSX9CellStyleV10CodingKeysO", "hash"]
+- ["8CoreXLSX10CellStylesV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX10TableStyleV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX11CellFormatsV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX11PatternFillV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX11TableStylesV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX12NumberFormatV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX13NumberFormatsV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX16CellStyleFormatsV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX19DifferentialFormatsV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX4FontV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX4FontV4BoldV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX4FontV4NameV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX4FontV4SizeV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX4FontV6ItalicV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX4FontV6StrikeV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX5FillsV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX5FontsV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX6ColorsV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX6ColorsV7IndexedV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX6FormatV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX6StylesV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX7BordersV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX9CellStyleV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX12NumberFormatV10CodingKeysO", "id"]
+- ["8CoreXLSX6ColorsV10CodingKeysO", "indexed"]
+- ["8CoreXLSX10CellStylesV10CodingKeysO", "init"]
+- ["8CoreXLSX10TableStyleV10CodingKeysO", "init"]
+- ["8CoreXLSX11CellFormatsV10CodingKeysO", "init"]
+- ["8CoreXLSX11PatternFillV10CodingKeysO", "init"]
+- ["8CoreXLSX11TableStylesV10CodingKeysO", "init"]
+- ["8CoreXLSX12NumberFormatV10CodingKeysO", "init"]
+- ["8CoreXLSX13NumberFormatsV10CodingKeysO", "init"]
+- ["8CoreXLSX16CellStyleFormatsV10CodingKeysO", "init"]
+- ["8CoreXLSX19DifferentialFormatsV10CodingKeysO", "init"]
+- ["8CoreXLSX4FontV10CodingKeysO", "init"]
+- ["8CoreXLSX4FontV4BoldV10CodingKeysO", "init"]
+- ["8CoreXLSX4FontV4NameV10CodingKeysO", "init"]
+- ["8CoreXLSX4FontV4SizeV10CodingKeysO", "init"]
+- ["8CoreXLSX4FontV6ItalicV10CodingKeysO", "init"]
+- ["8CoreXLSX4FontV6StrikeV10CodingKeysO", "init"]
+- ["8CoreXLSX5FillsV10CodingKeysO", "init"]
+- ["8CoreXLSX5FontsV10CodingKeysO", "init"]
+- ["8CoreXLSX6ColorsV10CodingKeysO", "init"]
+- ["8CoreXLSX6ColorsV7IndexedV10CodingKeysO", "init"]
+- ["8CoreXLSX6FormatV10CodingKeysO", "init"]
+- ["8CoreXLSX6StylesV10CodingKeysO", "init"]
+- ["8CoreXLSX7BordersV10CodingKeysO", "init"]
+- ["8CoreXLSX9CellStyleV10CodingKeysO", "init"]
+- ["8CoreXLSX10CellStylesV10CodingKeysO", "intValue"]
+- ["8CoreXLSX10TableStyleV10CodingKeysO", "intValue"]
+- ["8CoreXLSX11CellFormatsV10CodingKeysO", "intValue"]
+- ["8CoreXLSX11PatternFillV10CodingKeysO", "intValue"]
+- ["8CoreXLSX11TableStylesV10CodingKeysO", "intValue"]
+- ["8CoreXLSX12NumberFormatV10CodingKeysO", "intValue"]
+- ["8CoreXLSX13NumberFormatsV10CodingKeysO", "intValue"]
+- ["8CoreXLSX16CellStyleFormatsV10CodingKeysO", "intValue"]
+- ["8CoreXLSX19DifferentialFormatsV10CodingKeysO", "intValue"]
+- ["8CoreXLSX4FontV10CodingKeysO", "intValue"]
+- ["8CoreXLSX4FontV4BoldV10CodingKeysO", "intValue"]
+- ["8CoreXLSX4FontV4NameV10CodingKeysO", "intValue"]
+- ["8CoreXLSX4FontV4SizeV10CodingKeysO", "intValue"]
+- ["8CoreXLSX4FontV6ItalicV10CodingKeysO", "intValue"]
+- ["8CoreXLSX4FontV6StrikeV10CodingKeysO", "intValue"]
+- ["8CoreXLSX5FillsV10CodingKeysO", "intValue"]
+- ["8CoreXLSX5FontsV10CodingKeysO", "intValue"]
+- ["8CoreXLSX6ColorsV10CodingKeysO", "intValue"]
+- ["8CoreXLSX6ColorsV7IndexedV10CodingKeysO", "intValue"]
+- ["8CoreXLSX6FormatV10CodingKeysO", "intValue"]
+- ["8CoreXLSX6StylesV10CodingKeysO", "intValue"]
+- ["8CoreXLSX7BordersV10CodingKeysO", "intValue"]
+- ["8CoreXLSX9CellStyleV10CodingKeysO", "intValue"]
+- ["8CoreXLSX4FontV10CodingKeysO", "italic"]
+- ["8CoreXLSX10CellStylesV10CodingKeysO", "items"]
+- ["8CoreXLSX11CellFormatsV10CodingKeysO", "items"]
+- ["8CoreXLSX11TableStylesV10CodingKeysO", "items"]
+- ["8CoreXLSX13NumberFormatsV10CodingKeysO", "items"]
+- ["8CoreXLSX16CellStyleFormatsV10CodingKeysO", "items"]
+- ["8CoreXLSX19DifferentialFormatsV10CodingKeysO", "items"]
+- ["8CoreXLSX5FillsV10CodingKeysO", "items"]
+- ["8CoreXLSX5FontsV10CodingKeysO", "items"]
+- ["8CoreXLSX7BordersV10CodingKeysO", "items"]
+- ["8CoreXLSX10TableStyleV10CodingKeysO", "name"]
+- ["8CoreXLSX4FontV10CodingKeysO", "name"]
+- ["8CoreXLSX9CellStyleV10CodingKeysO", "name"]
+- ["8CoreXLSX6FormatV10CodingKeysO", "numberFormatId"]
+- ["8CoreXLSX6StylesV10CodingKeysO", "numberFormats"]
+- ["8CoreXLSX11PatternFillV10CodingKeysO", "patternType"]
+- ["8CoreXLSX10TableStyleV10CodingKeysO", "pivot"]
+- ["8CoreXLSX10CellStylesV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX10TableStyleV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX11CellFormatsV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX11PatternFillV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX11TableStylesV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX12NumberFormatV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX13NumberFormatsV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX16CellStyleFormatsV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX19DifferentialFormatsV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX4FontV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX4FontV4BoldV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX4FontV4NameV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX4FontV4SizeV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX4FontV6ItalicV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX4FontV6StrikeV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX5FillsV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX5FontsV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX6ColorsV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX6ColorsV7IndexedV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX6FormatV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX6StylesV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX7BordersV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX9CellStyleV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX6ColorsV7IndexedV10CodingKeysO", "rgbColors"]
+- ["8CoreXLSX4FontV10CodingKeysO", "size"]
+- ["8CoreXLSX4FontV10CodingKeysO", "strike"]
+- ["8CoreXLSX10CellStylesV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX10TableStyleV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX11CellFormatsV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX11PatternFillV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX11TableStylesV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX12NumberFormatV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX13NumberFormatsV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX16CellStyleFormatsV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX19DifferentialFormatsV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX4FontV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX4FontV4BoldV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX4FontV4NameV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX4FontV4SizeV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX4FontV6ItalicV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX4FontV6StrikeV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX5FillsV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX5FontsV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX6ColorsV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX6ColorsV7IndexedV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX6FormatV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX6StylesV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX7BordersV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX9CellStyleV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX6StylesV10CodingKeysO", "tableStyles"]
+- ["8CoreXLSX4FontV4BoldV10CodingKeysO", "value"]
+- ["8CoreXLSX4FontV4NameV10CodingKeysO", "value"]
+- ["8CoreXLSX4FontV4SizeV10CodingKeysO", "value"]
+- ["8CoreXLSX4FontV6ItalicV10CodingKeysO", "value"]
+- ["8CoreXLSX4FontV6StrikeV10CodingKeysO", "value"]
+- !private ["Sl", "map"]
+- ["8CoreXLSX5ColorV", "=="]
+- ["8CoreXLSX5ColorV", "Int"]
+- ["8CoreXLSX5ColorV", "String"]
+- ["8CoreXLSX5ColorV", "__derived_struct_equals"]
+- ["8CoreXLSX5ColorV", "auto"]
+- ["8CoreXLSX5ColorV", "deinit"]
+- ["8CoreXLSX5ColorV", "encode"]
+- ["8CoreXLSX5ColorV", "indexed"]
+- ["8CoreXLSX5ColorV", "init"]
+- ["8CoreXLSX5ColorV", "rgb"]
+- ["8CoreXLSX6ColorsV", "=="]
+- ["8CoreXLSX6ColorsV", "Codable"]
+- ["8CoreXLSX6ColorsV", "CodingKey"]
+- ["8CoreXLSX6ColorsV", "CodingKeys"]
+- ["8CoreXLSX6ColorsV", "Color"]
+- ["8CoreXLSX6ColorsV", "Equatable"]
+- ["8CoreXLSX6ColorsV", "Indexed"]
+- ["8CoreXLSX6ColorsV", "String"]
+- ["8CoreXLSX6ColorsV", "__derived_struct_equals"]
+- !private ["8CoreXLSX6ColorsV", "_findStringSwitchCase"]
+- ["8CoreXLSX6ColorsV", "deinit"]
+- ["8CoreXLSX6ColorsV", "encode"]
+- ["8CoreXLSX6ColorsV", "indexed"]
+- ["8CoreXLSX6ColorsV", "init"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "items"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s17CustomReflectableP", "map"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "items"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- ["Se", "=="]
+- !private ["Se", "Border"]
+- !private ["Se", "CodingKeys"]
+- !private ["Se", "Font"]
+- !private ["Se", "Int"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "alignment"]
+- !private ["Se", "applyAlignment"]
+- !private ["Se", "applyBorder"]
+- !private ["Se", "applyFill"]
+- !private ["Se", "applyFont"]
+- !private ["Se", "applyNumberFormat"]
+- !private ["Se", "applyProtection"]
+- !private ["Se", "auto"]
+- !private ["Se", "backgroundColor"]
+- !private ["Se", "bold"]
+- !private ["Se", "border"]
+- !private ["Se", "borderId"]
+- !private ["Se", "borders"]
+- !private ["Se", "bottom"]
+- !private ["Se", "builtinId"]
+- !private ["Se", "cellFormats"]
+- !private ["Se", "cellStyleFormats"]
+- !private ["Se", "cellStyles"]
+- !private ["Se", "color"]
+- !private ["Se", "colors"]
+- !private ["Se", "count"]
+- !private ["Se", "diagonal"]
+- !private ["Se", "differentialFormats"]
+- !private ["Se", "elements"]
+- ["Se", "encode"]
+- !private ["Se", "fillId"]
+- !private ["Se", "fills"]
+- !private ["Se", "font"]
+- !private ["Se", "fontId"]
+- !private ["Se", "fonts"]
+- !private ["Se", "foregroundColor"]
+- !private ["Se", "formatCode"]
+- !private ["Se", "formatId"]
+- !private ["Se", "horizontal"]
+- !private ["Se", "id"]
+- !private ["Se", "indexed"]
+- ["Se", "init"]
+- !private ["Se", "italic"]
+- !private ["Se", "items"]
+- !private ["Se", "left"]
+- !private ["Se", "map"]
+- !private ["Se", "name"]
+- !private ["Se", "numberFormatId"]
+- !private ["Se", "numberFormats"]
+- !private ["Se", "patternFill"]
+- !private ["Se", "patternType"]
+- !private ["Se", "pivot"]
+- !private ["Se", "rgb"]
+- !private ["Se", "rgbColors"]
+- !private ["Se", "right"]
+- !private ["Se", "size"]
+- !private ["Se", "strike"]
+- !private ["Se", "style"]
+- !private ["Se", "tableStyles"]
+- !private ["Se", "top"]
+- !private ["Se", "type"]
+- !private ["Se", "value"]
+- !private ["Se", "vertical"]
+- !private ["Se", "wrapText"]
+- !private ["s7DecoderP", "container"]
+- ["8CoreXLSX18DifferentialFormatV", "=="]
+- ["8CoreXLSX18DifferentialFormatV", "Border"]
+- ["8CoreXLSX18DifferentialFormatV", "Font"]
+- ["8CoreXLSX18DifferentialFormatV", "__derived_struct_equals"]
+- ["8CoreXLSX18DifferentialFormatV", "border"]
+- ["8CoreXLSX18DifferentialFormatV", "deinit"]
+- ["8CoreXLSX18DifferentialFormatV", "encode"]
+- ["8CoreXLSX18DifferentialFormatV", "font"]
+- ["8CoreXLSX18DifferentialFormatV", "init"]
+- ["8CoreXLSX19DifferentialFormatsV", "=="]
+- ["8CoreXLSX19DifferentialFormatsV", "CodingKey"]
+- ["8CoreXLSX19DifferentialFormatsV", "CodingKeys"]
+- ["8CoreXLSX19DifferentialFormatsV", "Format"]
+- ["8CoreXLSX19DifferentialFormatsV", "Int"]
+- ["8CoreXLSX19DifferentialFormatsV", "String"]
+- ["8CoreXLSX19DifferentialFormatsV", "__derived_struct_equals"]
+- !private ["8CoreXLSX19DifferentialFormatsV", "_findStringSwitchCase"]
+- ["8CoreXLSX19DifferentialFormatsV", "count"]
+- ["8CoreXLSX19DifferentialFormatsV", "deinit"]
+- ["8CoreXLSX19DifferentialFormatsV", "encode"]
+- ["8CoreXLSX19DifferentialFormatsV", "init"]
+- ["8CoreXLSX19DifferentialFormatsV", "items"]
+- !private ["8XMLCoder19DynamicNodeEncodingP", "map"]
+- ["8CoreXLSX10TableStyleV7ElementV", "=="]
+- ["8CoreXLSX10TableStyleV7ElementV", "String"]
+- ["8CoreXLSX10TableStyleV7ElementV", "__derived_struct_equals"]
+- ["8CoreXLSX10TableStyleV7ElementV", "deinit"]
+- ["8CoreXLSX10TableStyleV7ElementV", "encode"]
+- ["8CoreXLSX10TableStyleV7ElementV", "init"]
+- ["8CoreXLSX10TableStyleV7ElementV", "type"]
+- ["SE", "=="]
+- !private ["SE", "Border"]
+- !private ["SE", "CodingKeys"]
+- !private ["SE", "Font"]
+- !private ["SE", "Int"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "alignment"]
+- !private ["SE", "applyAlignment"]
+- !private ["SE", "applyBorder"]
+- !private ["SE", "applyFill"]
+- !private ["SE", "applyFont"]
+- !private ["SE", "applyNumberFormat"]
+- !private ["SE", "applyProtection"]
+- !private ["SE", "auto"]
+- !private ["SE", "backgroundColor"]
+- !private ["SE", "bold"]
+- !private ["SE", "border"]
+- !private ["SE", "borderId"]
+- !private ["SE", "borders"]
+- !private ["SE", "bottom"]
+- !private ["SE", "builtinId"]
+- !private ["SE", "cellFormats"]
+- !private ["SE", "cellStyleFormats"]
+- !private ["SE", "cellStyles"]
+- !private ["SE", "color"]
+- !private ["SE", "colors"]
+- !private ["SE", "count"]
+- !private ["SE", "diagonal"]
+- !private ["SE", "differentialFormats"]
+- !private ["SE", "elements"]
+- ["SE", "encode"]
+- !private ["SE", "fillId"]
+- !private ["SE", "fills"]
+- !private ["SE", "font"]
+- !private ["SE", "fontId"]
+- !private ["SE", "fonts"]
+- !private ["SE", "foregroundColor"]
+- !private ["SE", "formatCode"]
+- !private ["SE", "formatId"]
+- !private ["SE", "horizontal"]
+- !private ["SE", "id"]
+- !private ["SE", "indexed"]
+- ["SE", "init"]
+- !private ["SE", "italic"]
+- !private ["SE", "items"]
+- !private ["SE", "left"]
+- !private ["SE", "map"]
+- !private ["SE", "name"]
+- !private ["SE", "numberFormatId"]
+- !private ["SE", "numberFormats"]
+- !private ["SE", "patternFill"]
+- !private ["SE", "patternType"]
+- !private ["SE", "pivot"]
+- !private ["SE", "rgb"]
+- !private ["SE", "rgbColors"]
+- !private ["SE", "right"]
+- !private ["SE", "size"]
+- !private ["SE", "strike"]
+- !private ["SE", "style"]
+- !private ["SE", "tableStyles"]
+- !private ["SE", "top"]
+- !private ["SE", "type"]
+- !private ["SE", "value"]
+- !private ["SE", "vertical"]
+- !private ["SE", "wrapText"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- !private ["SQ", "Border"]
+- !private ["SQ", "CodingKeys"]
+- !private ["SQ", "Font"]
+- !private ["SQ", "Int"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "alignment"]
+- !private ["SQ", "applyAlignment"]
+- !private ["SQ", "applyBorder"]
+- !private ["SQ", "applyFill"]
+- !private ["SQ", "applyFont"]
+- !private ["SQ", "applyNumberFormat"]
+- !private ["SQ", "applyProtection"]
+- !private ["SQ", "auto"]
+- !private ["SQ", "backgroundColor"]
+- !private ["SQ", "bold"]
+- !private ["SQ", "border"]
+- !private ["SQ", "borderId"]
+- !private ["SQ", "borders"]
+- !private ["SQ", "bottom"]
+- !private ["SQ", "builtinId"]
+- !private ["SQ", "cellFormats"]
+- !private ["SQ", "cellStyleFormats"]
+- !private ["SQ", "cellStyles"]
+- !private ["SQ", "color"]
+- !private ["SQ", "colors"]
+- !private ["SQ", "count"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- !private ["SQ", "diagonal"]
+- !private ["SQ", "differentialFormats"]
+- !private ["SQ", "elements"]
+- ["SQ", "encode"]
+- !private ["SQ", "fillId"]
+- !private ["SQ", "fills"]
+- !private ["SQ", "font"]
+- !private ["SQ", "fontId"]
+- !private ["SQ", "fonts"]
+- !private ["SQ", "foregroundColor"]
+- !private ["SQ", "formatCode"]
+- !private ["SQ", "formatId"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "horizontal"]
+- !private ["SQ", "id"]
+- !private ["SQ", "indexed"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "italic"]
+- !private ["SQ", "items"]
+- !private ["SQ", "left"]
+- !private ["SQ", "map"]
+- !private ["SQ", "name"]
+- !private ["SQ", "numberFormatId"]
+- !private ["SQ", "numberFormats"]
+- !private ["SQ", "patternFill"]
+- !private ["SQ", "patternType"]
+- !private ["SQ", "pivot"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "rgb"]
+- !private ["SQ", "rgbColors"]
+- !private ["SQ", "right"]
+- !private ["SQ", "size"]
+- !private ["SQ", "strike"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "style"]
+- !private ["SQ", "tableStyles"]
+- !private ["SQ", "top"]
+- !private ["SQ", "type"]
+- !private ["SQ", "value"]
+- !private ["SQ", "vertical"]
+- !private ["SQ", "wrapText"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- ["8CoreXLSX4FillV", "=="]
+- ["8CoreXLSX4FillV", "PatternFill"]
+- ["8CoreXLSX4FillV", "__derived_struct_equals"]
+- ["8CoreXLSX4FillV", "deinit"]
+- ["8CoreXLSX4FillV", "encode"]
+- ["8CoreXLSX4FillV", "init"]
+- ["8CoreXLSX4FillV", "patternFill"]
+- ["8CoreXLSX5FillsV", "=="]
+- ["8CoreXLSX5FillsV", "CodingKey"]
+- ["8CoreXLSX5FillsV", "CodingKeys"]
+- ["8CoreXLSX5FillsV", "Fill"]
+- ["8CoreXLSX5FillsV", "Int"]
+- ["8CoreXLSX5FillsV", "String"]
+- ["8CoreXLSX5FillsV", "__derived_struct_equals"]
+- !private ["8CoreXLSX5FillsV", "_findStringSwitchCase"]
+- ["8CoreXLSX5FillsV", "count"]
+- ["8CoreXLSX5FillsV", "deinit"]
+- ["8CoreXLSX5FillsV", "encode"]
+- ["8CoreXLSX5FillsV", "init"]
+- ["8CoreXLSX5FillsV", "items"]
+- ["8CoreXLSX4FontV", "=="]
+- ["8CoreXLSX4FontV", "Bold"]
+- ["8CoreXLSX4FontV", "Bool"]
+- ["8CoreXLSX4FontV", "Codable"]
+- ["8CoreXLSX4FontV", "CodingKey"]
+- ["8CoreXLSX4FontV", "CodingKeys"]
+- ["8CoreXLSX4FontV", "Color"]
+- ["8CoreXLSX4FontV", "Double"]
+- ["8CoreXLSX4FontV", "Equatable"]
+- ["8CoreXLSX4FontV", "Italic"]
+- ["8CoreXLSX4FontV", "Name"]
+- ["8CoreXLSX4FontV", "Size"]
+- ["8CoreXLSX4FontV", "Strike"]
+- ["8CoreXLSX4FontV", "String"]
+- ["8CoreXLSX4FontV", "__derived_struct_equals"]
+- !private ["8CoreXLSX4FontV", "_findStringSwitchCase"]
+- ["8CoreXLSX4FontV", "bold"]
+- ["8CoreXLSX4FontV", "color"]
+- ["8CoreXLSX4FontV", "deinit"]
+- ["8CoreXLSX4FontV", "encode"]
+- ["8CoreXLSX4FontV", "init"]
+- ["8CoreXLSX4FontV", "italic"]
+- ["8CoreXLSX4FontV", "name"]
+- ["8CoreXLSX4FontV", "size"]
+- ["8CoreXLSX4FontV", "strike"]
+- ["8CoreXLSX5FontsV", "=="]
+- ["8CoreXLSX5FontsV", "CodingKey"]
+- ["8CoreXLSX5FontsV", "CodingKeys"]
+- ["8CoreXLSX5FontsV", "Decoder"]
+- ["8CoreXLSX5FontsV", "Font"]
+- ["8CoreXLSX5FontsV", "Int"]
+- ["8CoreXLSX5FontsV", "String"]
+- ["8CoreXLSX5FontsV", "__derived_struct_equals"]
+- !private ["8CoreXLSX5FontsV", "_findStringSwitchCase"]
+- ["8CoreXLSX5FontsV", "count"]
+- ["8CoreXLSX5FontsV", "deinit"]
+- ["8CoreXLSX5FontsV", "encode"]
+- ["8CoreXLSX5FontsV", "init"]
+- ["8CoreXLSX5FontsV", "items"]
+- ["8CoreXLSX6FormatV", "=="]
+- ["8CoreXLSX6FormatV", "Alignment"]
+- ["8CoreXLSX6FormatV", "Bool"]
+- ["8CoreXLSX6FormatV", "Codable"]
+- ["8CoreXLSX6FormatV", "CodingKey"]
+- ["8CoreXLSX6FormatV", "CodingKeys"]
+- ["8CoreXLSX6FormatV", "Equatable"]
+- ["8CoreXLSX6FormatV", "Int"]
+- ["8CoreXLSX6FormatV", "String"]
+- ["8CoreXLSX6FormatV", "__derived_struct_equals"]
+- !private ["8CoreXLSX6FormatV", "_findStringSwitchCase"]
+- ["8CoreXLSX6FormatV", "alignment"]
+- ["8CoreXLSX6FormatV", "applyAlignment"]
+- ["8CoreXLSX6FormatV", "applyBorder"]
+- ["8CoreXLSX6FormatV", "applyFill"]
+- ["8CoreXLSX6FormatV", "applyFont"]
+- ["8CoreXLSX6FormatV", "applyNumberFormat"]
+- ["8CoreXLSX6FormatV", "applyProtection"]
+- ["8CoreXLSX6FormatV", "borderId"]
+- ["8CoreXLSX6FormatV", "deinit"]
+- ["8CoreXLSX6FormatV", "encode"]
+- ["8CoreXLSX6FormatV", "fillId"]
+- ["8CoreXLSX6FormatV", "fontId"]
+- ["8CoreXLSX6FormatV", "init"]
+- ["8CoreXLSX6FormatV", "numberFormatId"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "count"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "items"]
+- !private ["SH", "map"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- ["8CoreXLSX6ColorsV7IndexedV", "=="]
+- ["8CoreXLSX6ColorsV7IndexedV", "CodingKey"]
+- ["8CoreXLSX6ColorsV7IndexedV", "CodingKeys"]
+- ["8CoreXLSX6ColorsV7IndexedV", "Color"]
+- ["8CoreXLSX6ColorsV7IndexedV", "String"]
+- ["8CoreXLSX6ColorsV7IndexedV", "__derived_struct_equals"]
+- !private ["8CoreXLSX6ColorsV7IndexedV", "_findStringSwitchCase"]
+- ["8CoreXLSX6ColorsV7IndexedV", "deinit"]
+- ["8CoreXLSX6ColorsV7IndexedV", "encode"]
+- ["8CoreXLSX6ColorsV7IndexedV", "init"]
+- ["8CoreXLSX6ColorsV7IndexedV", "rgbColors"]
+- ["8CoreXLSX4FontV6ItalicV", "=="]
+- ["8CoreXLSX4FontV6ItalicV", "Bool"]
+- ["8CoreXLSX4FontV6ItalicV", "CodingKey"]
+- ["8CoreXLSX4FontV6ItalicV", "CodingKeys"]
+- ["8CoreXLSX4FontV6ItalicV", "String"]
+- ["8CoreXLSX4FontV6ItalicV", "__derived_struct_equals"]
+- !private ["8CoreXLSX4FontV6ItalicV", "_findStringSwitchCase"]
+- ["8CoreXLSX4FontV6ItalicV", "deinit"]
+- ["8CoreXLSX4FontV6ItalicV", "encode"]
+- ["8CoreXLSX4FontV6ItalicV", "init"]
+- ["8CoreXLSX4FontV6ItalicV", "value"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- ["8CoreXLSX4FontV4NameV", "=="]
+- ["8CoreXLSX4FontV4NameV", "CodingKey"]
+- ["8CoreXLSX4FontV4NameV", "CodingKeys"]
+- ["8CoreXLSX4FontV4NameV", "String"]
+- ["8CoreXLSX4FontV4NameV", "__derived_struct_equals"]
+- !private ["8CoreXLSX4FontV4NameV", "_findStringSwitchCase"]
+- ["8CoreXLSX4FontV4NameV", "deinit"]
+- ["8CoreXLSX4FontV4NameV", "encode"]
+- ["8CoreXLSX4FontV4NameV", "init"]
+- ["8CoreXLSX4FontV4NameV", "value"]
+- ["8CoreXLSX12NumberFormatV", "=="]
+- ["8CoreXLSX12NumberFormatV", "CodingKey"]
+- ["8CoreXLSX12NumberFormatV", "CodingKeys"]
+- ["8CoreXLSX12NumberFormatV", "Int"]
+- ["8CoreXLSX12NumberFormatV", "String"]
+- ["8CoreXLSX12NumberFormatV", "__derived_struct_equals"]
+- !private ["8CoreXLSX12NumberFormatV", "_findStringSwitchCase"]
+- ["8CoreXLSX12NumberFormatV", "deinit"]
+- ["8CoreXLSX12NumberFormatV", "encode"]
+- ["8CoreXLSX12NumberFormatV", "formatCode"]
+- ["8CoreXLSX12NumberFormatV", "id"]
+- ["8CoreXLSX12NumberFormatV", "init"]
+- ["8CoreXLSX13NumberFormatsV", "=="]
+- ["8CoreXLSX13NumberFormatsV", "CodingKey"]
+- ["8CoreXLSX13NumberFormatsV", "CodingKeys"]
+- ["8CoreXLSX13NumberFormatsV", "Int"]
+- ["8CoreXLSX13NumberFormatsV", "NumberFormat"]
+- ["8CoreXLSX13NumberFormatsV", "String"]
+- ["8CoreXLSX13NumberFormatsV", "__derived_struct_equals"]
+- !private ["8CoreXLSX13NumberFormatsV", "_findStringSwitchCase"]
+- ["8CoreXLSX13NumberFormatsV", "count"]
+- ["8CoreXLSX13NumberFormatsV", "deinit"]
+- ["8CoreXLSX13NumberFormatsV", "encode"]
+- ["8CoreXLSX13NumberFormatsV", "init"]
+- ["8CoreXLSX13NumberFormatsV", "items"]
+- ["8CoreXLSX11PatternFillV", "=="]
+- ["8CoreXLSX11PatternFillV", "CodingKey"]
+- ["8CoreXLSX11PatternFillV", "CodingKeys"]
+- ["8CoreXLSX11PatternFillV", "Color"]
+- ["8CoreXLSX11PatternFillV", "String"]
+- ["8CoreXLSX11PatternFillV", "__derived_struct_equals"]
+- !private ["8CoreXLSX11PatternFillV", "_findStringSwitchCase"]
+- ["8CoreXLSX11PatternFillV", "backgroundColor"]
+- ["8CoreXLSX11PatternFillV", "deinit"]
+- ["8CoreXLSX11PatternFillV", "encode"]
+- ["8CoreXLSX11PatternFillV", "foregroundColor"]
+- ["8CoreXLSX11PatternFillV", "init"]
+- ["8CoreXLSX11PatternFillV", "patternType"]
+- !private ["Sk", "map"]
+- !private ["Sm", "map"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "count"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- !private ["SY", "items"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- !private ["ST", "map"]
+- ["8CoreXLSX4FontV4SizeV", "=="]
+- ["8CoreXLSX4FontV4SizeV", "CodingKey"]
+- ["8CoreXLSX4FontV4SizeV", "CodingKeys"]
+- ["8CoreXLSX4FontV4SizeV", "Double"]
+- ["8CoreXLSX4FontV4SizeV", "String"]
+- ["8CoreXLSX4FontV4SizeV", "__derived_struct_equals"]
+- !private ["8CoreXLSX4FontV4SizeV", "_findStringSwitchCase"]
+- ["8CoreXLSX4FontV4SizeV", "deinit"]
+- ["8CoreXLSX4FontV4SizeV", "encode"]
+- ["8CoreXLSX4FontV4SizeV", "init"]
+- ["8CoreXLSX4FontV4SizeV", "value"]
+- ["8CoreXLSX4FontV6StrikeV", "=="]
+- ["8CoreXLSX4FontV6StrikeV", "Bool"]
+- ["8CoreXLSX4FontV6StrikeV", "CodingKey"]
+- ["8CoreXLSX4FontV6StrikeV", "CodingKeys"]
+- ["8CoreXLSX4FontV6StrikeV", "String"]
+- ["8CoreXLSX4FontV6StrikeV", "__derived_struct_equals"]
+- !private ["8CoreXLSX4FontV6StrikeV", "_findStringSwitchCase"]
+- ["8CoreXLSX4FontV6StrikeV", "deinit"]
+- ["8CoreXLSX4FontV6StrikeV", "encode"]
+- ["8CoreXLSX4FontV6StrikeV", "init"]
+- ["8CoreXLSX4FontV6StrikeV", "value"]
+- ["8CoreXLSX6StylesV", "=="]
+- ["8CoreXLSX6StylesV", "Borders"]
+- ["8CoreXLSX6StylesV", "CellFormats"]
+- ["8CoreXLSX6StylesV", "CellStyleFormats"]
+- ["8CoreXLSX6StylesV", "CellStyles"]
+- ["8CoreXLSX6StylesV", "CodingKey"]
+- ["8CoreXLSX6StylesV", "CodingKeys"]
+- ["8CoreXLSX6StylesV", "Colors"]
+- ["8CoreXLSX6StylesV", "DifferentialFormats"]
+- ["8CoreXLSX6StylesV", "Fills"]
+- ["8CoreXLSX6StylesV", "Fonts"]
+- ["8CoreXLSX6StylesV", "NumberFormats"]
+- ["8CoreXLSX6StylesV", "String"]
+- ["8CoreXLSX6StylesV", "TableStyles"]
+- ["8CoreXLSX6StylesV", "__derived_struct_equals"]
+- !private ["8CoreXLSX6StylesV", "_findStringSwitchCase"]
+- ["8CoreXLSX6StylesV", "borders"]
+- ["8CoreXLSX6StylesV", "cellFormats"]
+- ["8CoreXLSX6StylesV", "cellStyleFormats"]
+- ["8CoreXLSX6StylesV", "cellStyles"]
+- ["8CoreXLSX6StylesV", "colors"]
+- ["8CoreXLSX6StylesV", "deinit"]
+- ["8CoreXLSX6StylesV", "differentialFormats"]
+- ["8CoreXLSX6StylesV", "encode"]
+- ["8CoreXLSX6StylesV", "fills"]
+- ["8CoreXLSX6StylesV", "fonts"]
+- ["8CoreXLSX6StylesV", "init"]
+- ["8CoreXLSX6StylesV", "numberFormats"]
+- ["8CoreXLSX6StylesV", "tableStyles"]
+- ["8CoreXLSX10TableStyleV", "=="]
+- ["8CoreXLSX10TableStyleV", "Bool"]
+- ["8CoreXLSX10TableStyleV", "Codable"]
+- ["8CoreXLSX10TableStyleV", "CodingKey"]
+- ["8CoreXLSX10TableStyleV", "CodingKeys"]
+- ["8CoreXLSX10TableStyleV", "Element"]
+- ["8CoreXLSX10TableStyleV", "Equatable"]
+- ["8CoreXLSX10TableStyleV", "Int"]
+- ["8CoreXLSX10TableStyleV", "String"]
+- ["8CoreXLSX10TableStyleV", "__derived_struct_equals"]
+- !private ["8CoreXLSX10TableStyleV", "_findStringSwitchCase"]
+- ["8CoreXLSX10TableStyleV", "count"]
+- ["8CoreXLSX10TableStyleV", "deinit"]
+- ["8CoreXLSX10TableStyleV", "elements"]
+- ["8CoreXLSX10TableStyleV", "encode"]
+- ["8CoreXLSX10TableStyleV", "init"]
+- ["8CoreXLSX10TableStyleV", "name"]
+- ["8CoreXLSX10TableStyleV", "pivot"]
+- ["8CoreXLSX11TableStylesV", "=="]
+- ["8CoreXLSX11TableStylesV", "CodingKey"]
+- ["8CoreXLSX11TableStylesV", "CodingKeys"]
+- ["8CoreXLSX11TableStylesV", "Int"]
+- ["8CoreXLSX11TableStylesV", "String"]
+- ["8CoreXLSX11TableStylesV", "TableStyle"]
+- ["8CoreXLSX11TableStylesV", "__derived_struct_equals"]
+- !private ["8CoreXLSX11TableStylesV", "_findStringSwitchCase"]
+- ["8CoreXLSX11TableStylesV", "count"]
+- ["8CoreXLSX11TableStylesV", "deinit"]
+- ["8CoreXLSX11TableStylesV", "encode"]
+- ["8CoreXLSX11TableStylesV", "init"]
+- ["8CoreXLSX11TableStylesV", "items"]
+- ["8CoreXLSX6BorderV5ValueV", "=="]
+- ["8CoreXLSX6BorderV5ValueV", "Color"]
+- ["8CoreXLSX6BorderV5ValueV", "String"]
+- ["8CoreXLSX6BorderV5ValueV", "__derived_struct_equals"]
+- ["8CoreXLSX6BorderV5ValueV", "color"]
+- ["8CoreXLSX6BorderV5ValueV", "deinit"]
+- ["8CoreXLSX6BorderV5ValueV", "encode"]
+- ["8CoreXLSX6BorderV5ValueV", "init"]
+- ["8CoreXLSX6BorderV5ValueV", "style"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- "8CoreXLSX6FormatV9AlignmentV"
+- !private "8XMLCoder11AnySequenceP"
+- !private "Sa"
+- !private "SK"
+- "8CoreXLSX4FontV4BoldV"
+- "8CoreXLSX6BorderV"
+- "8CoreXLSX7BordersV"
+- !private "8XMLCoder3BoxP"
+- !private "s7CVarArgP"
+- "8CoreXLSX11CellFormatsV"
+- "8CoreXLSX9CellStyleV"
+- "8CoreXLSX16CellStyleFormatsV"
+- "8CoreXLSX10CellStylesV"
+- "s9CodingKeyP"
+- "8CoreXLSX10CellStylesV10CodingKeysO"
+- "8CoreXLSX10TableStyleV10CodingKeysO"
+- "8CoreXLSX11CellFormatsV10CodingKeysO"
+- "8CoreXLSX11PatternFillV10CodingKeysO"
+- "8CoreXLSX11TableStylesV10CodingKeysO"
+- "8CoreXLSX12NumberFormatV10CodingKeysO"
+- "8CoreXLSX13NumberFormatsV10CodingKeysO"
+- "8CoreXLSX16CellStyleFormatsV10CodingKeysO"
+- "8CoreXLSX19DifferentialFormatsV10CodingKeysO"
+- "8CoreXLSX4FontV10CodingKeysO"
+- "8CoreXLSX4FontV4BoldV10CodingKeysO"
+- "8CoreXLSX4FontV4NameV10CodingKeysO"
+- "8CoreXLSX4FontV4SizeV10CodingKeysO"
+- "8CoreXLSX4FontV6ItalicV10CodingKeysO"
+- "8CoreXLSX4FontV6StrikeV10CodingKeysO"
+- "8CoreXLSX5FillsV10CodingKeysO"
+- "8CoreXLSX5FontsV10CodingKeysO"
+- "8CoreXLSX6ColorsV10CodingKeysO"
+- "8CoreXLSX6ColorsV7IndexedV10CodingKeysO"
+- "8CoreXLSX6FormatV10CodingKeysO"
+- "8CoreXLSX6StylesV10CodingKeysO"
+- "8CoreXLSX7BordersV10CodingKeysO"
+- "8CoreXLSX9CellStyleV10CodingKeysO"
+- "8CoreXLSX10CellStylesV10CodingKeysO"
+- "8CoreXLSX10TableStyleV10CodingKeysO"
+- "8CoreXLSX11CellFormatsV10CodingKeysO"
+- "8CoreXLSX11PatternFillV10CodingKeysO"
+- "8CoreXLSX11TableStylesV10CodingKeysO"
+- "8CoreXLSX12NumberFormatV10CodingKeysO"
+- "8CoreXLSX13NumberFormatsV10CodingKeysO"
+- "8CoreXLSX16CellStyleFormatsV10CodingKeysO"
+- "8CoreXLSX19DifferentialFormatsV10CodingKeysO"
+- "8CoreXLSX4FontV10CodingKeysO"
+- "8CoreXLSX4FontV4BoldV10CodingKeysO"
+- "8CoreXLSX4FontV4NameV10CodingKeysO"
+- "8CoreXLSX4FontV4SizeV10CodingKeysO"
+- "8CoreXLSX4FontV6ItalicV10CodingKeysO"
+- "8CoreXLSX4FontV6StrikeV10CodingKeysO"
+- "8CoreXLSX5FillsV10CodingKeysO"
+- "8CoreXLSX5FontsV10CodingKeysO"
+- "8CoreXLSX6ColorsV10CodingKeysO"
+- "8CoreXLSX6ColorsV7IndexedV10CodingKeysO"
+- "8CoreXLSX6FormatV10CodingKeysO"
+- "8CoreXLSX6StylesV10CodingKeysO"
+- "8CoreXLSX7BordersV10CodingKeysO"
+- "8CoreXLSX9CellStyleV10CodingKeysO"
+- "8CoreXLSX10CellStylesV10CodingKeysO"
+- "8CoreXLSX10TableStyleV10CodingKeysO"
+- "8CoreXLSX11CellFormatsV10CodingKeysO"
+- "8CoreXLSX11PatternFillV10CodingKeysO"
+- "8CoreXLSX11TableStylesV10CodingKeysO"
+- "8CoreXLSX12NumberFormatV10CodingKeysO"
+- "8CoreXLSX13NumberFormatsV10CodingKeysO"
+- "8CoreXLSX16CellStyleFormatsV10CodingKeysO"
+- "8CoreXLSX19DifferentialFormatsV10CodingKeysO"
+- "8CoreXLSX4FontV10CodingKeysO"
+- "8CoreXLSX4FontV4BoldV10CodingKeysO"
+- "8CoreXLSX4FontV4NameV10CodingKeysO"
+- "8CoreXLSX4FontV4SizeV10CodingKeysO"
+- "8CoreXLSX4FontV6ItalicV10CodingKeysO"
+- "8CoreXLSX4FontV6StrikeV10CodingKeysO"
+- "8CoreXLSX5FillsV10CodingKeysO"
+- "8CoreXLSX5FontsV10CodingKeysO"
+- "8CoreXLSX6ColorsV10CodingKeysO"
+- "8CoreXLSX6ColorsV7IndexedV10CodingKeysO"
+- "8CoreXLSX6FormatV10CodingKeysO"
+- "8CoreXLSX6StylesV10CodingKeysO"
+- "8CoreXLSX7BordersV10CodingKeysO"
+- "8CoreXLSX9CellStyleV10CodingKeysO"
+- !private "8CoreXLSX10CellStylesV10CodingKeysO"
+- !private "8CoreXLSX10TableStyleV10CodingKeysO"
+- !private "8CoreXLSX11CellFormatsV10CodingKeysO"
+- !private "8CoreXLSX11PatternFillV10CodingKeysO"
+- !private "8CoreXLSX11TableStylesV10CodingKeysO"
+- !private "8CoreXLSX12NumberFormatV10CodingKeysO"
+- !private "8CoreXLSX13NumberFormatsV10CodingKeysO"
+- !private "8CoreXLSX16CellStyleFormatsV10CodingKeysO"
+- !private "8CoreXLSX19DifferentialFormatsV10CodingKeysO"
+- !private "8CoreXLSX4FontV10CodingKeysO"
+- !private "8CoreXLSX4FontV4BoldV10CodingKeysO"
+- !private "8CoreXLSX4FontV4NameV10CodingKeysO"
+- !private "8CoreXLSX4FontV4SizeV10CodingKeysO"
+- !private "8CoreXLSX4FontV6ItalicV10CodingKeysO"
+- !private "8CoreXLSX4FontV6StrikeV10CodingKeysO"
+- !private "8CoreXLSX5FillsV10CodingKeysO"
+- !private "8CoreXLSX5FontsV10CodingKeysO"
+- !private "8CoreXLSX6ColorsV10CodingKeysO"
+- !private "8CoreXLSX6ColorsV7IndexedV10CodingKeysO"
+- !private "8CoreXLSX6FormatV10CodingKeysO"
+- !private "8CoreXLSX6StylesV10CodingKeysO"
+- !private "8CoreXLSX7BordersV10CodingKeysO"
+- !private "8CoreXLSX9CellStyleV10CodingKeysO"
+- "8CoreXLSX10CellStylesV10CodingKeysO"
+- "8CoreXLSX10TableStyleV10CodingKeysO"
+- "8CoreXLSX11CellFormatsV10CodingKeysO"
+- "8CoreXLSX11PatternFillV10CodingKeysO"
+- "8CoreXLSX11TableStylesV10CodingKeysO"
+- "8CoreXLSX12NumberFormatV10CodingKeysO"
+- "8CoreXLSX13NumberFormatsV10CodingKeysO"
+- "8CoreXLSX16CellStyleFormatsV10CodingKeysO"
+- "8CoreXLSX19DifferentialFormatsV10CodingKeysO"
+- "8CoreXLSX4FontV10CodingKeysO"
+- "8CoreXLSX4FontV4BoldV10CodingKeysO"
+- "8CoreXLSX4FontV4NameV10CodingKeysO"
+- "8CoreXLSX4FontV4SizeV10CodingKeysO"
+- "8CoreXLSX4FontV6ItalicV10CodingKeysO"
+- "8CoreXLSX4FontV6StrikeV10CodingKeysO"
+- "8CoreXLSX5FillsV10CodingKeysO"
+- "8CoreXLSX5FontsV10CodingKeysO"
+- "8CoreXLSX6ColorsV10CodingKeysO"
+- "8CoreXLSX6ColorsV7IndexedV10CodingKeysO"
+- "8CoreXLSX6FormatV10CodingKeysO"
+- "8CoreXLSX6StylesV10CodingKeysO"
+- "8CoreXLSX7BordersV10CodingKeysO"
+- "8CoreXLSX9CellStyleV10CodingKeysO"
+- "8CoreXLSX6FormatV10CodingKeysO"
+- "8CoreXLSX11PatternFillV10CodingKeysO"
+- "8CoreXLSX4FontV10CodingKeysO"
+- "8CoreXLSX6FormatV10CodingKeysO"
+- "8CoreXLSX6StylesV10CodingKeysO"
+- "8CoreXLSX9CellStyleV10CodingKeysO"
+- "8CoreXLSX6StylesV10CodingKeysO"
+- "8CoreXLSX4FontV10CodingKeysO"
+- "8CoreXLSX6StylesV10CodingKeysO"
+- "8CoreXLSX10CellStylesV10CodingKeysO"
+- "8CoreXLSX10TableStyleV10CodingKeysO"
+- "8CoreXLSX11CellFormatsV10CodingKeysO"
+- "8CoreXLSX11TableStylesV10CodingKeysO"
+- "8CoreXLSX13NumberFormatsV10CodingKeysO"
+- "8CoreXLSX16CellStyleFormatsV10CodingKeysO"
+- "8CoreXLSX19DifferentialFormatsV10CodingKeysO"
+- "8CoreXLSX5FillsV10CodingKeysO"
+- "8CoreXLSX5FontsV10CodingKeysO"
+- "8CoreXLSX7BordersV10CodingKeysO"
+- "8CoreXLSX10CellStylesV10CodingKeysO"
+- "8CoreXLSX10TableStyleV10CodingKeysO"
+- "8CoreXLSX11CellFormatsV10CodingKeysO"
+- "8CoreXLSX11PatternFillV10CodingKeysO"
+- "8CoreXLSX11TableStylesV10CodingKeysO"
+- "8CoreXLSX12NumberFormatV10CodingKeysO"
+- "8CoreXLSX13NumberFormatsV10CodingKeysO"
+- "8CoreXLSX16CellStyleFormatsV10CodingKeysO"
+- "8CoreXLSX19DifferentialFormatsV10CodingKeysO"
+- "8CoreXLSX4FontV10CodingKeysO"
+- "8CoreXLSX4FontV4BoldV10CodingKeysO"
+- "8CoreXLSX4FontV4NameV10CodingKeysO"
+- "8CoreXLSX4FontV4SizeV10CodingKeysO"
+- "8CoreXLSX4FontV6ItalicV10CodingKeysO"
+- "8CoreXLSX4FontV6StrikeV10CodingKeysO"
+- "8CoreXLSX5FillsV10CodingKeysO"
+- "8CoreXLSX5FontsV10CodingKeysO"
+- "8CoreXLSX6ColorsV10CodingKeysO"
+- "8CoreXLSX6ColorsV7IndexedV10CodingKeysO"
+- "8CoreXLSX6FormatV10CodingKeysO"
+- "8CoreXLSX6StylesV10CodingKeysO"
+- "8CoreXLSX7BordersV10CodingKeysO"
+- "8CoreXLSX9CellStyleV10CodingKeysO"
+- "8CoreXLSX10CellStylesV10CodingKeysO"
+- "8CoreXLSX10TableStyleV10CodingKeysO"
+- "8CoreXLSX11CellFormatsV10CodingKeysO"
+- "8CoreXLSX11PatternFillV10CodingKeysO"
+- "8CoreXLSX11TableStylesV10CodingKeysO"
+- "8CoreXLSX12NumberFormatV10CodingKeysO"
+- "8CoreXLSX13NumberFormatsV10CodingKeysO"
+- "8CoreXLSX16CellStyleFormatsV10CodingKeysO"
+- "8CoreXLSX19DifferentialFormatsV10CodingKeysO"
+- "8CoreXLSX4FontV10CodingKeysO"
+- "8CoreXLSX4FontV4BoldV10CodingKeysO"
+- "8CoreXLSX4FontV4NameV10CodingKeysO"
+- "8CoreXLSX4FontV4SizeV10CodingKeysO"
+- "8CoreXLSX4FontV6ItalicV10CodingKeysO"
+- "8CoreXLSX4FontV6StrikeV10CodingKeysO"
+- "8CoreXLSX5FillsV10CodingKeysO"
+- "8CoreXLSX5FontsV10CodingKeysO"
+- "8CoreXLSX6ColorsV10CodingKeysO"
+- "8CoreXLSX6ColorsV7IndexedV10CodingKeysO"
+- "8CoreXLSX6FormatV10CodingKeysO"
+- "8CoreXLSX6StylesV10CodingKeysO"
+- "8CoreXLSX7BordersV10CodingKeysO"
+- "8CoreXLSX9CellStyleV10CodingKeysO"
+- "8CoreXLSX10CellStylesV10CodingKeysO"
+- "8CoreXLSX10TableStyleV10CodingKeysO"
+- "8CoreXLSX11CellFormatsV10CodingKeysO"
+- "8CoreXLSX11PatternFillV10CodingKeysO"
+- "8CoreXLSX11TableStylesV10CodingKeysO"
+- "8CoreXLSX12NumberFormatV10CodingKeysO"
+- "8CoreXLSX13NumberFormatsV10CodingKeysO"
+- "8CoreXLSX16CellStyleFormatsV10CodingKeysO"
+- "8CoreXLSX19DifferentialFormatsV10CodingKeysO"
+- "8CoreXLSX4FontV10CodingKeysO"
+- "8CoreXLSX4FontV4BoldV10CodingKeysO"
+- "8CoreXLSX4FontV4NameV10CodingKeysO"
+- "8CoreXLSX4FontV4SizeV10CodingKeysO"
+- "8CoreXLSX4FontV6ItalicV10CodingKeysO"
+- "8CoreXLSX4FontV6StrikeV10CodingKeysO"
+- "8CoreXLSX5FillsV10CodingKeysO"
+- "8CoreXLSX5FontsV10CodingKeysO"
+- "8CoreXLSX6ColorsV10CodingKeysO"
+- "8CoreXLSX6ColorsV7IndexedV10CodingKeysO"
+- "8CoreXLSX6FormatV10CodingKeysO"
+- "8CoreXLSX6StylesV10CodingKeysO"
+- "8CoreXLSX7BordersV10CodingKeysO"
+- "8CoreXLSX9CellStyleV10CodingKeysO"
+- "8CoreXLSX6StylesV10CodingKeysO"
+- "8CoreXLSX10TableStyleV10CodingKeysO"
+- "8CoreXLSX6FormatV10CodingKeysO"
+- "8CoreXLSX6StylesV10CodingKeysO"
+- "8CoreXLSX6FormatV10CodingKeysO"
+- "8CoreXLSX6StylesV10CodingKeysO"
+- "8CoreXLSX11PatternFillV10CodingKeysO"
+- "8CoreXLSX12NumberFormatV10CodingKeysO"
+- "8CoreXLSX9CellStyleV10CodingKeysO"
+- "8CoreXLSX10CellStylesV10CodingKeysO"
+- "8CoreXLSX10TableStyleV10CodingKeysO"
+- "8CoreXLSX11CellFormatsV10CodingKeysO"
+- "8CoreXLSX11PatternFillV10CodingKeysO"
+- "8CoreXLSX11TableStylesV10CodingKeysO"
+- "8CoreXLSX12NumberFormatV10CodingKeysO"
+- "8CoreXLSX13NumberFormatsV10CodingKeysO"
+- "8CoreXLSX16CellStyleFormatsV10CodingKeysO"
+- "8CoreXLSX19DifferentialFormatsV10CodingKeysO"
+- "8CoreXLSX4FontV10CodingKeysO"
+- "8CoreXLSX4FontV4BoldV10CodingKeysO"
+- "8CoreXLSX4FontV4NameV10CodingKeysO"
+- "8CoreXLSX4FontV4SizeV10CodingKeysO"
+- "8CoreXLSX4FontV6ItalicV10CodingKeysO"
+- "8CoreXLSX4FontV6StrikeV10CodingKeysO"
+- "8CoreXLSX5FillsV10CodingKeysO"
+- "8CoreXLSX5FontsV10CodingKeysO"
+- "8CoreXLSX6ColorsV10CodingKeysO"
+- "8CoreXLSX6ColorsV7IndexedV10CodingKeysO"
+- "8CoreXLSX6FormatV10CodingKeysO"
+- "8CoreXLSX6StylesV10CodingKeysO"
+- "8CoreXLSX7BordersV10CodingKeysO"
+- "8CoreXLSX9CellStyleV10CodingKeysO"
+- "8CoreXLSX10CellStylesV10CodingKeysO"
+- "8CoreXLSX10TableStyleV10CodingKeysO"
+- "8CoreXLSX11CellFormatsV10CodingKeysO"
+- "8CoreXLSX11PatternFillV10CodingKeysO"
+- "8CoreXLSX11TableStylesV10CodingKeysO"
+- "8CoreXLSX12NumberFormatV10CodingKeysO"
+- "8CoreXLSX13NumberFormatsV10CodingKeysO"
+- "8CoreXLSX16CellStyleFormatsV10CodingKeysO"
+- "8CoreXLSX19DifferentialFormatsV10CodingKeysO"
+- "8CoreXLSX4FontV10CodingKeysO"
+- "8CoreXLSX4FontV4BoldV10CodingKeysO"
+- "8CoreXLSX4FontV4NameV10CodingKeysO"
+- "8CoreXLSX4FontV4SizeV10CodingKeysO"
+- "8CoreXLSX4FontV6ItalicV10CodingKeysO"
+- "8CoreXLSX4FontV6StrikeV10CodingKeysO"
+- "8CoreXLSX5FillsV10CodingKeysO"
+- "8CoreXLSX5FontsV10CodingKeysO"
+- "8CoreXLSX6ColorsV10CodingKeysO"
+- "8CoreXLSX6ColorsV7IndexedV10CodingKeysO"
+- "8CoreXLSX6FormatV10CodingKeysO"
+- "8CoreXLSX6StylesV10CodingKeysO"
+- "8CoreXLSX7BordersV10CodingKeysO"
+- "8CoreXLSX9CellStyleV10CodingKeysO"
+- "8CoreXLSX12NumberFormatV10CodingKeysO"
+- "8CoreXLSX6ColorsV10CodingKeysO"
+- "8CoreXLSX10CellStylesV10CodingKeysO"
+- "8CoreXLSX10TableStyleV10CodingKeysO"
+- "8CoreXLSX11CellFormatsV10CodingKeysO"
+- "8CoreXLSX11PatternFillV10CodingKeysO"
+- "8CoreXLSX11TableStylesV10CodingKeysO"
+- "8CoreXLSX12NumberFormatV10CodingKeysO"
+- "8CoreXLSX13NumberFormatsV10CodingKeysO"
+- "8CoreXLSX16CellStyleFormatsV10CodingKeysO"
+- "8CoreXLSX19DifferentialFormatsV10CodingKeysO"
+- "8CoreXLSX4FontV10CodingKeysO"
+- "8CoreXLSX4FontV4BoldV10CodingKeysO"
+- "8CoreXLSX4FontV4NameV10CodingKeysO"
+- "8CoreXLSX4FontV4SizeV10CodingKeysO"
+- "8CoreXLSX4FontV6ItalicV10CodingKeysO"
+- "8CoreXLSX4FontV6StrikeV10CodingKeysO"
+- "8CoreXLSX5FillsV10CodingKeysO"
+- "8CoreXLSX5FontsV10CodingKeysO"
+- "8CoreXLSX6ColorsV10CodingKeysO"
+- "8CoreXLSX6ColorsV7IndexedV10CodingKeysO"
+- "8CoreXLSX6FormatV10CodingKeysO"
+- "8CoreXLSX6StylesV10CodingKeysO"
+- "8CoreXLSX7BordersV10CodingKeysO"
+- "8CoreXLSX9CellStyleV10CodingKeysO"
+- "8CoreXLSX10CellStylesV10CodingKeysO"
+- "8CoreXLSX10TableStyleV10CodingKeysO"
+- "8CoreXLSX11CellFormatsV10CodingKeysO"
+- "8CoreXLSX11PatternFillV10CodingKeysO"
+- "8CoreXLSX11TableStylesV10CodingKeysO"
+- "8CoreXLSX12NumberFormatV10CodingKeysO"
+- "8CoreXLSX13NumberFormatsV10CodingKeysO"
+- "8CoreXLSX16CellStyleFormatsV10CodingKeysO"
+- "8CoreXLSX19DifferentialFormatsV10CodingKeysO"
+- "8CoreXLSX4FontV10CodingKeysO"
+- "8CoreXLSX4FontV4BoldV10CodingKeysO"
+- "8CoreXLSX4FontV4NameV10CodingKeysO"
+- "8CoreXLSX4FontV4SizeV10CodingKeysO"
+- "8CoreXLSX4FontV6ItalicV10CodingKeysO"
+- "8CoreXLSX4FontV6StrikeV10CodingKeysO"
+- "8CoreXLSX5FillsV10CodingKeysO"
+- "8CoreXLSX5FontsV10CodingKeysO"
+- "8CoreXLSX6ColorsV10CodingKeysO"
+- "8CoreXLSX6ColorsV7IndexedV10CodingKeysO"
+- "8CoreXLSX6FormatV10CodingKeysO"
+- "8CoreXLSX6StylesV10CodingKeysO"
+- "8CoreXLSX7BordersV10CodingKeysO"
+- "8CoreXLSX9CellStyleV10CodingKeysO"
+- "8CoreXLSX4FontV10CodingKeysO"
+- "8CoreXLSX10CellStylesV10CodingKeysO"
+- "8CoreXLSX11CellFormatsV10CodingKeysO"
+- "8CoreXLSX11TableStylesV10CodingKeysO"
+- "8CoreXLSX13NumberFormatsV10CodingKeysO"
+- "8CoreXLSX16CellStyleFormatsV10CodingKeysO"
+- "8CoreXLSX19DifferentialFormatsV10CodingKeysO"
+- "8CoreXLSX5FillsV10CodingKeysO"
+- "8CoreXLSX5FontsV10CodingKeysO"
+- "8CoreXLSX7BordersV10CodingKeysO"
+- "8CoreXLSX10TableStyleV10CodingKeysO"
+- "8CoreXLSX4FontV10CodingKeysO"
+- "8CoreXLSX9CellStyleV10CodingKeysO"
+- "8CoreXLSX6FormatV10CodingKeysO"
+- "8CoreXLSX6StylesV10CodingKeysO"
+- "8CoreXLSX11PatternFillV10CodingKeysO"
+- "8CoreXLSX10TableStyleV10CodingKeysO"
+- "8CoreXLSX10CellStylesV10CodingKeysO"
+- "8CoreXLSX10TableStyleV10CodingKeysO"
+- "8CoreXLSX11CellFormatsV10CodingKeysO"
+- "8CoreXLSX11PatternFillV10CodingKeysO"
+- "8CoreXLSX11TableStylesV10CodingKeysO"
+- "8CoreXLSX12NumberFormatV10CodingKeysO"
+- "8CoreXLSX13NumberFormatsV10CodingKeysO"
+- "8CoreXLSX16CellStyleFormatsV10CodingKeysO"
+- "8CoreXLSX19DifferentialFormatsV10CodingKeysO"
+- "8CoreXLSX4FontV10CodingKeysO"
+- "8CoreXLSX4FontV4BoldV10CodingKeysO"
+- "8CoreXLSX4FontV4NameV10CodingKeysO"
+- "8CoreXLSX4FontV4SizeV10CodingKeysO"
+- "8CoreXLSX4FontV6ItalicV10CodingKeysO"
+- "8CoreXLSX4FontV6StrikeV10CodingKeysO"
+- "8CoreXLSX5FillsV10CodingKeysO"
+- "8CoreXLSX5FontsV10CodingKeysO"
+- "8CoreXLSX6ColorsV10CodingKeysO"
+- "8CoreXLSX6ColorsV7IndexedV10CodingKeysO"
+- "8CoreXLSX6FormatV10CodingKeysO"
+- "8CoreXLSX6StylesV10CodingKeysO"
+- "8CoreXLSX7BordersV10CodingKeysO"
+- "8CoreXLSX9CellStyleV10CodingKeysO"
+- "8CoreXLSX6ColorsV7IndexedV10CodingKeysO"
+- "8CoreXLSX4FontV10CodingKeysO"
+- "8CoreXLSX10CellStylesV10CodingKeysO"
+- "8CoreXLSX10TableStyleV10CodingKeysO"
+- "8CoreXLSX11CellFormatsV10CodingKeysO"
+- "8CoreXLSX11PatternFillV10CodingKeysO"
+- "8CoreXLSX11TableStylesV10CodingKeysO"
+- "8CoreXLSX12NumberFormatV10CodingKeysO"
+- "8CoreXLSX13NumberFormatsV10CodingKeysO"
+- "8CoreXLSX16CellStyleFormatsV10CodingKeysO"
+- "8CoreXLSX19DifferentialFormatsV10CodingKeysO"
+- "8CoreXLSX4FontV10CodingKeysO"
+- "8CoreXLSX4FontV4BoldV10CodingKeysO"
+- "8CoreXLSX4FontV4NameV10CodingKeysO"
+- "8CoreXLSX4FontV4SizeV10CodingKeysO"
+- "8CoreXLSX4FontV6ItalicV10CodingKeysO"
+- "8CoreXLSX4FontV6StrikeV10CodingKeysO"
+- "8CoreXLSX5FillsV10CodingKeysO"
+- "8CoreXLSX5FontsV10CodingKeysO"
+- "8CoreXLSX6ColorsV10CodingKeysO"
+- "8CoreXLSX6ColorsV7IndexedV10CodingKeysO"
+- "8CoreXLSX6FormatV10CodingKeysO"
+- "8CoreXLSX6StylesV10CodingKeysO"
+- "8CoreXLSX7BordersV10CodingKeysO"
+- "8CoreXLSX9CellStyleV10CodingKeysO"
+- "8CoreXLSX6StylesV10CodingKeysO"
+- "8CoreXLSX4FontV4BoldV10CodingKeysO"
+- "8CoreXLSX4FontV4NameV10CodingKeysO"
+- "8CoreXLSX4FontV4SizeV10CodingKeysO"
+- "8CoreXLSX4FontV6ItalicV10CodingKeysO"
+- "8CoreXLSX4FontV6StrikeV10CodingKeysO"
+- !private "Sl"
+- "8CoreXLSX5ColorV"
+- "8CoreXLSX6ColorsV"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s7DecoderP"
+- "8CoreXLSX18DifferentialFormatV"
+- "8CoreXLSX19DifferentialFormatsV"
+- !private "8XMLCoder19DynamicNodeEncodingP"
+- "8CoreXLSX10TableStyleV7ElementV"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "8CoreXLSX4FillV"
+- "8CoreXLSX5FillsV"
+- "8CoreXLSX4FontV"
+- "8CoreXLSX5FontsV"
+- "8CoreXLSX6FormatV"
+- "SH"
+- !private "s6HasherV"
+- "8CoreXLSX6ColorsV7IndexedV"
+- "8CoreXLSX4FontV6ItalicV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "8CoreXLSX4FontV4NameV"
+- "8CoreXLSX12NumberFormatV"
+- "8CoreXLSX13NumberFormatsV"
+- "8CoreXLSX11PatternFillV"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "ST"
+- "8CoreXLSX4FontV4SizeV"
+- "8CoreXLSX4FontV6StrikeV"
+- "8CoreXLSX6StylesV"
+- "8CoreXLSX10TableStyleV"
+- "8CoreXLSX11TableStylesV"
+- "8CoreXLSX6BorderV5ValueV"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Compression.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/ZIPFoundation/ZIPFoundation.framework/Modules/ZIPFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/XMLCoder/XMLCoder.framework/Modules/XMLCoder.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/Target Support Files/CoreXLSX/CoreXLSX-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/Target Support Files/ZIPFoundation/ZIPFoundation-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/Target Support Files/XMLCoder/XMLCoder-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/ZIPFoundation/ZIPFoundation.framework/Headers/ZIPFoundation-Swift.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/XMLCoder/XMLCoder.framework/Headers/XMLCoder-Swift.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Pods.build/Debug-iphonesimulator/CoreXLSX.build/unextended-module.modulemap"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Pods.build/Debug-iphonesimulator/ZIPFoundation.build/module.modulemap"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Pods.build/Debug-iphonesimulator/XMLCoder.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9e2862e40387b0a1cb0567a48188fb34"

@@ -1,0 +1,496 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "referenceCalendar"
+- "referenceTimeZone"
+provides-nominal:
+provides-member:
+- ["8CoreXLSX9WorksheetV", ""]
+- ["8CoreXLSX4CellV", ""]
+- ["8CoreXLSX9WorksheetV", "cells"]
+- ["8CoreXLSX9WorksheetV", "cells"]
+- ["8CoreXLSX9WorksheetV", "cells"]
+- ["8CoreXLSX4CellV", "stringValue"]
+- ["8CoreXLSX4CellV", "richStringValue"]
+- ["8CoreXLSX4CellV", "dateValue"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "*"
+- !private "+"
+- !private "=="
+- !private "??"
+- "Calendar"
+- "Cell"
+- "Collection"
+- "ColumnReference"
+- "Date"
+- "DateComponents"
+- "Double"
+- "FloatLiteralType"
+- !private "Int"
+- "IntegerLiteralType"
+- "RichText"
+- "SharedStrings"
+- "String"
+- "TimeZone"
+- "UInt"
+- "Worksheet"
+- !private "floor"
+- "referenceCalendar"
+- !private "referenceDate"
+- "referenceTimeZone"
+- !private "round"
+- !private "secondsInADay"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["s18AdditiveArithmeticP", "truncatingRemainder"]
+- !private ["8XMLCoder11AnyOptionalP", "flatMap"]
+- !private ["8XMLCoder11AnyOptionalP", "sharedString"]
+- !private ["8XMLCoder11AnySequenceP", "filter"]
+- !private ["8XMLCoder11AnySequenceP", "map"]
+- !private ["8XMLCoder11AnySequenceP", "reduce"]
+- !private ["8XMLCoder11AnySequenceP", "subscript"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "map"]
+- !private ["Sa", "reduce"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "richText"]
+- !private ["s10ArraySliceV", "text"]
+- !private ["SK", "filter"]
+- !private ["SK", "map"]
+- !private ["SK", "reduce"]
+- !private ["SK", "richText"]
+- !private ["SK", "subscript"]
+- !private ["SK", "text"]
+- !private ["SB", "init"]
+- !private ["SB", "truncatingRemainder"]
+- !private ["Sz", "init"]
+- !private ["8XMLCoder3BoxP", "filter"]
+- !private ["8XMLCoder3BoxP", "map"]
+- !private ["8XMLCoder3BoxP", "reduce"]
+- !private ["8XMLCoder3BoxP", "subscript"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "truncatingRemainder"]
+- !private ["10Foundation8CalendarV", "date"]
+- ["10Foundation8CalendarV", "init"]
+- ["8CoreXLSX4CellV", "Date"]
+- !private ["8CoreXLSX4CellV", "Double"]
+- !private ["8CoreXLSX4CellV", "Int"]
+- ["8CoreXLSX4CellV", "RichText"]
+- ["8CoreXLSX4CellV", "SharedStrings"]
+- ["8CoreXLSX4CellV", "String"]
+- ["8CoreXLSX4CellV", "dateValue"]
+- !private ["8CoreXLSX4CellV", "floor"]
+- !private ["8CoreXLSX4CellV", "reference"]
+- !private ["8CoreXLSX4CellV", "referenceCalendar"]
+- !private ["8CoreXLSX4CellV", "referenceDate"]
+- ["8CoreXLSX4CellV", "richStringValue"]
+- !private ["8CoreXLSX4CellV", "round"]
+- !private ["8CoreXLSX4CellV", "secondsInADay"]
+- ["8CoreXLSX4CellV", "stringValue"]
+- !private ["8CoreXLSX4CellV", "type"]
+- !private ["8CoreXLSX4CellV", "value"]
+- !private ["8CoreXLSX13CellReferenceV", "column"]
+- !private ["8CoreXLSX8CellTypeO", "deinit"]
+- !private ["8CoreXLSX8CellTypeO", "sharedString"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "map"]
+- !private ["Sl", "reduce"]
+- !private ["Sl", "richText"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "text"]
+- !private ["8CoreXLSX15ColumnReferenceV", "deinit"]
+- !private ["SL", "init"]
+- !private ["SL", "truncatingRemainder"]
+- !private ["10Foundation8CalendarV9ComponentO", "day"]
+- !private ["10Foundation8CalendarV9ComponentO", "second"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "reduce"]
+- !private ["10Foundation15ContiguousBytesP", "richText"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "text"]
+- ["s28CustomDebugStringConvertibleP", "autoupdatingCurrent"]
+- ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "richText"]
+- !private ["s28CustomDebugStringConvertibleP", "sharedString"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "truncatingRemainder"]
+- ["s17CustomReflectableP", "autoupdatingCurrent"]
+- ["s17CustomReflectableP", "date"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "richText"]
+- !private ["s17CustomReflectableP", "sharedString"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s17CustomReflectableP", "truncatingRemainder"]
+- ["s23CustomStringConvertibleP", "autoupdatingCurrent"]
+- !private ["s23CustomStringConvertibleP", "column"]
+- ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "richText"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "truncatingRemainder"]
+- !private ["8CoreXLSX9WorksheetV4DataV", "rows"]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "reduce"]
+- !private ["10Foundation12DataProtocolP", "richText"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "text"]
+- ["10Foundation14DateComponentsV", "date"]
+- ["10Foundation14DateComponentsV", "init"]
+- !private ["Se", "Double"]
+- !private ["Se", "Int"]
+- ["Se", "autoupdatingCurrent"]
+- !private ["Se", "cells"]
+- !private ["Se", "column"]
+- !private ["Se", "data"]
+- ["Se", "date"]
+- !private ["Se", "filter"]
+- !private ["Se", "flatMap"]
+- !private ["Se", "floor"]
+- ["Se", "init"]
+- !private ["Se", "items"]
+- !private ["Se", "map"]
+- !private ["Se", "reduce"]
+- !private ["Se", "reference"]
+- !private ["Se", "referenceCalendar"]
+- !private ["Se", "referenceDate"]
+- !private ["Se", "richText"]
+- !private ["Se", "round"]
+- !private ["Se", "rows"]
+- !private ["Se", "secondsInADay"]
+- !private ["Se", "sharedString"]
+- !private ["Se", "subscript"]
+- !private ["Se", "text"]
+- !private ["Se", "truncatingRemainder"]
+- !private ["Se", "type"]
+- !private ["Se", "value"]
+- !private ["Sd", "init"]
+- !private ["Sd", "truncatingRemainder"]
+- !private ["8XMLCoder19DynamicNodeEncodingP", "filter"]
+- !private ["8XMLCoder19DynamicNodeEncodingP", "map"]
+- !private ["8XMLCoder19DynamicNodeEncodingP", "reduce"]
+- !private ["8XMLCoder19DynamicNodeEncodingP", "subscript"]
+- !private ["SE", "Double"]
+- !private ["SE", "Int"]
+- ["SE", "autoupdatingCurrent"]
+- !private ["SE", "cells"]
+- !private ["SE", "column"]
+- !private ["SE", "data"]
+- ["SE", "date"]
+- !private ["SE", "filter"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "floor"]
+- ["SE", "init"]
+- !private ["SE", "items"]
+- !private ["SE", "map"]
+- !private ["SE", "reduce"]
+- !private ["SE", "reference"]
+- !private ["SE", "referenceCalendar"]
+- !private ["SE", "referenceDate"]
+- !private ["SE", "richText"]
+- !private ["SE", "round"]
+- !private ["SE", "rows"]
+- !private ["SE", "secondsInADay"]
+- !private ["SE", "sharedString"]
+- !private ["SE", "subscript"]
+- !private ["SE", "text"]
+- !private ["SE", "truncatingRemainder"]
+- !private ["SE", "type"]
+- !private ["SE", "value"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "Int"]
+- ["SQ", "autoupdatingCurrent"]
+- !private ["SQ", "column"]
+- ["SQ", "date"]
+- !private ["SQ", "day"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "floor"]
+- ["SQ", "gregorian"]
+- ["SQ", "init"]
+- !private ["SQ", "items"]
+- !private ["SQ", "map"]
+- !private ["SQ", "reduce"]
+- !private ["SQ", "reference"]
+- !private ["SQ", "referenceCalendar"]
+- !private ["SQ", "referenceDate"]
+- !private ["SQ", "richText"]
+- !private ["SQ", "round"]
+- !private ["SQ", "second"]
+- !private ["SQ", "secondsInADay"]
+- !private ["SQ", "sharedString"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "text"]
+- !private ["SQ", "truncatingRemainder"]
+- !private ["SQ", "type"]
+- !private ["SQ", "value"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s25ExpressibleByArrayLiteralP", "richText"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "text"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "truncatingRemainder"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "truncatingRemainder"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- !private ["s23ExpressibleByNilLiteralP", "sharedString"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SF", "init"]
+- !private ["SF", "truncatingRemainder"]
+- ["SH", "autoupdatingCurrent"]
+- ["SH", "date"]
+- !private ["SH", "day"]
+- !private ["SH", "filter"]
+- !private ["SH", "flatMap"]
+- ["SH", "gregorian"]
+- ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "reduce"]
+- !private ["SH", "richText"]
+- !private ["SH", "second"]
+- !private ["SH", "sharedString"]
+- !private ["SH", "subscript"]
+- !private ["SH", "text"]
+- !private ["SH", "truncatingRemainder"]
+- ["10Foundation8CalendarV10IdentifierO", "gregorian"]
+- !private ["Si", "init"]
+- !private ["8CoreXLSX13SharedStringsV4ItemV", "richText"]
+- !private ["8CoreXLSX13SharedStringsV4ItemV", "text"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "truncatingRemainder"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "filter"]
+- !private ["SM", "map"]
+- !private ["SM", "reduce"]
+- !private ["SM", "richText"]
+- !private ["SM", "subscript"]
+- !private ["SM", "text"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "reduce"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["Sj", "init"]
+- !private ["Sj", "truncatingRemainder"]
+- !private ["Sq", "flatMap"]
+- !private ["Sq", "sharedString"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "map"]
+- !private ["Sk", "reduce"]
+- !private ["Sk", "richText"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "text"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "map"]
+- !private ["Sm", "reduce"]
+- !private ["Sm", "richText"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "text"]
+- !private ["SY", "sharedString"]
+- ["10Foundation20ReferenceConvertibleP", "autoupdatingCurrent"]
+- ["10Foundation20ReferenceConvertibleP", "date"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["8CoreXLSX3RowV", "cells"]
+- !private ["8CoreXLSX3RowV", "reference"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s10SIMDScalarP", "truncatingRemainder"]
+- !private ["ST", "contains"]
+- !private ["ST", "filter"]
+- !private ["ST", "map"]
+- !private ["ST", "reduce"]
+- !private ["ST", "richText"]
+- !private ["ST", "subscript"]
+- !private ["ST", "text"]
+- !private ["8CoreXLSX13SharedStringsV", "items"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "truncatingRemainder"]
+- !private ["Sx", "init"]
+- !private ["Sx", "truncatingRemainder"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "truncatingRemainder"]
+- ["10Foundation8TimeZoneV", "autoupdatingCurrent"]
+- ["8CoreXLSX9WorksheetV", "Cell"]
+- ["8CoreXLSX9WorksheetV", "Collection"]
+- ["8CoreXLSX9WorksheetV", "ColumnReference"]
+- ["8CoreXLSX9WorksheetV", "UInt"]
+- ["8CoreXLSX9WorksheetV", "cells"]
+- !private ["8CoreXLSX9WorksheetV", "data"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s14_ArrayProtocolP", "richText"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s14_ArrayProtocolP", "text"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s15_CVarArgAlignedP", "truncatingRemainder"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "truncatingRemainder"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "truncatingRemainder"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "richText"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "text"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "truncatingRemainder"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "truncatingRemainder"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "reduce"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reduce"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "truncatingRemainder"]
+- ["s21_ObjectiveCBridgeableP", "autoupdatingCurrent"]
+- ["s21_ObjectiveCBridgeableP", "date"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "sharedString"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "truncatingRemainder"]
+- !private ["s26_OptionalNilComparisonTypeV", "sharedString"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "8XMLCoder11AnyOptionalP"
+- !private "8XMLCoder11AnySequenceP"
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- !private "8XMLCoder3BoxP"
+- !private "s7CVarArgP"
+- "10Foundation8CalendarV"
+- "8CoreXLSX4CellV"
+- !private "8CoreXLSX13CellReferenceV"
+- !private "8CoreXLSX8CellTypeO"
+- !private "Sl"
+- !private "8CoreXLSX15ColumnReferenceV"
+- !private "SL"
+- !private "10Foundation8CalendarV9ComponentO"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "8CoreXLSX9WorksheetV4DataV"
+- !private "10Foundation12DataProtocolP"
+- "10Foundation14DateComponentsV"
+- "Se"
+- !private "Sd"
+- !private "8XMLCoder19DynamicNodeEncodingP"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SF"
+- "SH"
+- "10Foundation8CalendarV10IdentifierO"
+- !private "Si"
+- !private "8CoreXLSX13SharedStringsV4ItemV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sj"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- "10Foundation20ReferenceConvertibleP"
+- !private "8CoreXLSX3RowV"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "8CoreXLSX13SharedStringsV"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- "10Foundation8TimeZoneV"
+- "8CoreXLSX9WorksheetV"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Compression.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphoneos/ZIPFoundation/ZIPFoundation.framework/Modules/ZIPFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphoneos/XMLCoder/XMLCoder.framework/Modules/XMLCoder.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/Target Support Files/CoreXLSX/CoreXLSX-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/Target Support Files/ZIPFoundation/ZIPFoundation-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/Target Support Files/XMLCoder/XMLCoder-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphoneos/ZIPFoundation/ZIPFoundation.framework/Headers/ZIPFoundation-Swift.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphoneos/XMLCoder/XMLCoder.framework/Headers/XMLCoder-Swift.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Pods.build/Debug-iphoneos/CoreXLSX.build/unextended-module.modulemap"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Pods.build/Debug-iphoneos/ZIPFoundation.build/module.modulemap"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Pods.build/Debug-iphoneos/XMLCoder.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "87ea02ee22bed8309c91fbd5b9ef3cfe"

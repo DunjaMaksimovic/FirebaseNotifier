@@ -1,0 +1,620 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ColumnReference"
+- "<"
+- "=="
+provides-nominal:
+- "8CoreXLSX15ColumnReferenceV"
+provides-member:
+- ["8CoreXLSX15ColumnReferenceV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "%"
+- !private "*"
+- !private "*="
+- "+"
+- "-"
+- !private "-="
+- "..."
+- !private "..<"
+- !private "/"
+- "<"
+- "<="
+- "=="
+- ">"
+- ">="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- !private "Character"
+- "CharacterSet"
+- "ColumnReference"
+- "Comparable"
+- "CustomStringConvertible"
+- !private "Double"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "Strideable"
+- "String"
+- "StringLiteralType"
+- "Substring"
+- "TernaryPrecedence"
+- !private "UInt32"
+- "UnicodeScalar"
+- "UnicodeScalarType"
+- !private "ceil"
+- !private "log"
+depends-member:
+- ["s18AdditiveArithmeticP", "init"]
+- !private ["8XMLCoder11AnySequenceP", "init"]
+- !private ["8XMLCoder11AnySequenceP", "reduce"]
+- !private ["8XMLCoder11AnySequenceP", "subscript"]
+- !private ["Sa", "init"]
+- !private ["Sa", "reduce"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "value"]
+- !private ["SK", "allSatisfy"]
+- !private ["SK", "compactMap"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "map"]
+- !private ["SK", "reduce"]
+- !private ["SK", "subscript"]
+- !private ["SK", "unicodeScalars"]
+- !private ["SK", "uppercased"]
+- !private ["SK", "value"]
+- !private ["SB", "init"]
+- ["Sz", "init"]
+- !private ["8XMLCoder3BoxP", "init"]
+- !private ["8XMLCoder3BoxP", "reduce"]
+- !private ["8XMLCoder3BoxP", "subscript"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "unicodeScalars"]
+- !private ["SJ", "init"]
+- !private ["10Foundation12CharacterSetV", "contains"]
+- ["10Foundation12CharacterSetV", "init"]
+- !private ["Sl", "allSatisfy"]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "map"]
+- !private ["Sl", "reduce"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "unicodeScalars"]
+- !private ["Sl", "uppercased"]
+- !private ["Sl", "value"]
+- ["8CoreXLSX15ColumnReferenceV", "<"]
+- ["8CoreXLSX15ColumnReferenceV", "<="]
+- ["8CoreXLSX15ColumnReferenceV", "=="]
+- ["8CoreXLSX15ColumnReferenceV", ">"]
+- ["8CoreXLSX15ColumnReferenceV", ">="]
+- !private ["8CoreXLSX15ColumnReferenceV", "Array"]
+- ["8CoreXLSX15ColumnReferenceV", "Bool"]
+- !private ["8CoreXLSX15ColumnReferenceV", "Character"]
+- ["8CoreXLSX15ColumnReferenceV", "CharacterSet"]
+- ["8CoreXLSX15ColumnReferenceV", "ColumnReference"]
+- !private ["8CoreXLSX15ColumnReferenceV", "Double"]
+- ["8CoreXLSX15ColumnReferenceV", "Int"]
+- ["8CoreXLSX15ColumnReferenceV", "Stride"]
+- ["8CoreXLSX15ColumnReferenceV", "String"]
+- ["8CoreXLSX15ColumnReferenceV", "Substring"]
+- !private ["8CoreXLSX15ColumnReferenceV", "UInt32"]
+- ["8CoreXLSX15ColumnReferenceV", "UnicodeScalar"]
+- ["8CoreXLSX15ColumnReferenceV", "_Default_Stride"]
+- ["8CoreXLSX15ColumnReferenceV", "_step"]
+- ["8CoreXLSX15ColumnReferenceV", "advanced"]
+- ["8CoreXLSX15ColumnReferenceV", "allowedCharacters"]
+- ["8CoreXLSX15ColumnReferenceV", "alphabetLength"]
+- !private ["8CoreXLSX15ColumnReferenceV", "ceil"]
+- ["8CoreXLSX15ColumnReferenceV", "deinit"]
+- ["8CoreXLSX15ColumnReferenceV", "description"]
+- ["8CoreXLSX15ColumnReferenceV", "distance"]
+- ["8CoreXLSX15ColumnReferenceV", "firstAllowedCharacter"]
+- ["8CoreXLSX15ColumnReferenceV", "init"]
+- ["8CoreXLSX15ColumnReferenceV", "intValue"]
+- ["8CoreXLSX15ColumnReferenceV", "lastAllowedCharacter"]
+- !private ["8CoreXLSX15ColumnReferenceV", "log"]
+- ["8CoreXLSX15ColumnReferenceV", "value"]
+- ["SL", "<"]
+- ["SL", "<="]
+- ["SL", "=="]
+- ["SL", ">"]
+- ["SL", ">="]
+- !private ["SL", "Array"]
+- !private ["SL", "Character"]
+- ["SL", "CharacterSet"]
+- !private ["SL", "ColumnReference"]
+- !private ["SL", "Double"]
+- ["SL", "Int"]
+- ["SL", "Stride"]
+- !private ["SL", "String"]
+- !private ["SL", "Substring"]
+- !private ["SL", "UInt32"]
+- !private ["SL", "UnicodeScalar"]
+- ["SL", ""]
+- ["SL", "_Default_Stride"]
+- ["SL", "_step"]
+- ["SL", "advanced"]
+- !private ["SL", "allowedCharacters"]
+- !private ["SL", "alphabetLength"]
+- !private ["SL", "ceil"]
+- ["SL", "description"]
+- ["SL", "distance"]
+- ["SL", "firstAllowedCharacter"]
+- ["SL", "init"]
+- !private ["SL", "intValue"]
+- !private ["SL", "isEmpty"]
+- ["SL", "lastAllowedCharacter"]
+- !private ["SL", "log"]
+- !private ["SL", "unicodeScalars"]
+- !private ["SL", "uppercased"]
+- ["SL", "value"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "reduce"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "allSatisfy"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "unicodeScalars"]
+- !private ["s28CustomDebugStringConvertibleP", "uppercased"]
+- ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s17CustomReflectableP", "allSatisfy"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "unicodeScalars"]
+- !private ["s17CustomReflectableP", "uppercased"]
+- ["s17CustomReflectableP", "value"]
+- ["s23CustomStringConvertibleP", "<"]
+- ["s23CustomStringConvertibleP", "<="]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", ">"]
+- ["s23CustomStringConvertibleP", ">="]
+- !private ["s23CustomStringConvertibleP", "Array"]
+- !private ["s23CustomStringConvertibleP", "Character"]
+- ["s23CustomStringConvertibleP", "CharacterSet"]
+- !private ["s23CustomStringConvertibleP", "ColumnReference"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- ["s23CustomStringConvertibleP", "Int"]
+- ["s23CustomStringConvertibleP", "Stride"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "Substring"]
+- !private ["s23CustomStringConvertibleP", "UInt32"]
+- !private ["s23CustomStringConvertibleP", "UnicodeScalar"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_Stride"]
+- ["s23CustomStringConvertibleP", "_step"]
+- ["s23CustomStringConvertibleP", "advanced"]
+- !private ["s23CustomStringConvertibleP", "allSatisfy"]
+- !private ["s23CustomStringConvertibleP", "allowedCharacters"]
+- !private ["s23CustomStringConvertibleP", "alphabetLength"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "ceil"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "distance"]
+- ["s23CustomStringConvertibleP", "firstAllowedCharacter"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- ["s23CustomStringConvertibleP", "lastAllowedCharacter"]
+- !private ["s23CustomStringConvertibleP", "log"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "unicodeScalars"]
+- !private ["s23CustomStringConvertibleP", "uppercased"]
+- ["s23CustomStringConvertibleP", "value"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "reduce"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "value"]
+- !private ["Se", "compactMap"]
+- !private ["Se", "contains"]
+- ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "reduce"]
+- !private ["Se", "subscript"]
+- !private ["Se", "unicodeScalars"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["Sd", "init"]
+- !private ["8XMLCoder19DynamicNodeEncodingP", "init"]
+- !private ["8XMLCoder19DynamicNodeEncodingP", "reduce"]
+- !private ["8XMLCoder19DynamicNodeEncodingP", "subscript"]
+- !private ["SE", "compactMap"]
+- !private ["SE", "contains"]
+- ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "reduce"]
+- !private ["SE", "subscript"]
+- !private ["SE", "unicodeScalars"]
+- ["SQ", "<"]
+- ["SQ", "<="]
+- ["SQ", "=="]
+- ["SQ", ">"]
+- ["SQ", ">="]
+- !private ["SQ", "Array"]
+- !private ["SQ", "Character"]
+- ["SQ", "CharacterSet"]
+- !private ["SQ", "ColumnReference"]
+- !private ["SQ", "Double"]
+- ["SQ", "Int"]
+- ["SQ", "Stride"]
+- !private ["SQ", "String"]
+- !private ["SQ", "Substring"]
+- !private ["SQ", "UInt32"]
+- !private ["SQ", "UnicodeScalar"]
+- ["SQ", ""]
+- ["SQ", "_Default_Stride"]
+- ["SQ", "_step"]
+- ["SQ", "advanced"]
+- !private ["SQ", "allowedCharacters"]
+- !private ["SQ", "alphabetLength"]
+- !private ["SQ", "ceil"]
+- !private ["SQ", "compactMap"]
+- !private ["SQ", "contains"]
+- ["SQ", "description"]
+- ["SQ", "distance"]
+- ["SQ", "firstAllowedCharacter"]
+- ["SQ", "init"]
+- !private ["SQ", "intValue"]
+- !private ["SQ", "isEmpty"]
+- ["SQ", "lastAllowedCharacter"]
+- !private ["SQ", "log"]
+- !private ["SQ", "map"]
+- !private ["SQ", "reduce"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "unicodeScalars"]
+- !private ["SQ", "uppercased"]
+- ["SQ", "value"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "value"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "unicodeScalars"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "uppercased"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s32ExpressibleByStringInterpolationP", "unicodeScalars"]
+- !private ["s32ExpressibleByStringInterpolationP", "uppercased"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "unicodeScalars"]
+- !private ["s26ExpressibleByStringLiteralP", "uppercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "unicodeScalars"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "uppercased"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "value"]
+- ["s17FixedWidthIntegerP", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "compactMap"]
+- !private ["SH", "contains"]
+- ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "map"]
+- !private ["SH", "reduce"]
+- !private ["SH", "subscript"]
+- !private ["SH", "unicodeScalars"]
+- !private ["SH", "uppercased"]
+- ["SH", "value"]
+- ["Si", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s25LosslessStringConvertibleP", "unicodeScalars"]
+- !private ["s25LosslessStringConvertibleP", "uppercased"]
+- ["s25LosslessStringConvertibleP", "value"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "unicodeScalars"]
+- !private ["SM", "init"]
+- !private ["SM", "reduce"]
+- !private ["SM", "subscript"]
+- !private ["SM", "value"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "reduce"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "unicodeScalars"]
+- !private ["So9NSCopyingP", "unicodeScalars"]
+- !private ["So21NSItemProviderReadingP", "unicodeScalars"]
+- !private ["So21NSItemProviderWritingP", "unicodeScalars"]
+- !private ["So16NSMutableCopyingP", "unicodeScalars"]
+- !private ["So8NSObjectC", "unicodeScalars"]
+- !private ["So8NSObjectP", "unicodeScalars"]
+- !private ["So14NSSecureCodingP", "unicodeScalars"]
+- !private ["So8NSStringC", "unicodeScalars"]
+- ["Sj", "init"]
+- !private ["Sk", "compactMap"]
+- !private ["Sk", "init"]
+- !private ["Sk", "map"]
+- !private ["Sk", "reduce"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "value"]
+- !private ["Sn", "compactMap"]
+- !private ["Sn", "map"]
+- !private ["SX", "compactMap"]
+- !private ["SX", "map"]
+- !private ["Sm", "allSatisfy"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "reduce"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "unicodeScalars"]
+- !private ["Sm", "uppercased"]
+- !private ["Sm", "value"]
+- !private ["10Foundation20ReferenceConvertibleP", "contains"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- ["s10SIMDScalarP", "init"]
+- !private ["s7UnicodeO6ScalarV", "init"]
+- ["s7UnicodeO6ScalarV", "value"]
+- !private ["ST", "allSatisfy"]
+- !private ["ST", "compactMap"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "map"]
+- !private ["ST", "reduce"]
+- !private ["ST", "subscript"]
+- !private ["ST", "unicodeScalars"]
+- !private ["ST", "uppercased"]
+- !private ["ST", "value"]
+- !private ["s10SetAlgebraP", "contains"]
+- ["s10SetAlgebraP", "init"]
+- ["SZ", "init"]
+- ["s13SignedNumericP", "init"]
+- ["Sx", "<"]
+- ["Sx", "<="]
+- ["Sx", "=="]
+- ["Sx", ">"]
+- ["Sx", ">="]
+- !private ["Sx", "Array"]
+- !private ["Sx", "Character"]
+- ["Sx", "CharacterSet"]
+- !private ["Sx", "ColumnReference"]
+- !private ["Sx", "Double"]
+- ["Sx", "Int"]
+- ["Sx", "Stride"]
+- !private ["Sx", "String"]
+- !private ["Sx", "Substring"]
+- !private ["Sx", "UInt32"]
+- !private ["Sx", "UnicodeScalar"]
+- ["Sx", ""]
+- ["Sx", "_Default_Stride"]
+- ["Sx", "_step"]
+- ["Sx", "advanced"]
+- !private ["Sx", "allowedCharacters"]
+- !private ["Sx", "alphabetLength"]
+- !private ["Sx", "ceil"]
+- ["Sx", "description"]
+- ["Sx", "distance"]
+- ["Sx", "firstAllowedCharacter"]
+- ["Sx", "init"]
+- !private ["Sx", "intValue"]
+- ["Sx", "lastAllowedCharacter"]
+- !private ["Sx", "log"]
+- !private ["Sx", "value"]
+- !private ["SS", "init"]
+- !private ["SS", "unicodeScalars"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "init"]
+- !private ["Sy", "isEmpty"]
+- !private ["Sy", "unicodeScalars"]
+- !private ["Sy", "uppercased"]
+- !private ["Ss", "init"]
+- !private ["Ss", "isEmpty"]
+- !private ["Ss", "uppercased"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s16TextOutputStreamP", "unicodeScalars"]
+- !private ["s16TextOutputStreamP", "uppercased"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "unicodeScalars"]
+- !private ["s20TextOutputStreamableP", "uppercased"]
+- ["s20TextOutputStreamableP", "value"]
+- !private ["s6UInt32V", "init"]
+- !private ["SS17UnicodeScalarViewV", "allSatisfy"]
+- !private ["SS17UnicodeScalarViewV", "count"]
+- !private ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s14_ArrayProtocolP", "value"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "allSatisfy"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "count"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "unicodeScalars"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "uppercased"]
+- ["s30_CustomPlaygroundQuickLookableP", "value"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "value"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "unicodeScalars"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "unicodeScalars"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "unicodeScalars"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "value"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "reduce"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "unicodeScalars"]
+- !private ["s19_HasContiguousBytesP", "uppercased"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reduce"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "unicodeScalars"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unicodeScalars"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "unicodeScalars"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "unicodeScalars"]
+- !private ["s21_ObjectiveCBridgeableP", "uppercased"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- !private "8XMLCoder11AnySequenceP"
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "SK"
+- !private "SB"
+- "Sz"
+- !private "8XMLCoder3BoxP"
+- "s7CVarArgP"
+- !private "SJ"
+- "10Foundation12CharacterSetV"
+- !private "Sl"
+- "8CoreXLSX15ColumnReferenceV"
+- "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "Sd"
+- !private "8XMLCoder19DynamicNodeEncodingP"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- !private "SF"
+- "SH"
+- "Si"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "Sj"
+- !private "Sk"
+- !private "Sn"
+- !private "SX"
+- !private "Sm"
+- "10Foundation20ReferenceConvertibleP"
+- "s10SIMDScalarP"
+- "s7UnicodeO6ScalarV"
+- !private "ST"
+- "s10SetAlgebraP"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "Ss"
+- !private "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s6UInt32V"
+- !private "SS17UnicodeScalarViewV"
+- !private "SU"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Compression.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphoneos/ZIPFoundation/ZIPFoundation.framework/Modules/ZIPFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphoneos/XMLCoder/XMLCoder.framework/Modules/XMLCoder.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/Target Support Files/CoreXLSX/CoreXLSX-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/Target Support Files/ZIPFoundation/ZIPFoundation-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/Target Support Files/XMLCoder/XMLCoder-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphoneos/ZIPFoundation/ZIPFoundation.framework/Headers/ZIPFoundation-Swift.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphoneos/XMLCoder/XMLCoder.framework/Headers/XMLCoder-Swift.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Pods.build/Debug-iphoneos/CoreXLSX.build/unextended-module.modulemap"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Pods.build/Debug-iphoneos/ZIPFoundation.build/module.modulemap"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Pods.build/Debug-iphoneos/XMLCoder.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8015c9461cefddc9531587f74b4ccb6e"

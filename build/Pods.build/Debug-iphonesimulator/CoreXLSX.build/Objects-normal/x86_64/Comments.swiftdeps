@@ -1,0 +1,418 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Comments"
+- "CommentList"
+- "Comment"
+- "Text"
+provides-nominal:
+- "8CoreXLSX8CommentsV"
+- "8CoreXLSX11CommentListV"
+- "8CoreXLSX11CommentListV10CodingKeysO"
+- "8CoreXLSX7CommentV"
+- "8CoreXLSX7CommentV10CodingKeysO"
+- "8CoreXLSX4TextV"
+- "8CoreXLSX4TextV10CodingKeysO"
+provides-member:
+- ["8CoreXLSX8CommentsV", ""]
+- ["8CoreXLSX11CommentListV", ""]
+- ["8CoreXLSX11CommentListV10CodingKeysO", ""]
+- ["8CoreXLSX7CommentV", ""]
+- ["8CoreXLSX7CommentV10CodingKeysO", ""]
+- ["8CoreXLSX4TextV", ""]
+- ["8CoreXLSX4TextV10CodingKeysO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "BooleanLiteralType"
+- "Codable"
+- "CodingKey"
+- "Comment"
+- "CommentList"
+- "Comments"
+- !private "Dictionary"
+- "Equatable"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- "Text"
+- "UnicodeScalarType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["8XMLCoder11AnySequenceP", "init"]
+- !private ["8XMLCoder11AnySequenceP", "map"]
+- !private ["Sa", "map"]
+- !private ["SK", "map"]
+- !private ["8XMLCoder3BoxP", "map"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["8CoreXLSX11CommentListV10CodingKeysO", "=="]
+- ["8CoreXLSX4TextV10CodingKeysO", "=="]
+- ["8CoreXLSX7CommentV10CodingKeysO", "=="]
+- ["8CoreXLSX11CommentListV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX4TextV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX7CommentV10CodingKeysO", "RawValue"]
+- ["8CoreXLSX11CommentListV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX4TextV10CodingKeysO", "_Default_RawValue"]
+- ["8CoreXLSX7CommentV10CodingKeysO", "_Default_RawValue"]
+- !private ["8CoreXLSX11CommentListV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX4TextV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8CoreXLSX7CommentV10CodingKeysO", "_findStringSwitchCase"]
+- ["8CoreXLSX11CommentListV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX4TextV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX7CommentV10CodingKeysO", "_rawHashValue"]
+- ["8CoreXLSX11CommentListV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX4TextV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX7CommentV10CodingKeysO", "debugDescription"]
+- ["8CoreXLSX11CommentListV10CodingKeysO", "deinit"]
+- ["8CoreXLSX4TextV10CodingKeysO", "deinit"]
+- ["8CoreXLSX7CommentV10CodingKeysO", "deinit"]
+- ["8CoreXLSX11CommentListV10CodingKeysO", "description"]
+- ["8CoreXLSX4TextV10CodingKeysO", "description"]
+- ["8CoreXLSX7CommentV10CodingKeysO", "description"]
+- ["8CoreXLSX11CommentListV10CodingKeysO", "hash"]
+- ["8CoreXLSX4TextV10CodingKeysO", "hash"]
+- ["8CoreXLSX7CommentV10CodingKeysO", "hash"]
+- ["8CoreXLSX11CommentListV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX4TextV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX7CommentV10CodingKeysO", "hashValue"]
+- ["8CoreXLSX11CommentListV10CodingKeysO", "init"]
+- ["8CoreXLSX4TextV10CodingKeysO", "init"]
+- ["8CoreXLSX7CommentV10CodingKeysO", "init"]
+- ["8CoreXLSX11CommentListV10CodingKeysO", "intValue"]
+- ["8CoreXLSX4TextV10CodingKeysO", "intValue"]
+- ["8CoreXLSX7CommentV10CodingKeysO", "intValue"]
+- ["8CoreXLSX11CommentListV10CodingKeysO", "items"]
+- ["8CoreXLSX4TextV10CodingKeysO", "plain"]
+- ["8CoreXLSX11CommentListV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX4TextV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX7CommentV10CodingKeysO", "rawValue"]
+- ["8CoreXLSX7CommentV10CodingKeysO", "reference"]
+- ["8CoreXLSX11CommentListV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX4TextV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX7CommentV10CodingKeysO", "stringValue"]
+- ["8CoreXLSX7CommentV10CodingKeysO", "text"]
+- !private ["Sl", "init"]
+- !private ["Sl", "map"]
+- ["8CoreXLSX7CommentV", "=="]
+- ["8CoreXLSX7CommentV", "CodingKey"]
+- ["8CoreXLSX7CommentV", "CodingKeys"]
+- ["8CoreXLSX7CommentV", "String"]
+- ["8CoreXLSX7CommentV", "Text"]
+- ["8CoreXLSX7CommentV", "__derived_struct_equals"]
+- !private ["8CoreXLSX7CommentV", "_findStringSwitchCase"]
+- ["8CoreXLSX7CommentV", "deinit"]
+- ["8CoreXLSX7CommentV", "encode"]
+- ["8CoreXLSX7CommentV", "init"]
+- ["8CoreXLSX7CommentV", "reference"]
+- ["8CoreXLSX7CommentV", "text"]
+- ["8CoreXLSX11CommentListV", "=="]
+- ["8CoreXLSX11CommentListV", "CodingKey"]
+- ["8CoreXLSX11CommentListV", "CodingKeys"]
+- ["8CoreXLSX11CommentListV", "Comment"]
+- !private ["8CoreXLSX11CommentListV", "Dictionary"]
+- ["8CoreXLSX11CommentListV", "String"]
+- ["8CoreXLSX11CommentListV", "__derived_struct_equals"]
+- !private ["8CoreXLSX11CommentListV", "_findStringSwitchCase"]
+- ["8CoreXLSX11CommentListV", "deinit"]
+- ["8CoreXLSX11CommentListV", "encode"]
+- ["8CoreXLSX11CommentListV", "init"]
+- ["8CoreXLSX11CommentListV", "items"]
+- ["8CoreXLSX11CommentListV", "itemsByReference"]
+- ["8CoreXLSX8CommentsV", "=="]
+- ["8CoreXLSX8CommentsV", "CommentList"]
+- ["8CoreXLSX8CommentsV", "__derived_struct_equals"]
+- ["8CoreXLSX8CommentsV", "commentList"]
+- ["8CoreXLSX8CommentsV", "deinit"]
+- ["8CoreXLSX8CommentsV", "encode"]
+- ["8CoreXLSX8CommentsV", "init"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- ["Se", "=="]
+- !private ["Se", "Dictionary"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "commentList"]
+- ["Se", "encode"]
+- ["Se", "init"]
+- !private ["Se", "items"]
+- !private ["Se", "map"]
+- !private ["Se", "plain"]
+- !private ["Se", "reference"]
+- !private ["Se", "text"]
+- !private ["s7DecoderP", "container"]
+- !private ["SD", "init"]
+- !private ["8XMLCoder19DynamicNodeEncodingP", "map"]
+- ["SE", "=="]
+- !private ["SE", "Dictionary"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "commentList"]
+- ["SE", "encode"]
+- ["SE", "init"]
+- !private ["SE", "items"]
+- !private ["SE", "map"]
+- !private ["SE", "plain"]
+- !private ["SE", "reference"]
+- !private ["SE", "text"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- !private ["SQ", "Dictionary"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "commentList"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "encode"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "items"]
+- !private ["SQ", "map"]
+- !private ["SQ", "plain"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "reference"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "text"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "map"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["Sk", "map"]
+- !private ["Sm", "map"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- !private ["ST", "init"]
+- !private ["ST", "map"]
+- ["8CoreXLSX4TextV", "=="]
+- ["8CoreXLSX4TextV", "CodingKey"]
+- ["8CoreXLSX4TextV", "CodingKeys"]
+- ["8CoreXLSX4TextV", "String"]
+- ["8CoreXLSX4TextV", "__derived_struct_equals"]
+- !private ["8CoreXLSX4TextV", "_findStringSwitchCase"]
+- ["8CoreXLSX4TextV", "deinit"]
+- ["8CoreXLSX4TextV", "encode"]
+- ["8CoreXLSX4TextV", "init"]
+- ["8CoreXLSX4TextV", "plain"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- !private "8XMLCoder11AnySequenceP"
+- !private "Sa"
+- !private "SK"
+- !private "8XMLCoder3BoxP"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- "8CoreXLSX11CommentListV10CodingKeysO"
+- "8CoreXLSX4TextV10CodingKeysO"
+- "8CoreXLSX7CommentV10CodingKeysO"
+- "8CoreXLSX11CommentListV10CodingKeysO"
+- "8CoreXLSX4TextV10CodingKeysO"
+- "8CoreXLSX7CommentV10CodingKeysO"
+- "8CoreXLSX11CommentListV10CodingKeysO"
+- "8CoreXLSX4TextV10CodingKeysO"
+- "8CoreXLSX7CommentV10CodingKeysO"
+- !private "8CoreXLSX11CommentListV10CodingKeysO"
+- !private "8CoreXLSX4TextV10CodingKeysO"
+- !private "8CoreXLSX7CommentV10CodingKeysO"
+- "8CoreXLSX11CommentListV10CodingKeysO"
+- "8CoreXLSX4TextV10CodingKeysO"
+- "8CoreXLSX7CommentV10CodingKeysO"
+- "8CoreXLSX11CommentListV10CodingKeysO"
+- "8CoreXLSX4TextV10CodingKeysO"
+- "8CoreXLSX7CommentV10CodingKeysO"
+- "8CoreXLSX11CommentListV10CodingKeysO"
+- "8CoreXLSX4TextV10CodingKeysO"
+- "8CoreXLSX7CommentV10CodingKeysO"
+- "8CoreXLSX11CommentListV10CodingKeysO"
+- "8CoreXLSX4TextV10CodingKeysO"
+- "8CoreXLSX7CommentV10CodingKeysO"
+- "8CoreXLSX11CommentListV10CodingKeysO"
+- "8CoreXLSX4TextV10CodingKeysO"
+- "8CoreXLSX7CommentV10CodingKeysO"
+- "8CoreXLSX11CommentListV10CodingKeysO"
+- "8CoreXLSX4TextV10CodingKeysO"
+- "8CoreXLSX7CommentV10CodingKeysO"
+- "8CoreXLSX11CommentListV10CodingKeysO"
+- "8CoreXLSX4TextV10CodingKeysO"
+- "8CoreXLSX7CommentV10CodingKeysO"
+- "8CoreXLSX11CommentListV10CodingKeysO"
+- "8CoreXLSX4TextV10CodingKeysO"
+- "8CoreXLSX7CommentV10CodingKeysO"
+- "8CoreXLSX11CommentListV10CodingKeysO"
+- "8CoreXLSX4TextV10CodingKeysO"
+- "8CoreXLSX11CommentListV10CodingKeysO"
+- "8CoreXLSX4TextV10CodingKeysO"
+- "8CoreXLSX7CommentV10CodingKeysO"
+- "8CoreXLSX11CommentListV10CodingKeysO"
+- "8CoreXLSX4TextV10CodingKeysO"
+- "8CoreXLSX7CommentV10CodingKeysO"
+- "8CoreXLSX7CommentV10CodingKeysO"
+- !private "Sl"
+- "8CoreXLSX7CommentV"
+- "8CoreXLSX11CommentListV"
+- "8CoreXLSX8CommentsV"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s7DecoderP"
+- !private "SD"
+- !private "8XMLCoder19DynamicNodeEncodingP"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "ST"
+- "8CoreXLSX4TextV"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Compression.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/ZIPFoundation/ZIPFoundation.framework/Modules/ZIPFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/XMLCoder/XMLCoder.framework/Modules/XMLCoder.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/Target Support Files/CoreXLSX/CoreXLSX-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/Target Support Files/ZIPFoundation/ZIPFoundation-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Pods/Target Support Files/XMLCoder/XMLCoder-umbrella.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/ZIPFoundation/ZIPFoundation.framework/Headers/ZIPFoundation-Swift.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Debug-iphonesimulator/XMLCoder/XMLCoder.framework/Headers/XMLCoder-Swift.h"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Pods.build/Debug-iphonesimulator/CoreXLSX.build/unextended-module.modulemap"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Pods.build/Debug-iphonesimulator/ZIPFoundation.build/module.modulemap"
+- "/Users/dunjamaksimovic/Documents/FirebaseNotifier/build/Pods.build/Debug-iphonesimulator/XMLCoder.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ce02d4c38304890316416ab1cf4c8bf2"

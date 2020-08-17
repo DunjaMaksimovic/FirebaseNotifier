@@ -1,0 +1,6 @@
+framework module Pods_FirebaseNotifier {
+  umbrella header "Pods-FirebaseNotifier-umbrella.h"
+
+  export *
+  module * { export * }
+}

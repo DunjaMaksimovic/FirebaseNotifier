@@ -1,0 +1,17 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "5b5230ae30d49c1d623e23d20904f051"
+build_time: [1597684985, 907600000]
+inputs:
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Extensions/UIViewController+Extension.swift": [1597683055, 688838952]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Extensions/UIView+Extension.swift": [1597683055, 688740543]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Extensions/String+Extension.swift": [1597683055, 688621861]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/ScheduleItemTableViewCell.swift": [1597683055, 690027918]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/NetworkError.swift": [1597683055, 689910247]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Network services/NetworkManager.swift": [1597683055, 689771734]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Model/ScheduleItem.swift": [1597683055, 689236741]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/ViewModels/HomeViewModel.swift": [1597684936, 638680603]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Services/LocalNotificationsManager.swift": [1597683055, 690202026]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/SupportingFIles/AppDelegate.swift": [1597683055, 690510586]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/SupportingFIles/SceneDelegate.swift": [1597683055, 691425403]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Controllers/HomeViewController.swift": [1597683055, 688453148]
+  "/Users/dunjamaksimovic/Documents/FirebaseNotifier/Services/XLSXReader.swift": [1597683055, 690350130]

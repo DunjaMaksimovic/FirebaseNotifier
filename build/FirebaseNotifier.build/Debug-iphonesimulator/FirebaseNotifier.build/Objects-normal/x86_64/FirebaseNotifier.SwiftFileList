@@ -1,0 +1,13 @@
+/Users/dunjamaksimovic/Documents/FirebaseNotifier/Extensions/UIViewController+Extension.swift
+/Users/dunjamaksimovic/Documents/FirebaseNotifier/Extensions/UIView+Extension.swift
+/Users/dunjamaksimovic/Documents/FirebaseNotifier/Extensions/String+Extension.swift
+/Users/dunjamaksimovic/Documents/FirebaseNotifier/ScheduleItemTableViewCell.swift
+/Users/dunjamaksimovic/Documents/FirebaseNotifier/NetworkError.swift
+/Users/dunjamaksimovic/Documents/FirebaseNotifier/Network\ services/NetworkManager.swift
+/Users/dunjamaksimovic/Documents/FirebaseNotifier/Model/ScheduleItem.swift
+/Users/dunjamaksimovic/Documents/FirebaseNotifier/ViewModels/HomeViewModel.swift
+/Users/dunjamaksimovic/Documents/FirebaseNotifier/Services/LocalNotificationsManager.swift
+/Users/dunjamaksimovic/Documents/FirebaseNotifier/SupportingFIles/AppDelegate.swift
+/Users/dunjamaksimovic/Documents/FirebaseNotifier/SupportingFIles/SceneDelegate.swift
+/Users/dunjamaksimovic/Documents/FirebaseNotifier/Controllers/HomeViewController.swift
+/Users/dunjamaksimovic/Documents/FirebaseNotifier/Services/XLSXReader.swift
