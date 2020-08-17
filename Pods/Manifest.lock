@@ -1,0 +1,73 @@
+PODS:
+  - CoreXLSX (0.12.0):
+    - XMLCoder (~> 0.11.1)
+    - ZIPFoundation (~> 0.9.11)
+  - Firebase/CoreOnly (6.30.0):
+    - FirebaseCore (= 6.10.0)
+  - Firebase/Storage (6.30.0):
+    - Firebase/CoreOnly
+    - FirebaseStorage (~> 3.9.0)
+  - FirebaseCore (6.10.0):
+    - FirebaseCoreDiagnostics (~> 1.3)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+  - FirebaseCoreDiagnostics (1.5.0):
+    - GoogleDataTransport (~> 7.0)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+    - nanopb (~> 1.30905.0)
+  - FirebaseStorage (3.9.0):
+    - FirebaseCore (~> 6.10)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleDataTransport (7.2.0):
+    - nanopb (~> 1.30905.0)
+  - GoogleUtilities/Environment (6.7.2):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (6.7.2):
+    - GoogleUtilities/Environment
+  - GTMSessionFetcher/Core (1.4.0)
+  - nanopb (1.30905.0):
+    - nanopb/decode (= 1.30905.0)
+    - nanopb/encode (= 1.30905.0)
+  - nanopb/decode (1.30905.0)
+  - nanopb/encode (1.30905.0)
+  - PromisesObjC (1.2.10)
+  - XMLCoder (0.11.1)
+  - ZIPFoundation (0.9.11)
+
+DEPENDENCIES:
+  - CoreXLSX
+  - Firebase/Storage
+
+SPEC REPOS:
+  trunk:
+    - CoreXLSX
+    - Firebase
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseStorage
+    - GoogleDataTransport
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - nanopb
+    - PromisesObjC
+    - XMLCoder
+    - ZIPFoundation
+
+SPEC CHECKSUMS:
+  CoreXLSX: 6cc62592f76130f23e1b5c7d775b4bc47b099d78
+  Firebase: 210f41ca352067d83b1ba4fd2e7fb49a0c017397
+  FirebaseCore: 9a41e2de78fef10f63cee30ab10e2945266bc1fc
+  FirebaseCoreDiagnostics: 7535fe695737f8c5b350584292a70b7f8ff0357b
+  FirebaseStorage: 33b92875a9b556824886cc7a65120c7d2cb3a8d8
+  GoogleDataTransport: 672fb0ce96fe7f7f31d43672fca62ad2c9c86f7b
+  GoogleUtilities: 7f2f5a07f888cdb145101d6042bc4422f57e70b3
+  GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
+  nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
+  PromisesObjC: b14b1c6b68e306650688599de8a45e49fae81151
+  XMLCoder: c4638336674de7ba279cd23f2005817d69f538e0
+  ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
+
+PODFILE CHECKSUM: 0dd82e9d42db7e6967b76044833e220dd963f935
+
+COCOAPODS: 1.8.4
